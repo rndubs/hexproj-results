@@ -1,0 +1,83 @@
+{
+  "ident": "t8_profile_01068fb0",
+  "key": "t0_p336d70065d",
+  "attempt": 1,
+  "model_requested": "gpt-6.1-sol",
+  "model_resolved": null,
+  "model_resolution_evidence": "Explicit model-specific subagent dispatch; runtime model identifier unavailable",
+  "cost_usd": null,
+  "wall_min": 42.48171643333333,
+  "start": "2026-10-07T07:06:23.097014+00:00",
+  "end": "2026-10-07T07:48:52Z",
+  "revisions": 2,
+  "reread": {
+    "key": "t0_p336d70065d",
+    "entry": "ok",
+    "blocks": 143,
+    "judge2d": true,
+    "fails": [],
+    "min_sine": 0.351,
+    "strict": null,
+    "stable": null,
+    "min_sj": null,
+    "min_sj_2x": null,
+    "stable_numbers": false,
+    "block_pass": null,
+    "audit_pass": false,
+    "counted": false,
+    "counted_why": [
+      "STRICT"
+    ],
+    "judge": null,
+    "judge_failed": null,
+    "harness": null,
+    "harness_failed": null,
+    "not_run": "hexpartition build: mesh best\"},{\"at\":[\"q128\",\"p156\"],\"code\":\"W2\",\"error\":false,\"message\":\"quad q128's corner at p156 is 23\u00b0; corners between 30\u00b0 and 150\u00b0 mesh best\"},{\"at\":[\"q132\",\"p154\"],\"code\":\"W2\",\"error\":false,\"message\":\"quad q132's corner at p154 is 156\u00b0; corners between 30\u00b0 and 150\u00b0 mesh best\"}],\"warnings\":75}",
+    "edge_ratio": null,
+    "harness_rev": 11,
+    "layered": true,
+    "occupancy": null,
+    "mesh_components": null,
+    "region_fill": [
+      [
+        "fill",
+        0,
+        "drawn"
+      ],
+      [
+        "fill",
+        2,
+        "drawn"
+      ],
+      [
+        "fill",
+        3,
+        "drawn"
+      ]
+    ],
+    "guard": "{\"why\": \"exit\", \"rc\": 0, \"peak_gb\": 0.023, \"wall_s\": 0.8}"
+  },
+  "counted": false,
+  "outcome": "not-counted",
+  "why": [
+    "STRICT: C5 boundary crosses itself at q73 and q125; mesh checks not run"
+  ],
+  "human_grade": null,
+  "audit": {
+    "method": "supervisor read of author-maintained command log and calls.tsv; native Codex tool transcript unavailable",
+    "pinned_files_verified": 105,
+    "manual_command_review_completed": true,
+    "observed_violations": [
+      "Initial task-root directory listing outside batchp before brief read (names only)",
+      "point() sed read also exposed next function signature, no body"
+    ],
+    "equivalence_limitation": "Claude stream audit_a10 was not applicable to Codex tool transport; this does not claim identical transcript-level auditing."
+  },
+  "wall_min_first_clock": 42.083333333333336,
+  "first_clock_at": "2026-10-07T07:06:47Z",
+  "blocks": 143,
+  "visual_protocol": {
+    "evidence": "Author log records draft16/draft18 and full rev1/rev2 image reads; review before both submissions",
+    "human_grade": null
+  }
+}

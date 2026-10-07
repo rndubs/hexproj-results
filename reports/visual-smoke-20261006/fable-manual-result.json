@@ -1,0 +1,71 @@
+{
+  "ident": "t8_profile_01068fb0",
+  "key": "t0_p336d70065d",
+  "model_requested": "claude-fable-5-1",
+  "model_resolved": "claude-fable-5-1",
+  "provider_snapshot": null,
+  "effort": null,
+  "attempt_kind": "manual_interactive",
+  "status": "terminal_provider_error",
+  "start": "2026-10-07T17:14:43Z",
+  "end": "2026-10-07T18:08:42.786Z",
+  "time_basis": "Author SESSION.json start to timestamped native terminal error",
+  "wall_min": 53.996433333333336,
+  "drafts": 0,
+  "revisions": 0,
+  "blocks": null,
+  "counted": false,
+  "why": "Claude Code reported response exceeded 64,000 output tokens; four sequential responses stopped at max_tokens before any draft",
+  "min_sj": null,
+  "min_sj_2x": null,
+  "element_counts": null,
+  "mesh_generated": false,
+  "reread": {
+    "status": "not_run",
+    "reason": "No authored draft or full revision exists for frozen driver.reread",
+    "counted": false,
+    "mesh_generated": false
+  },
+  "usage": {
+    "usage_totals": {
+      "input_tokens": 209,
+      "cache_creation_input_tokens": 71492,
+      "cache_read_input_tokens": 845178,
+      "output_tokens": 258025,
+      "thinking_tokens": 256400
+    },
+    "deduplicated_messages": 10,
+    "cache_creation_1h_tokens": 71492,
+    "cache_creation_5m_tokens": 0,
+    "estimated_standard_api_cost_usd": 14.5444745,
+    "actual_subscription_cost_usd": null,
+    "cli_reported_cost_usd": null,
+    "billing_basis": "API-equivalent estimate from native per-message usage; deduplicated by message.id; reasoning is included in output, not added twice",
+    "rates_per_million_usd": {
+      "input": 10,
+      "output": 50,
+      "cache_read": 0.25,
+      "cache_creation_1h": 20,
+      "cache_creation_5m": 12.5
+    },
+    "pricing_source": "https://platform.claude.com/docs/en/about-claude/pricing",
+    "pricing_checked_at": "2026-10-07T18:21:08.903755+00:00",
+    "service_tier": "standard",
+    "speed": "standard",
+    "inference_geography": "not_available; standard global estimate",
+    "exclusions": "Pre-task Opus worktree setup messages excluded"
+  },
+  "human_grade": null,
+  "pinned_files_verified": 105,
+  "visual_protocol": "Outline only; no draft/full image reads or VISUAL_REVIEW.md",
+  "comparison_limitations": [
+    "Interactive session inherited repository/worktree setup context; automation used a stripped launch with settings sources disabled",
+    "Effort is not exposed in recovered evidence; not presumed equal",
+    "Native session API-equivalent cost differs from prior CLI-reported usage and actual subscription billing"
+  ],
+  "audit_deviations": [
+    "Listed the sandbox study root outside its writable batch folder and changed directory despite brief restrictions",
+    "Issued a point() location query against another checkout before querying the prepared sandbox",
+    "Read witness.py lines104\u2013178, beyond point() (which ends at146), exposing read_rev, git_head and released source"
+  ]
+}

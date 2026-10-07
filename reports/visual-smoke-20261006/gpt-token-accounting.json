@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-07T07:28:06.665279+00:00",
+  "checked_at": "2026-10-07T07:50:58.078799+00:00",
   "reruns_for_accounting": 0,
   "entries": [
     {
@@ -7,7 +7,7 @@
       "provider_resolved_model": null,
       "part": "t8_profile_01068fb0",
       "campaign": "visual-smoke-20261006",
-      "snapshot_at": "2026-10-07T07:28:06.648186+00:00",
+      "snapshot_at": "2026-10-07T07:50:58.055618+00:00",
       "last_usage_at": "2026-10-07T05:57:10.007Z",
       "author_state": "complete",
       "token_usage": {
@@ -42,7 +42,7 @@
       "provider_resolved_model": null,
       "part": "t8_profile_01068fb0",
       "campaign": "visual-smoke-20261006",
-      "snapshot_at": "2026-10-07T07:28:06.653613+00:00",
+      "snapshot_at": "2026-10-07T07:50:58.061415+00:00",
       "last_usage_at": "2026-10-07T06:14:39.397Z",
       "author_state": "complete",
       "token_usage": {
@@ -77,20 +77,20 @@
       "provider_resolved_model": null,
       "part": "t8_profile_01068fb0",
       "campaign": "visual-smoke-20261006",
-      "snapshot_at": "2026-10-07T07:28:06.657982+00:00",
-      "last_usage_at": "2026-10-07T07:23:09.634Z",
-      "author_state": "running",
+      "snapshot_at": "2026-10-07T07:50:58.070152+00:00",
+      "last_usage_at": "2026-10-07T07:48:58.750Z",
+      "author_state": "complete",
       "token_usage": {
-        "input_tokens": 666766,
-        "cached_input_tokens": 596096,
+        "input_tokens": 4696810,
+        "cached_input_tokens": 4468992,
         "cache_write_input_tokens": 0,
-        "output_tokens": 32356,
-        "reasoning_output_tokens": 26165,
-        "total_tokens": 699122
+        "output_tokens": 79685,
+        "reasoning_output_tokens": 60244,
+        "total_tokens": 4776495
       },
-      "uncached_input_tokens": 70670,
-      "max_request_input_tokens": 91393,
-      "usage_event_count": 13,
+      "uncached_input_tokens": 227818,
+      "max_request_input_tokens": 167342,
+      "usage_event_count": 43,
       "service_tier_observed": null,
       "standard_rates_usd_per_million": {
         "input": 2,
@@ -100,8 +100,8 @@
       },
       "pricing_source": "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
       "pricing_checked_date": "2026-10-07",
-      "estimated_standard_api_cost_usd": 0.5245096,
-      "estimated_fast_api_cost_usd": 1.0490192,
+      "estimated_standard_api_cost_usd": 1.6993852,
+      "estimated_fast_api_cost_usd": 3.3987704,
       "actual_billed_cost_usd": null,
       "method": "Final cumulative token_count total, not sum of cumulative events. Cached input subtracted from input. Reasoning already included in output; never added twice.",
       "scope": "Entire isolated author session including setup and final report; excludes supervisor, verification and separate report agent.",
@@ -112,7 +112,7 @@
       "provider_resolved_model": null,
       "part": "t8_profile_01068fb0",
       "campaign": "astra-comparison-20261006",
-      "snapshot_at": "2026-10-07T07:28:06.661489+00:00",
+      "snapshot_at": "2026-10-07T07:50:58.074967+00:00",
       "last_usage_at": "2026-10-07T04:17:40.084Z",
       "author_state": "complete",
       "token_usage": {
@@ -147,7 +147,7 @@
       "provider_resolved_model": null,
       "part": "t8_profile_0103c4d8",
       "campaign": "astra-comparison-20261006",
-      "snapshot_at": "2026-10-07T07:28:06.664491+00:00",
+      "snapshot_at": "2026-10-07T07:50:58.078006+00:00",
       "last_usage_at": "2026-10-07T04:15:02.393Z",
       "author_state": "complete",
       "token_usage": {

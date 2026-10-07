@@ -1,0 +1,19 @@
+{
+  "attempt": 1,
+  "ident": "t8_profile_01068fb0",
+  "key": "t0_p336d70065d",
+  "start": "2026-10-06T22:48:28",
+  "model": "claude-fable-5-1",
+  "wall_min": 40.88,
+  "stopped": "finished",
+  "cost_usd": 10.05880925,
+  "cost_is_upper_bound": false,
+  "num_turns": 6,
+  "end_reason": "error_max_budget_usd / budget_exhausted",
+  "revisions": 0,
+  "void": [],
+  "counted": false,
+  "outcome": "not-counted",
+  "why": "no revision run (budget cap)",
+  "end": "2026-10-06T23:29:21"
+}

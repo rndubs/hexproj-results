@@ -1,0 +1,36 @@
+{
+  "ident": "t8_profile_01068fb0",
+  "key": "t0_p336d70065d",
+  "attempt": 1,
+  "model_requested": "gpt-5.6-sol",
+  "model_resolved": null,
+  "model_resolution_evidence": "Explicit model-specific subagent dispatch; runtime model identifier unavailable",
+  "cost_usd": null,
+  "wall_min": 7.55,
+  "start": "2026-10-07T05:48:59Z",
+  "end": "2026-10-07T05:56:32Z",
+  "revisions": 0,
+  "reread": {},
+  "counted": false,
+  "outcome": "not-counted",
+  "why": [
+    "No full revision: final 44-block draft failed strict 2D corner, inversion, overlap/outside-profile and TFI checks"
+  ],
+  "human_grade": null,
+  "audit": {
+    "method": "supervisor read of author-maintained command log and calls.tsv; native Codex tool transcript unavailable",
+    "pinned_files_verified": 105,
+    "manual_command_review_completed": true,
+    "observed_violations": [
+      "Author log documents one concurrent read-only fragment query batch despite sequential-command instruction"
+    ],
+    "equivalence_limitation": "Claude stream audit_a10 was not applicable to Codex tool transport; this does not claim identical transcript-level auditing."
+  },
+  "visual_protocol": {
+    "review_record_present": true,
+    "evidence": "Author-maintained session log records final drawing read and visual review; native image-read transcript unavailable",
+    "observations": "Author rejected oversized rings, long diagonal fans and weak local symmetry",
+    "full_submission_adherence": "Not applicable: no draft passed check and no full revision submitted",
+    "human_grade": null
+  }
+}

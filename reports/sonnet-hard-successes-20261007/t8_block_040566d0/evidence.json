@@ -1,0 +1,109 @@
+{
+  "ident": "t8_block_040566d0",
+  "key": "t0_p9cf06f4fa2",
+  "blocks": 47,
+  "full_revisions": 1,
+  "draft_checks_selected": 7,
+  "selected_attempt": 1,
+  "selected_time_min": 5.47,
+  "selected_cost_usd": 0.7706961999999999,
+  "attempts": 1,
+  "total_full_revisions": 1,
+  "total_time_min": 5.47,
+  "total_cost_usd": 0.7706961999999999,
+  "cost_is_upper_bound": false,
+  "reread": {
+    "key": "t0_p9cf06f4fa2",
+    "entry": "ok",
+    "blocks": 47,
+    "judge2d": true,
+    "fails": [],
+    "min_sine": 0.4621,
+    "strict": true,
+    "stable": true,
+    "min_sj": 0.462122800954973,
+    "min_sj_2x": 0.4621228009549548,
+    "stable_numbers": true,
+    "block_pass": true,
+    "audit_pass": true,
+    "counted": true,
+    "counted_why": [],
+    "judge": "PASS",
+    "judge_failed": [],
+    "harness": "Pass",
+    "harness_failed": [],
+    "not_run": null,
+    "edge_ratio": 4.327402217430838,
+    "harness_rev": 11,
+    "layered": true,
+    "occupancy": true,
+    "mesh_components": 1,
+    "region_fill": [
+      [
+        "fill",
+        3,
+        "drawn"
+      ],
+      [
+        "fill",
+        4,
+        "drawn"
+      ],
+      [
+        "fill",
+        0,
+        "ring, core at lambda 0.5"
+      ],
+      [
+        "fill",
+        2,
+        "ring, core at lambda 0.5"
+      ]
+    ]
+  },
+  "family": "M",
+  "level": "2",
+  "source": "T8",
+  "nominal": {
+    "elements": 7690,
+    "min_sj": 0.462122800954973,
+    "mean_sj": 0.9343225586331633,
+    "p05_sj": 0.6864898520311612,
+    "below_floor": 0,
+    "inverted": 0
+  },
+  "doubled": {
+    "elements": 61520,
+    "min_sj": 0.4621228009549548,
+    "mean_sj": 0.947421665248599,
+    "p05_sj": 0.7219290893698028,
+    "below_floor": 0,
+    "inverted": 0
+  },
+  "frame": {
+    "origin": [
+      -0.0,
+      -0.0,
+      1e-07
+    ],
+    "u": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "v": [
+      -0.0,
+      1.0,
+      0.0
+    ]
+  },
+  "inner_profile_loops": 1,
+  "height_bands": 5,
+  "nominal_mesh_sha256": "3366876976afc41f0e4676c6d58c69651dd110c2be3ad25ea69977112d05bf62",
+  "doubled_mesh_sha256": "2d7c3c144d5c8e2bf838bef96fe3328c1ea5c4788cee7d1727477dbf7b45e0e0",
+  "layout_sha256": "fce2cc316c617141b7a2ecf50668e3ef48d6b3fc0f55c215a267e0ca46150e6c",
+  "cad_hashes": {
+    "p9cf06f4fa2_part.brepgraph.json": "b8553e4a3012c1895f592db3a6e9f79e1dac713843e9ad4b868231d2759e17d1",
+    "p9cf06f4fa2_part.tess.json": "61c4dc3239d29a6a5fdbb6f8b700a1264a7cbbf172951bce8454748a7530f24f"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "ident": "t8_profile_01068fb0",
+  "key": "t0_p336d70065d",
+  "attempt": 1,
+  "model_requested": "gpt-6-astra",
+  "model_resolved": null,
+  "model_resolution_evidence": "Explicit model-specific subagent dispatch; runtime model identifier unavailable",
+  "cost_usd": null,
+  "wall_min": 25.533333333333335,
+  "start": "2026-10-07T05:48:45Z",
+  "end": "2026-10-07T06:14:17Z",
+  "revisions": 1,
+  "reread": {
+    "key": "t0_p336d70065d",
+    "entry": "ok",
+    "blocks": 116,
+    "judge2d": true,
+    "fails": [],
+    "min_sine": 0.4326,
+    "strict": true,
+    "stable": true,
+    "min_sj": 0.43258322033005236,
+    "min_sj_2x": 0.4325832203300433,
+    "stable_numbers": true,
+    "block_pass": true,
+    "audit_pass": true,
+    "counted": true,
+    "counted_why": [],
+    "judge": "PASS",
+    "judge_failed": [],
+    "harness": "Pass",
+    "harness_failed": [],
+    "not_run": null,
+    "edge_ratio": 11.136180498007596,
+    "harness_rev": 11,
+    "layered": true,
+    "occupancy": true,
+    "mesh_components": 1,
+    "region_fill": [
+      [
+        "fill",
+        0,
+        "drawn"
+      ],
+      [
+        "fill",
+        2,
+        "drawn"
+      ],
+      [
+        "fill",
+        3,
+        "drawn"
+      ]
+    ],
+    "guard": "{\"why\": \"exit\", \"rc\": 0, \"peak_gb\": 0.041, \"wall_s\": 4.5}"
+  },
+  "counted": true,
+  "outcome": "counted",
+  "why": [],
+  "human_grade": null,
+  "audit": {
+    "method": "supervisor read of author-maintained command log and calls.tsv; native Codex tool transcript unavailable",
+    "pinned_files_verified": 105,
+    "manual_command_review_completed": true,
+    "observed_violations": [],
+    "equivalence_limitation": "Claude stream audit_a10 was not applicable to Codex tool transport; this does not claim identical transcript-level auditing."
+  },
+  "wall_time_evidence": "Author log: start approximate; end recorded after layout/review. Native elapsed telemetry unavailable.",
+  "visual_protocol": {
+    "review_record_present": true,
+    "evidence": "Author session records draft images, review before full submission and final image read; native Codex image-call transcript unavailable",
+    "author_observations": "Dense background subdivisions and marked thin-block chain remain",
+    "human_grade": null
+  }
+}

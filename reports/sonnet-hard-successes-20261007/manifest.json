@@ -1,0 +1,841 @@
+{
+  "generated_at": "2026-10-07T07:26:15.860041+00:00",
+  "model": "claude-sonnet-5-5",
+  "selection": "top8 counted/stable results from latest100 Sonnet launches ranked descending by final blocks, full revisions, wall time",
+  "latest_run_attempts": 100,
+  "latest_run_passes": 74,
+  "totals": {
+    "parts": 8,
+    "blocks": 412,
+    "nominal_elements": 40674,
+    "total_author_minutes": 119.31,
+    "total_cli_usage_usd": 15.3616254,
+    "full_iterations": 10
+  },
+  "parts": [
+    {
+      "ident": "t8_profile_01098d50",
+      "key": "t0_p2dd63146ab",
+      "blocks": 69,
+      "full_revisions": 3,
+      "draft_checks_selected": 3,
+      "selected_attempt": 1,
+      "selected_time_min": 18.88,
+      "selected_cost_usd": 2.340379,
+      "attempts": 1,
+      "total_full_revisions": 3,
+      "total_time_min": 18.88,
+      "total_cost_usd": 2.340379,
+      "cost_is_upper_bound": false,
+      "reread": {
+        "key": "t0_p2dd63146ab",
+        "entry": "ok",
+        "blocks": 69,
+        "judge2d": true,
+        "fails": [],
+        "min_sine": 0.4523,
+        "strict": true,
+        "stable": true,
+        "min_sj": 0.45226247564447264,
+        "min_sj_2x": 0.45226247564447064,
+        "stable_numbers": true,
+        "block_pass": true,
+        "audit_pass": true,
+        "counted": true,
+        "counted_why": [],
+        "judge": "PASS",
+        "judge_failed": [],
+        "harness": "Pass",
+        "harness_failed": [],
+        "not_run": null,
+        "edge_ratio": 6.209674910136548,
+        "harness_rev": 11,
+        "layered": true,
+        "occupancy": true,
+        "mesh_components": 1,
+        "region_fill": [
+          [
+            "fill",
+            1,
+            "drawn"
+          ],
+          [
+            "fill",
+            2,
+            "drawn"
+          ],
+          [
+            "fill",
+            3,
+            "drawn"
+          ]
+        ]
+      },
+      "family": "F",
+      "level": "3",
+      "source": "T8",
+      "nominal": {
+        "elements": 4248,
+        "min_sj": 0.45226247564447264,
+        "mean_sj": 0.8948027546991673,
+        "p05_sj": 0.6435374382517375,
+        "below_floor": 0,
+        "inverted": 0
+      },
+      "doubled": {
+        "elements": 33984,
+        "min_sj": 0.45226247564447064,
+        "mean_sj": 0.9156516992917488,
+        "p05_sj": 0.6707722711603187,
+        "below_floor": 0,
+        "inverted": 0
+      },
+      "frame": {
+        "origin": [
+          0.0,
+          0.0,
+          1.00001e-07
+        ],
+        "u": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "v": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "inner_profile_loops": 5,
+      "height_bands": 4,
+      "nominal_mesh_sha256": "d7a7eeaa1263198a06aa82a111ef32bfdef9d433ffd22aa0c59c771262ba45f1",
+      "doubled_mesh_sha256": "ab44095500ca2fca44ed19e3b1e9332339f57a2c79053c4c43329f4802413939",
+      "layout_sha256": "6ef977fccc4b45db07c094cbc46dff4ee922ef8cd0dff2db7eb8a8d7d435b9f2",
+      "cad_hashes": {
+        "p2dd63146ab_part.tess.json": "07247574eb1a9afe5a4e2abae2c47ffea81f61107c6c0b5508ff7def66273607",
+        "p2dd63146ab_part.brepgraph.json": "a5e25087317b0c424149a5632630b540caddee110600d34f825c22b84eb2ba02"
+      }
+    },
+    {
+      "ident": "t8_profile_011291e8",
+      "key": "t0_p2a5e5dd8fc",
+      "blocks": 52,
+      "full_revisions": 1,
+      "draft_checks_selected": 5,
+      "selected_attempt": 1,
+      "selected_time_min": 11.2,
+      "selected_cost_usd": 1.754116,
+      "attempts": 1,
+      "total_full_revisions": 1,
+      "total_time_min": 11.2,
+      "total_cost_usd": 1.754116,
+      "cost_is_upper_bound": false,
+      "reread": {
+        "key": "t0_p2a5e5dd8fc",
+        "entry": "ok",
+        "blocks": 52,
+        "judge2d": true,
+        "fails": [],
+        "min_sine": 0.4074,
+        "strict": true,
+        "stable": true,
+        "min_sj": 0.4073522212960497,
+        "min_sj_2x": 0.405195792624497,
+        "stable_numbers": true,
+        "block_pass": true,
+        "audit_pass": true,
+        "counted": true,
+        "counted_why": [],
+        "judge": "PASS",
+        "judge_failed": [],
+        "harness": "Pass",
+        "harness_failed": [],
+        "not_run": null,
+        "edge_ratio": 5.453535008556434,
+        "harness_rev": 11,
+        "layered": true,
+        "occupancy": true,
+        "mesh_components": 1,
+        "region_fill": [
+          [
+            "fill",
+            2,
+            "drawn"
+          ],
+          [
+            "fill",
+            3,
+            "drawn"
+          ],
+          [
+            "fill",
+            0,
+            "ring, core at lambda 0.5"
+          ]
+        ]
+      },
+      "family": "F",
+      "level": "3",
+      "source": "T8",
+      "nominal": {
+        "elements": 1575,
+        "min_sj": 0.4073522212960497,
+        "mean_sj": 0.91443525187387,
+        "p05_sj": 0.6019226777206713,
+        "below_floor": 0,
+        "inverted": 0
+      },
+      "doubled": {
+        "elements": 12600,
+        "min_sj": 0.405195792624497,
+        "mean_sj": 0.9290498065967159,
+        "p05_sj": 0.6581843811721325,
+        "below_floor": 0,
+        "inverted": 0
+      },
+      "frame": {
+        "origin": [
+          -0.0,
+          -0.0,
+          1e-07
+        ],
+        "u": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "v": [
+          -0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "inner_profile_loops": 4,
+      "height_bands": 3,
+      "nominal_mesh_sha256": "8a2a58f7ef2fe9cc8b823d57585bb742eb0190ec5c15c5b136f1106ae49ece64",
+      "doubled_mesh_sha256": "76af8555b68fbab6b5ed41be100e47e33558b495bedac0e4cd220e753c2f48dc",
+      "layout_sha256": "a7dc045a5f4fe108a5aae88d22451461a6238cefbc9c834be2a00c412dfdecc8",
+      "cad_hashes": {
+        "p2a5e5dd8fc_part.tess.json": "a84e05e9dd9218de844fd7bcff192034684b247e3bdad792fec4b952826fb284",
+        "p2a5e5dd8fc_part.brepgraph.json": "91446d13e9c8825f5b2687025229b6cea9cf432952e2c9b6d24c3f9462d552dc"
+      }
+    },
+    {
+      "ident": "t8_block_0403c4d8",
+      "key": "t0_p94c5816bb9",
+      "blocks": 51,
+      "full_revisions": 1,
+      "draft_checks_selected": 2,
+      "selected_attempt": 1,
+      "selected_time_min": 15.33,
+      "selected_cost_usd": 1.9425188,
+      "attempts": 1,
+      "total_full_revisions": 1,
+      "total_time_min": 15.33,
+      "total_cost_usd": 1.9425188,
+      "cost_is_upper_bound": false,
+      "reread": {
+        "key": "t0_p94c5816bb9",
+        "entry": "ok",
+        "blocks": 51,
+        "judge2d": true,
+        "fails": [],
+        "min_sine": 0.3647,
+        "strict": true,
+        "stable": true,
+        "min_sj": 0.3646897655462404,
+        "min_sj_2x": 0.3646897655462162,
+        "stable_numbers": true,
+        "block_pass": true,
+        "audit_pass": true,
+        "counted": true,
+        "counted_why": [],
+        "judge": "PASS",
+        "judge_failed": [],
+        "harness": "Pass",
+        "harness_failed": [],
+        "not_run": null,
+        "edge_ratio": 6.1254287544869985,
+        "harness_rev": 11,
+        "layered": true,
+        "occupancy": true,
+        "mesh_components": 1,
+        "region_fill": [
+          [
+            "fill",
+            1,
+            "drawn"
+          ],
+          [
+            "fill",
+            0,
+            "ring, core at lambda 0.5"
+          ]
+        ]
+      },
+      "family": "M",
+      "level": "2",
+      "source": "T8",
+      "nominal": {
+        "elements": 16196,
+        "min_sj": 0.3646897655462404,
+        "mean_sj": 0.9372736875917329,
+        "p05_sj": 0.7452208928997887,
+        "below_floor": 0,
+        "inverted": 0
+      },
+      "doubled": {
+        "elements": 129568,
+        "min_sj": 0.3646897655462162,
+        "mean_sj": 0.9466132181220419,
+        "p05_sj": 0.7724105387242829,
+        "below_floor": 0,
+        "inverted": 0
+      },
+      "frame": {
+        "origin": [
+          0.0,
+          0.0,
+          1e-07
+        ],
+        "u": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "v": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "inner_profile_loops": 4,
+      "height_bands": 3,
+      "nominal_mesh_sha256": "b5d88d452879343a73436dc5c58a83d91ba06ebc8ca04115889aece5056c9e24",
+      "doubled_mesh_sha256": "252467f95194244deb024eb221b56b0e1ac796daa4ab0ee02a80832df2734f44",
+      "layout_sha256": "32258034a2ace3d1a2c304261721b6d07554cbeaea311429a1b3c756eadf6306",
+      "cad_hashes": {
+        "p94c5816bb9_part.brepgraph.json": "8be3098d1966af876021720b3f28fd5ecef07bfb523acb4f47ff20d69de5a6a7",
+        "p94c5816bb9_part.tess.json": "b5d27dbe1f479ab88f11cc73b1d769808cf54308f0425588bdd68415f7732373"
+      }
+    },
+    {
+      "ident": "t8_profile_011abbc0",
+      "key": "t0_p1ffa567377",
+      "blocks": 50,
+      "full_revisions": 1,
+      "draft_checks_selected": 3,
+      "selected_attempt": 1,
+      "selected_time_min": 11.13,
+      "selected_cost_usd": 1.4040865999999999,
+      "attempts": 1,
+      "total_full_revisions": 1,
+      "total_time_min": 11.13,
+      "total_cost_usd": 1.4040865999999999,
+      "cost_is_upper_bound": false,
+      "reread": {
+        "key": "t0_p1ffa567377",
+        "entry": "ok",
+        "blocks": 50,
+        "judge2d": true,
+        "fails": [],
+        "min_sine": 0.3626,
+        "strict": true,
+        "stable": true,
+        "min_sj": 0.3625934197384775,
+        "min_sj_2x": 0.3625934197384768,
+        "stable_numbers": true,
+        "block_pass": true,
+        "audit_pass": true,
+        "counted": true,
+        "counted_why": [],
+        "judge": "PASS",
+        "judge_failed": [],
+        "harness": "Pass",
+        "harness_failed": [],
+        "not_run": null,
+        "edge_ratio": 8.17394989032683,
+        "harness_rev": 11,
+        "layered": true,
+        "occupancy": true,
+        "mesh_components": 1,
+        "region_fill": [
+          [
+            "fill",
+            0,
+            "ring, core offset mu 0.3"
+          ],
+          [
+            "fill",
+            1,
+            "ring, core offset mu 0.3"
+          ]
+        ]
+      },
+      "family": "F",
+      "level": "2",
+      "source": "T8",
+      "nominal": {
+        "elements": 1898,
+        "min_sj": 0.3625934197384775,
+        "mean_sj": 0.8928548237095889,
+        "p05_sj": 0.5673034276179952,
+        "below_floor": 0,
+        "inverted": 0
+      },
+      "doubled": {
+        "elements": 15184,
+        "min_sj": 0.3625934197384768,
+        "mean_sj": 0.9077652110636791,
+        "p05_sj": 0.5943153979936482,
+        "below_floor": 0,
+        "inverted": 0
+      },
+      "frame": {
+        "origin": [
+          -0.0,
+          -0.0,
+          1e-07
+        ],
+        "u": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "v": [
+          -0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "inner_profile_loops": 3,
+      "height_bands": 2,
+      "nominal_mesh_sha256": "9504a7ce4a0a73a56bd7e809a22737794a60cdc7a076168fd50072238e6ff3c0",
+      "doubled_mesh_sha256": "4b5502109f60138341cc1769912be7eca42440aecc4a79e9acea594cfd16bd87",
+      "layout_sha256": "e29e89da85e8d0c79ec5db3edb98d0666090c6d184a7d7a0c93985ff1173ea74",
+      "cad_hashes": {
+        "p1ffa567377_part.tess.json": "991f687b8a75aaa1ceb499bfca602333a6c7ff81f55fe89c92ca4caf85b0c248",
+        "p1ffa567377_part.brepgraph.json": "224321feefc19d0b17d1946f3b2abcd35b942262fddc5a6c54b0b6086b9c0f81"
+      }
+    },
+    {
+      "ident": "t8_profile_01040740",
+      "key": "t0_p36f0273496",
+      "blocks": 48,
+      "full_revisions": 1,
+      "draft_checks_selected": 2,
+      "selected_attempt": 1,
+      "selected_time_min": 22.0,
+      "selected_cost_usd": 2.6873842,
+      "attempts": 1,
+      "total_full_revisions": 1,
+      "total_time_min": 22.0,
+      "total_cost_usd": 2.6873842,
+      "cost_is_upper_bound": false,
+      "reread": {
+        "key": "t0_p36f0273496",
+        "entry": "ok",
+        "blocks": 48,
+        "judge2d": true,
+        "fails": [],
+        "min_sine": 0.3672,
+        "strict": true,
+        "stable": true,
+        "min_sj": 0.36724365862452335,
+        "min_sj_2x": 0.36724365862452474,
+        "stable_numbers": true,
+        "block_pass": true,
+        "audit_pass": true,
+        "counted": true,
+        "counted_why": [],
+        "judge": "PASS",
+        "judge_failed": [],
+        "harness": "Pass",
+        "harness_failed": [],
+        "not_run": null,
+        "edge_ratio": 12.7702864354442,
+        "harness_rev": 11,
+        "layered": true,
+        "occupancy": true,
+        "mesh_components": 1,
+        "region_fill": [
+          [
+            "fill",
+            0,
+            "drawn"
+          ],
+          [
+            "fill",
+            2,
+            "ring, core at lambda 0.5"
+          ]
+        ]
+      },
+      "family": "F",
+      "level": "3",
+      "source": "T8",
+      "nominal": {
+        "elements": 2589,
+        "min_sj": 0.36724365862452335,
+        "mean_sj": 0.8623639800720058,
+        "p05_sj": 0.48373570944349165,
+        "below_floor": 0,
+        "inverted": 0
+      },
+      "doubled": {
+        "elements": 20712,
+        "min_sj": 0.36724365862452474,
+        "mean_sj": 0.879616953675772,
+        "p05_sj": 0.4958482224904383,
+        "below_floor": 0,
+        "inverted": 0
+      },
+      "frame": {
+        "origin": [
+          -0.0,
+          -0.0,
+          1e-07
+        ],
+        "u": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "v": [
+          -0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "inner_profile_loops": 3,
+      "height_bands": 3,
+      "nominal_mesh_sha256": "45aca9086667166113aed6fb39fd7364fde80de7fabf1f47a2f85ef21ab42bfc",
+      "doubled_mesh_sha256": "6df0173083dc56d7ac6ccf374ac5f5c83410a50687b82cfd58c18cada2f35492",
+      "layout_sha256": "3a8c939b4d12f7c3f3a673ad33481feed8b46131179af0f5f1fdf20c78f15cc7",
+      "cad_hashes": {
+        "p36f0273496_part.tess.json": "06021addb0be56468a5e4545e3e9be919979bdc71830055848566901b1818b96",
+        "p36f0273496_part.brepgraph.json": "1221d2b8659b408e6bafa16301beb796d174f9b918afba5da75199b3d5cbefd1"
+      }
+    },
+    {
+      "ident": "t8_profile_01040b28",
+      "key": "t0_p2eb70ab7bb",
+      "blocks": 48,
+      "full_revisions": 1,
+      "draft_checks_selected": 7,
+      "selected_attempt": 1,
+      "selected_time_min": 21.49,
+      "selected_cost_usd": 2.7318213999999994,
+      "attempts": 1,
+      "total_full_revisions": 1,
+      "total_time_min": 21.49,
+      "total_cost_usd": 2.7318213999999994,
+      "cost_is_upper_bound": false,
+      "reread": {
+        "key": "t0_p2eb70ab7bb",
+        "entry": "ok",
+        "blocks": 48,
+        "judge2d": true,
+        "fails": [],
+        "min_sine": 0.3543,
+        "strict": true,
+        "stable": true,
+        "min_sj": 0.35433945408287393,
+        "min_sj_2x": 0.35253197746865983,
+        "stable_numbers": true,
+        "block_pass": true,
+        "audit_pass": true,
+        "counted": true,
+        "counted_why": [],
+        "judge": "PASS",
+        "judge_failed": [],
+        "harness": "Pass",
+        "harness_failed": [],
+        "not_run": null,
+        "edge_ratio": 9.130345789412258,
+        "harness_rev": 11,
+        "layered": true,
+        "occupancy": true,
+        "mesh_components": 1,
+        "region_fill": [
+          [
+            "fill",
+            0,
+            "drawn"
+          ],
+          [
+            "fill",
+            1,
+            "drawn"
+          ]
+        ]
+      },
+      "family": "F",
+      "level": "3",
+      "source": "T8",
+      "nominal": {
+        "elements": 3420,
+        "min_sj": 0.35433945408287393,
+        "mean_sj": 0.8944204329072167,
+        "p05_sj": 0.5825489943253678,
+        "below_floor": 0,
+        "inverted": 0
+      },
+      "doubled": {
+        "elements": 27360,
+        "min_sj": 0.35253197746865983,
+        "mean_sj": 0.9098526258824498,
+        "p05_sj": 0.6261943277449508,
+        "below_floor": 0,
+        "inverted": 0
+      },
+      "frame": {
+        "origin": [
+          -0.0,
+          -0.0,
+          1e-07
+        ],
+        "u": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "v": [
+          -0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "inner_profile_loops": 3,
+      "height_bands": 3,
+      "nominal_mesh_sha256": "3049fd31723488ec3ed0a2230eb56c0f8215173f546b65a8c83dd7d853ac0631",
+      "doubled_mesh_sha256": "c98fee80ba7a32996c39948d28a31db66fc2cc6010155524cdeed2d6275d170c",
+      "layout_sha256": "7bbd04fd0e4ba1ea22339dba14e199874bd79e18cddd36a2f020ee6017b0bfe7",
+      "cad_hashes": {
+        "p2eb70ab7bb_part.brepgraph.json": "62edfd169ce5b2c52d00e0305c0480cbf85b012bbead0471cfefee2962a46ce4",
+        "p2eb70ab7bb_part.tess.json": "cc95a2535eae7b2047ed0b064f2447f3afb22935d41cd6cbb435ba9042c1846a"
+      }
+    },
+    {
+      "ident": "t8_profile_01151e40",
+      "key": "t0_p2aa1584323",
+      "blocks": 47,
+      "full_revisions": 1,
+      "draft_checks_selected": 4,
+      "selected_attempt": 1,
+      "selected_time_min": 13.81,
+      "selected_cost_usd": 1.7306232000000004,
+      "attempts": 1,
+      "total_full_revisions": 1,
+      "total_time_min": 13.81,
+      "total_cost_usd": 1.7306232000000004,
+      "cost_is_upper_bound": false,
+      "reread": {
+        "key": "t0_p2aa1584323",
+        "entry": "ok",
+        "blocks": 47,
+        "judge2d": true,
+        "fails": [],
+        "min_sine": 0.3807,
+        "strict": true,
+        "stable": true,
+        "min_sj": 0.28446304759851293,
+        "min_sj_2x": 0.35274615740999876,
+        "stable_numbers": true,
+        "block_pass": true,
+        "audit_pass": true,
+        "counted": true,
+        "counted_why": [],
+        "judge": "PASS",
+        "judge_failed": [],
+        "harness": "Pass",
+        "harness_failed": [],
+        "not_run": null,
+        "edge_ratio": 9.102562734450517,
+        "harness_rev": 11,
+        "layered": true,
+        "occupancy": true,
+        "mesh_components": 1,
+        "region_fill": [
+          [
+            "fill",
+            0,
+            "ring, core at lambda 0.5"
+          ],
+          [
+            "fill",
+            1,
+            "ring, core at lambda 0.5"
+          ],
+          [
+            "fill",
+            2,
+            "ring, core at lambda 0.5"
+          ]
+        ]
+      },
+      "family": "F",
+      "level": "2",
+      "source": "T8",
+      "nominal": {
+        "elements": 3058,
+        "min_sj": 0.28446304759851293,
+        "mean_sj": 0.8821141046690534,
+        "p05_sj": 0.5094914204241403,
+        "below_floor": 0,
+        "inverted": 0
+      },
+      "doubled": {
+        "elements": 24464,
+        "min_sj": 0.35274615740999876,
+        "mean_sj": 0.9008872290515938,
+        "p05_sj": 0.5556399523302813,
+        "below_floor": 0,
+        "inverted": 0
+      },
+      "frame": {
+        "origin": [
+          -0.0,
+          -0.0,
+          1e-07
+        ],
+        "u": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "v": [
+          -0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "inner_profile_loops": 2,
+      "height_bands": 3,
+      "nominal_mesh_sha256": "4cea519cae04549aed98b1bcc3ef768d23e1dca9dba5f7db818bfe295c46d5d4",
+      "doubled_mesh_sha256": "cbc4b7ecf4fe6a65934acedde0c2e9caeb0f28e9742c4bec83e1975d431b2be1",
+      "layout_sha256": "d49bafa42c7f640ea7cb969de2d671f7b77c56e0eb0d221e2072aa111db44a34",
+      "cad_hashes": {
+        "p2aa1584323_part.tess.json": "b7b0c37afc850b4a20ee6eea9b65f805a06bda446184e5ba362dc925f5e59682",
+        "p2aa1584323_part.brepgraph.json": "7b53c2bbb43bc42e715b25598cc9ade22cc53b48697c5789ec172ee157f1dc8f"
+      }
+    },
+    {
+      "ident": "t8_block_040566d0",
+      "key": "t0_p9cf06f4fa2",
+      "blocks": 47,
+      "full_revisions": 1,
+      "draft_checks_selected": 7,
+      "selected_attempt": 1,
+      "selected_time_min": 5.47,
+      "selected_cost_usd": 0.7706961999999999,
+      "attempts": 1,
+      "total_full_revisions": 1,
+      "total_time_min": 5.47,
+      "total_cost_usd": 0.7706961999999999,
+      "cost_is_upper_bound": false,
+      "reread": {
+        "key": "t0_p9cf06f4fa2",
+        "entry": "ok",
+        "blocks": 47,
+        "judge2d": true,
+        "fails": [],
+        "min_sine": 0.4621,
+        "strict": true,
+        "stable": true,
+        "min_sj": 0.462122800954973,
+        "min_sj_2x": 0.4621228009549548,
+        "stable_numbers": true,
+        "block_pass": true,
+        "audit_pass": true,
+        "counted": true,
+        "counted_why": [],
+        "judge": "PASS",
+        "judge_failed": [],
+        "harness": "Pass",
+        "harness_failed": [],
+        "not_run": null,
+        "edge_ratio": 4.327402217430838,
+        "harness_rev": 11,
+        "layered": true,
+        "occupancy": true,
+        "mesh_components": 1,
+        "region_fill": [
+          [
+            "fill",
+            3,
+            "drawn"
+          ],
+          [
+            "fill",
+            4,
+            "drawn"
+          ],
+          [
+            "fill",
+            0,
+            "ring, core at lambda 0.5"
+          ],
+          [
+            "fill",
+            2,
+            "ring, core at lambda 0.5"
+          ]
+        ]
+      },
+      "family": "M",
+      "level": "2",
+      "source": "T8",
+      "nominal": {
+        "elements": 7690,
+        "min_sj": 0.462122800954973,
+        "mean_sj": 0.9343225586331633,
+        "p05_sj": 0.6864898520311612,
+        "below_floor": 0,
+        "inverted": 0
+      },
+      "doubled": {
+        "elements": 61520,
+        "min_sj": 0.4621228009549548,
+        "mean_sj": 0.947421665248599,
+        "p05_sj": 0.7219290893698028,
+        "below_floor": 0,
+        "inverted": 0
+      },
+      "frame": {
+        "origin": [
+          -0.0,
+          -0.0,
+          1e-07
+        ],
+        "u": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "v": [
+          -0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "inner_profile_loops": 1,
+      "height_bands": 5,
+      "nominal_mesh_sha256": "3366876976afc41f0e4676c6d58c69651dd110c2be3ad25ea69977112d05bf62",
+      "doubled_mesh_sha256": "2d7c3c144d5c8e2bf838bef96fe3328c1ea5c4788cee7d1727477dbf7b45e0e0",
+      "layout_sha256": "fce2cc316c617141b7a2ecf50668e3ef48d6b3fc0f55c215a267e0ca46150e6c",
+      "cad_hashes": {
+        "p9cf06f4fa2_part.brepgraph.json": "b8553e4a3012c1895f592db3a6e9f79e1dac713843e9ad4b868231d2759e17d1",
+        "p9cf06f4fa2_part.tess.json": "61c4dc3239d29a6a5fdbb6f8b700a1264a7cbbf172951bce8454748a7530f24f"
+      }
+    }
+  ],
+  "human_grades_assigned": false,
+  "mesh_source": "fresh frozen children_a10 reread with exact pinned package, final archived revisions, CAD copied under original opaque-name rule; both views are nominal 3D VTU projections",
+  "sj_scale": [
+    0,
+    1
+  ],
+  "floor": 0.2
+}

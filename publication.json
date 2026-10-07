@@ -1,0 +1,17 @@
+{
+  "exported_at": "2026-10-07T07:38:59.364584+00:00",
+  "reports": [
+    "sonnet-hard-successes-20261007",
+    "visual-smoke-20261006",
+    "model-comparison-20261006",
+    "complex-pass-fail-20261006"
+  ],
+  "selection": "Report-linked assets only; original sessions and CAD inputs excluded",
+  "sanitization": "Local paths and internal execution metadata removed",
+  "human_grades_assigned": false,
+  "ongoing": [
+    "Fable 5.1 uncapped retry",
+    "GPT 6.1 Sol"
+  ],
+  "site": "https://rndubs.github.io/hexproj-results/"
+}

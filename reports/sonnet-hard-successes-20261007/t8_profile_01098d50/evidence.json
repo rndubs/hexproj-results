@@ -1,0 +1,104 @@
+{
+  "ident": "t8_profile_01098d50",
+  "key": "t0_p2dd63146ab",
+  "blocks": 69,
+  "full_revisions": 3,
+  "draft_checks_selected": 3,
+  "selected_attempt": 1,
+  "selected_time_min": 18.88,
+  "selected_cost_usd": 2.340379,
+  "attempts": 1,
+  "total_full_revisions": 3,
+  "total_time_min": 18.88,
+  "total_cost_usd": 2.340379,
+  "cost_is_upper_bound": false,
+  "reread": {
+    "key": "t0_p2dd63146ab",
+    "entry": "ok",
+    "blocks": 69,
+    "judge2d": true,
+    "fails": [],
+    "min_sine": 0.4523,
+    "strict": true,
+    "stable": true,
+    "min_sj": 0.45226247564447264,
+    "min_sj_2x": 0.45226247564447064,
+    "stable_numbers": true,
+    "block_pass": true,
+    "audit_pass": true,
+    "counted": true,
+    "counted_why": [],
+    "judge": "PASS",
+    "judge_failed": [],
+    "harness": "Pass",
+    "harness_failed": [],
+    "not_run": null,
+    "edge_ratio": 6.209674910136548,
+    "harness_rev": 11,
+    "layered": true,
+    "occupancy": true,
+    "mesh_components": 1,
+    "region_fill": [
+      [
+        "fill",
+        1,
+        "drawn"
+      ],
+      [
+        "fill",
+        2,
+        "drawn"
+      ],
+      [
+        "fill",
+        3,
+        "drawn"
+      ]
+    ]
+  },
+  "family": "F",
+  "level": "3",
+  "source": "T8",
+  "nominal": {
+    "elements": 4248,
+    "min_sj": 0.45226247564447264,
+    "mean_sj": 0.8948027546991673,
+    "p05_sj": 0.6435374382517375,
+    "below_floor": 0,
+    "inverted": 0
+  },
+  "doubled": {
+    "elements": 33984,
+    "min_sj": 0.45226247564447064,
+    "mean_sj": 0.9156516992917488,
+    "p05_sj": 0.6707722711603187,
+    "below_floor": 0,
+    "inverted": 0
+  },
+  "frame": {
+    "origin": [
+      0.0,
+      0.0,
+      1.00001e-07
+    ],
+    "u": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "v": [
+      0.0,
+      1.0,
+      0.0
+    ]
+  },
+  "inner_profile_loops": 5,
+  "height_bands": 4,
+  "nominal_mesh_sha256": "d7a7eeaa1263198a06aa82a111ef32bfdef9d433ffd22aa0c59c771262ba45f1",
+  "doubled_mesh_sha256": "ab44095500ca2fca44ed19e3b1e9332339f57a2c79053c4c43329f4802413939",
+  "layout_sha256": "6ef977fccc4b45db07c094cbc46dff4ee922ef8cd0dff2db7eb8a8d7d435b9f2",
+  "cad_hashes": {
+    "p2dd63146ab_part.tess.json": "07247574eb1a9afe5a4e2abae2c47ffea81f61107c6c0b5508ff7def66273607",
+    "p2dd63146ab_part.brepgraph.json": "a5e25087317b0c424149a5632630b540caddee110600d34f825c22b84eb2ba02"
+  }
+}

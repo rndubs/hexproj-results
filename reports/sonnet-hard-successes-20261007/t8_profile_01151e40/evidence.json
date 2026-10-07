@@ -1,0 +1,104 @@
+{
+  "ident": "t8_profile_01151e40",
+  "key": "t0_p2aa1584323",
+  "blocks": 47,
+  "full_revisions": 1,
+  "draft_checks_selected": 4,
+  "selected_attempt": 1,
+  "selected_time_min": 13.81,
+  "selected_cost_usd": 1.7306232000000004,
+  "attempts": 1,
+  "total_full_revisions": 1,
+  "total_time_min": 13.81,
+  "total_cost_usd": 1.7306232000000004,
+  "cost_is_upper_bound": false,
+  "reread": {
+    "key": "t0_p2aa1584323",
+    "entry": "ok",
+    "blocks": 47,
+    "judge2d": true,
+    "fails": [],
+    "min_sine": 0.3807,
+    "strict": true,
+    "stable": true,
+    "min_sj": 0.28446304759851293,
+    "min_sj_2x": 0.35274615740999876,
+    "stable_numbers": true,
+    "block_pass": true,
+    "audit_pass": true,
+    "counted": true,
+    "counted_why": [],
+    "judge": "PASS",
+    "judge_failed": [],
+    "harness": "Pass",
+    "harness_failed": [],
+    "not_run": null,
+    "edge_ratio": 9.102562734450517,
+    "harness_rev": 11,
+    "layered": true,
+    "occupancy": true,
+    "mesh_components": 1,
+    "region_fill": [
+      [
+        "fill",
+        0,
+        "ring, core at lambda 0.5"
+      ],
+      [
+        "fill",
+        1,
+        "ring, core at lambda 0.5"
+      ],
+      [
+        "fill",
+        2,
+        "ring, core at lambda 0.5"
+      ]
+    ]
+  },
+  "family": "F",
+  "level": "2",
+  "source": "T8",
+  "nominal": {
+    "elements": 3058,
+    "min_sj": 0.28446304759851293,
+    "mean_sj": 0.8821141046690534,
+    "p05_sj": 0.5094914204241403,
+    "below_floor": 0,
+    "inverted": 0
+  },
+  "doubled": {
+    "elements": 24464,
+    "min_sj": 0.35274615740999876,
+    "mean_sj": 0.9008872290515938,
+    "p05_sj": 0.5556399523302813,
+    "below_floor": 0,
+    "inverted": 0
+  },
+  "frame": {
+    "origin": [
+      -0.0,
+      -0.0,
+      1e-07
+    ],
+    "u": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "v": [
+      -0.0,
+      1.0,
+      0.0
+    ]
+  },
+  "inner_profile_loops": 2,
+  "height_bands": 3,
+  "nominal_mesh_sha256": "4cea519cae04549aed98b1bcc3ef768d23e1dca9dba5f7db818bfe295c46d5d4",
+  "doubled_mesh_sha256": "cbc4b7ecf4fe6a65934acedde0c2e9caeb0f28e9742c4bec83e1975d431b2be1",
+  "layout_sha256": "d49bafa42c7f640ea7cb969de2d671f7b77c56e0eb0d221e2072aa111db44a34",
+  "cad_hashes": {
+    "p2aa1584323_part.tess.json": "b7b0c37afc850b4a20ee6eea9b65f805a06bda446184e5ba362dc925f5e59682",
+    "p2aa1584323_part.brepgraph.json": "7b53c2bbb43bc42e715b25598cc9ade22cc53b48697c5789ec172ee157f1dc8f"
+  }
+}

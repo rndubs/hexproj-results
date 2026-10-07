@@ -1,0 +1,99 @@
+{
+  "ident": "t8_profile_011abbc0",
+  "key": "t0_p1ffa567377",
+  "blocks": 50,
+  "full_revisions": 1,
+  "draft_checks_selected": 3,
+  "selected_attempt": 1,
+  "selected_time_min": 11.13,
+  "selected_cost_usd": 1.4040865999999999,
+  "attempts": 1,
+  "total_full_revisions": 1,
+  "total_time_min": 11.13,
+  "total_cost_usd": 1.4040865999999999,
+  "cost_is_upper_bound": false,
+  "reread": {
+    "key": "t0_p1ffa567377",
+    "entry": "ok",
+    "blocks": 50,
+    "judge2d": true,
+    "fails": [],
+    "min_sine": 0.3626,
+    "strict": true,
+    "stable": true,
+    "min_sj": 0.3625934197384775,
+    "min_sj_2x": 0.3625934197384768,
+    "stable_numbers": true,
+    "block_pass": true,
+    "audit_pass": true,
+    "counted": true,
+    "counted_why": [],
+    "judge": "PASS",
+    "judge_failed": [],
+    "harness": "Pass",
+    "harness_failed": [],
+    "not_run": null,
+    "edge_ratio": 8.17394989032683,
+    "harness_rev": 11,
+    "layered": true,
+    "occupancy": true,
+    "mesh_components": 1,
+    "region_fill": [
+      [
+        "fill",
+        0,
+        "ring, core offset mu 0.3"
+      ],
+      [
+        "fill",
+        1,
+        "ring, core offset mu 0.3"
+      ]
+    ]
+  },
+  "family": "F",
+  "level": "2",
+  "source": "T8",
+  "nominal": {
+    "elements": 1898,
+    "min_sj": 0.3625934197384775,
+    "mean_sj": 0.8928548237095889,
+    "p05_sj": 0.5673034276179952,
+    "below_floor": 0,
+    "inverted": 0
+  },
+  "doubled": {
+    "elements": 15184,
+    "min_sj": 0.3625934197384768,
+    "mean_sj": 0.9077652110636791,
+    "p05_sj": 0.5943153979936482,
+    "below_floor": 0,
+    "inverted": 0
+  },
+  "frame": {
+    "origin": [
+      -0.0,
+      -0.0,
+      1e-07
+    ],
+    "u": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "v": [
+      -0.0,
+      1.0,
+      0.0
+    ]
+  },
+  "inner_profile_loops": 3,
+  "height_bands": 2,
+  "nominal_mesh_sha256": "9504a7ce4a0a73a56bd7e809a22737794a60cdc7a076168fd50072238e6ff3c0",
+  "doubled_mesh_sha256": "4b5502109f60138341cc1769912be7eca42440aecc4a79e9acea594cfd16bd87",
+  "layout_sha256": "e29e89da85e8d0c79ec5db3edb98d0666090c6d184a7d7a0c93985ff1173ea74",
+  "cad_hashes": {
+    "p1ffa567377_part.tess.json": "991f687b8a75aaa1ceb499bfca602333a6c7ff81f55fe89c92ca4caf85b0c248",
+    "p1ffa567377_part.brepgraph.json": "224321feefc19d0b17d1946f3b2abcd35b942262fddc5a6c54b0b6086b9c0f81"
+  }
+}

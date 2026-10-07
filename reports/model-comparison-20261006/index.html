@@ -1,0 +1,1714 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Hard-part model comparison</title><style>body{font:15px system-ui;background:#f2f4f7;color:#172033;margin:0;padding:24px}main{max-width:1800px;margin:auto}h1{margin-bottom:8px}h2{font-size:19px;margin:30px 0 12px}.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}article{background:white;border:1px solid #d7dde6;border-radius:12px;padding:14px;min-width:0}header{display:flex;justify-content:space-between;gap:8px}header span{color:#79510c}.pass{color:#167043}img{width:100%;display:block;margin:12px 0}.empty{height:240px;display:grid;place-items:center;background:#f7f8fa;color:#687184;margin:12px 0}p{color:#465166}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:11px;max-height:450px;overflow:auto}summary{cursor:pointer}footer{margin:32px 0;color:#465166}@media(max-width:1100px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:600px){.grid{grid-template-columns:1fr}body{padding:12px}}</style><main><p><a href="../../index.html">All reports</a></p><h1>Hard-part model comparison</h1><p>Recorded automated outcomes; expert ratings have not been assigned. Click a drawing to enlarge it.</p><section><h2>t8_profile_01068fb0</h2><div class="grid"><article><header><b>Sonnet</b><span class="">Fail</span></header><a href="sonnet-t8_profile_01068fb0.png" target="_blank"><img src="sonnet-t8_profile_01068fb0.png" alt="Sonnet layout"></a><p>Attempt 1 · 19.51 min · usage $2.60</p><p>67 blocks · SJ 0.4888 / 2× 0.4888</p><p>[&#x27;Element aspect ratio failed&#x27;]</p><details><summary>Checks, attempts & provenance</summary><pre>{
+  &quot;result&quot;: {
+    &quot;attempt&quot;: 1,
+    &quot;ident&quot;: &quot;t8_profile_01068fb0&quot;,
+    &quot;key&quot;: &quot;t0_p336d70065d&quot;,
+    &quot;start&quot;: &quot;2026-10-06T19:18:51&quot;,
+    &quot;model&quot;: &quot;claude-sonnet-5-5&quot;,
+    &quot;wall_min&quot;: 19.51,
+    &quot;stopped&quot;: &quot;finished&quot;,
+    &quot;cost_usd&quot;: 2.6020854000000004,
+    &quot;cost_is_upper_bound&quot;: false,
+    &quot;num_turns&quot;: 17,
+    &quot;end_reason&quot;: &quot;success / completed&quot;,
+    &quot;revisions&quot;: 2,
+    &quot;void&quot;: [],
+    &quot;final_rev&quot;: 2,
+    &quot;blocks&quot;: 67,
+    &quot;reread_counted&quot;: false,
+    &quot;stable_numbers&quot;: true,
+    &quot;min_sj&quot;: 0.48876768497205736,
+    &quot;min_sj_2x&quot;: 0.4887676849720052,
+    &quot;author_counted&quot;: false,
+    &quot;counted&quot;: false,
+    &quot;outcome&quot;: &quot;not-counted&quot;,
+    &quot;why&quot;: &quot;re-read rev 2: STRICT&quot;,
+    &quot;end&quot;: &quot;2026-10-06T19:38:24&quot;
+  },
+  &quot;reread&quot;: {
+    &quot;key&quot;: &quot;t0_p336d70065d&quot;,
+    &quot;entry&quot;: &quot;ok&quot;,
+    &quot;blocks&quot;: 67,
+    &quot;judge2d&quot;: true,
+    &quot;fails&quot;: [],
+    &quot;min_sine&quot;: 0.4888,
+    &quot;strict&quot;: false,
+    &quot;stable&quot;: false,
+    &quot;min_sj&quot;: 0.48876768497205736,
+    &quot;min_sj_2x&quot;: 0.4887676849720052,
+    &quot;stable_numbers&quot;: true,
+    &quot;block_pass&quot;: true,
+    &quot;audit_pass&quot;: false,
+    &quot;counted&quot;: false,
+    &quot;counted_why&quot;: [
+      &quot;STRICT&quot;
+    ],
+    &quot;judge&quot;: &quot;FAIL&quot;,
+    &quot;judge_failed&quot;: [
+      &quot;ar_ok&quot;
+    ],
+    &quot;harness&quot;: &quot;Fail&quot;,
+    &quot;harness_failed&quot;: [
+      &quot;D&quot;
+    ],
+    &quot;not_run&quot;: null,
+    &quot;edge_ratio&quot;: 20.313164285332263,
+    &quot;harness_rev&quot;: 11,
+    &quot;layered&quot;: true,
+    &quot;occupancy&quot;: true,
+    &quot;mesh_components&quot;: 1,
+    &quot;region_fill&quot;: [
+      [
+        &quot;fill&quot;,
+        2,
+        &quot;drawn&quot;
+      ],
+      [
+        &quot;fill&quot;,
+        3,
+        &quot;drawn&quot;
+      ],
+      [
+        &quot;fill&quot;,
+        0,
+        &quot;ring, core at lambda 0.5&quot;
+      ]
+    ],
+    &quot;guard&quot;: &quot;{\&quot;why\&quot;: \&quot;exit\&quot;, \&quot;rc\&quot;: 0, \&quot;peak_gb\&quot;: 0.04, \&quot;wall_s\&quot;: 2.2}&quot;
+  },
+  &quot;attempt_history&quot;: [
+    {
+      &quot;attempt&quot;: 1,
+      &quot;ident&quot;: &quot;t8_profile_01068fb0&quot;,
+      &quot;key&quot;: &quot;t0_p336d70065d&quot;,
+      &quot;start&quot;: &quot;2026-10-06T19:18:51&quot;,
+      &quot;model&quot;: &quot;claude-sonnet-5-5&quot;,
+      &quot;wall_min&quot;: 19.51,
+      &quot;stopped&quot;: &quot;finished&quot;,
+      &quot;cost_usd&quot;: 2.6020854000000004,
+      &quot;cost_is_upper_bound&quot;: false,
+      &quot;num_turns&quot;: 17,
+      &quot;end_reason&quot;: &quot;success / completed&quot;,
+      &quot;revisions&quot;: 2,
+      &quot;void&quot;: [],
+      &quot;final_rev&quot;: 2,
+      &quot;blocks&quot;: 67,
+      &quot;reread_counted&quot;: false,
+      &quot;stable_numbers&quot;: true,
+      &quot;min_sj&quot;: 0.48876768497205736,
+      &quot;min_sj_2x&quot;: 0.4887676849720052,
+      &quot;author_counted&quot;: false,
+      &quot;counted&quot;: false,
+      &quot;outcome&quot;: &quot;not-counted&quot;,
+      &quot;why&quot;: &quot;re-read rev 2: STRICT&quot;,
+      &quot;end&quot;: &quot;2026-10-06T19:38:24&quot;
+    }
+  ],
+  &quot;evidence&quot;: {
+    &quot;result.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;ced2a845aa53604d89a97658534cf52a591b400a7ba8017779dfac252da3d3b8&quot;
+    },
+    &quot;reread.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;2875d15897cc93c2fa2781885cdab19e72926f6cd08fd017575dde4ebb5e68cb&quot;
+    },
+    &quot;audit.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;48ae34132cac50306d106f762f35154529e6045eb08e06c3eebeffa967b25f89&quot;
+    },
+    &quot;session.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;c9754e63b23a57397f09636139b453dec9c2662ad60702ba4d73ff43abd8d993&quot;
+    },
+    &quot;final_layout.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;2f7e024793084caa9700fef181435aa9cc4c6a769802ac10678a4d0d62b2cc43&quot;
+    },
+    &quot;drawing&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;cc08e6e18dcdb2d3e533a0804313d16b84a4179a88b7b7c12abc0c59f342c084&quot;
+    }
+  }
+}</pre></details></article><article><header><b>Opus</b><span class="">Fail</span></header><a href="opus-t8_profile_01068fb0.png" target="_blank"><img src="opus-t8_profile_01068fb0.png" alt="Opus layout"></a><p>Attempt 2 · 45.02 min · usage $10.00 upper bound</p><p>62 blocks · SJ 0.4529 / 2× 0.4379</p><p>[&#x27;Element aspect ratio failed&#x27;]</p><details><summary>Checks, attempts & provenance</summary><pre>{
+  &quot;result&quot;: {
+    &quot;attempt&quot;: 2,
+    &quot;ident&quot;: &quot;t8_profile_01068fb0&quot;,
+    &quot;key&quot;: &quot;t0_p336d70065d&quot;,
+    &quot;start&quot;: &quot;2026-10-06T21:17:01&quot;,
+    &quot;model&quot;: &quot;claude-opus-5-5&quot;,
+    &quot;wall_min&quot;: 45.02,
+    &quot;stopped&quot;: &quot;wall cap (45 min)&quot;,
+    &quot;cost_usd&quot;: 10.0,
+    &quot;cost_is_upper_bound&quot;: true,
+    &quot;num_turns&quot;: null,
+    &quot;end_reason&quot;: &quot;no result line&quot;,
+    &quot;revisions&quot;: 5,
+    &quot;void&quot;: [],
+    &quot;final_rev&quot;: 5,
+    &quot;blocks&quot;: 62,
+    &quot;reread_counted&quot;: false,
+    &quot;stable_numbers&quot;: true,
+    &quot;min_sj&quot;: 0.45288829589591123,
+    &quot;min_sj_2x&quot;: 0.4378835068612433,
+    &quot;author_counted&quot;: false,
+    &quot;counted&quot;: false,
+    &quot;outcome&quot;: &quot;not-counted&quot;,
+    &quot;why&quot;: &quot;re-read rev 5: STRICT (wall cap (45 min))&quot;,
+    &quot;end&quot;: &quot;2026-10-06T22:02:04&quot;
+  },
+  &quot;reread&quot;: {
+    &quot;key&quot;: &quot;t0_p336d70065d&quot;,
+    &quot;entry&quot;: &quot;ok&quot;,
+    &quot;blocks&quot;: 62,
+    &quot;judge2d&quot;: true,
+    &quot;fails&quot;: [],
+    &quot;min_sine&quot;: 0.4592,
+    &quot;strict&quot;: false,
+    &quot;stable&quot;: false,
+    &quot;min_sj&quot;: 0.45288829589591123,
+    &quot;min_sj_2x&quot;: 0.4378835068612433,
+    &quot;stable_numbers&quot;: true,
+    &quot;block_pass&quot;: true,
+    &quot;audit_pass&quot;: false,
+    &quot;counted&quot;: false,
+    &quot;counted_why&quot;: [
+      &quot;STRICT&quot;
+    ],
+    &quot;judge&quot;: &quot;FAIL&quot;,
+    &quot;judge_failed&quot;: [
+      &quot;ar_ok&quot;
+    ],
+    &quot;harness&quot;: &quot;Fail&quot;,
+    &quot;harness_failed&quot;: [
+      &quot;D&quot;
+    ],
+    &quot;not_run&quot;: null,
+    &quot;edge_ratio&quot;: 29.942785877230573,
+    &quot;harness_rev&quot;: 11,
+    &quot;layered&quot;: true,
+    &quot;occupancy&quot;: true,
+    &quot;mesh_components&quot;: 1,
+    &quot;region_fill&quot;: [
+      [
+        &quot;fill&quot;,
+        0,
+        &quot;drawn&quot;
+      ],
+      [
+        &quot;fill&quot;,
+        2,
+        &quot;drawn&quot;
+      ],
+      [
+        &quot;fill&quot;,
+        3,
+        &quot;drawn&quot;
+      ]
+    ],
+    &quot;guard&quot;: &quot;{\&quot;why\&quot;: \&quot;exit\&quot;, \&quot;rc\&quot;: 0, \&quot;peak_gb\&quot;: 0.04, \&quot;wall_s\&quot;: 2.2}&quot;
+  },
+  &quot;attempt_history&quot;: [
+    {
+      &quot;attempt&quot;: 1,
+      &quot;ident&quot;: &quot;t8_profile_01068fb0&quot;,
+      &quot;key&quot;: &quot;t0_p336d70065d&quot;,
+      &quot;start&quot;: &quot;2026-10-06T20:00:38&quot;,
+      &quot;model&quot;: &quot;claude-opus-5-5&quot;,
+      &quot;wall_min&quot;: 17.2,
+      &quot;stopped&quot;: &quot;finished&quot;,
+      &quot;cost_usd&quot;: 3.089675,
+      &quot;cost_is_upper_bound&quot;: false,
+      &quot;num_turns&quot;: 6,
+      &quot;end_reason&quot;: &quot;error_max_budget_usd / budget_exhausted&quot;,
+      &quot;revisions&quot;: 0,
+      &quot;void&quot;: [],
+      &quot;counted&quot;: false,
+      &quot;outcome&quot;: &quot;not-counted&quot;,
+      &quot;why&quot;: &quot;no revision run (budget cap)&quot;,
+      &quot;end&quot;: &quot;2026-10-06T20:17:50&quot;
+    },
+    {
+      &quot;attempt&quot;: 2,
+      &quot;ident&quot;: &quot;t8_profile_01068fb0&quot;,
+      &quot;key&quot;: &quot;t0_p336d70065d&quot;,
+      &quot;start&quot;: &quot;2026-10-06T21:17:01&quot;,
+      &quot;model&quot;: &quot;claude-opus-5-5&quot;,
+      &quot;wall_min&quot;: 45.02,
+      &quot;stopped&quot;: &quot;wall cap (45 min)&quot;,
+      &quot;cost_usd&quot;: 10.0,
+      &quot;cost_is_upper_bound&quot;: true,
+      &quot;num_turns&quot;: null,
+      &quot;end_reason&quot;: &quot;no result line&quot;,
+      &quot;revisions&quot;: 5,
+      &quot;void&quot;: [],
+      &quot;final_rev&quot;: 5,
+      &quot;blocks&quot;: 62,
+      &quot;reread_counted&quot;: false,
+      &quot;stable_numbers&quot;: true,
+      &quot;min_sj&quot;: 0.45288829589591123,
+      &quot;min_sj_2x&quot;: 0.4378835068612433,
+      &quot;author_counted&quot;: false,
+      &quot;counted&quot;: false,
+      &quot;outcome&quot;: &quot;not-counted&quot;,
+      &quot;why&quot;: &quot;re-read rev 5: STRICT (wall cap (45 min))&quot;,
+      &quot;end&quot;: &quot;2026-10-06T22:02:04&quot;
+    }
+  ],
+  &quot;evidence&quot;: {
+    &quot;result.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;e06e233b33336bedde17c5388f3e905a9f1a35862bccefe98a232da786e4375c&quot;
+    },
+    &quot;reread.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;a2372a7116c8ee918228e8fd6b1e8c7faf57ab17fbac9a6a014dd0f4b1ba8c06&quot;
+    },
+    &quot;audit.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;fb41255d381c9f1ed383e11031aee080f691a5499741bd7d577f0284f238ebda&quot;
+    },
+    &quot;session.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;f87090b4acc03f83e3d7d069821aed1543c6198cc53c1ad085fb2383797db381&quot;
+    },
+    &quot;final_layout.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;39605b7dbb7719ced45d534aab81beb04de82c269e4f00e063c8f86d905ec78b&quot;
+    },
+    &quot;drawing&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;94f62fd6d6405f0454ec847fc39205b44f9ab49f6c0167d8dfc6d50d4f544f1c&quot;
+    }
+  }
+}</pre></details></article><article><header><b>Fable</b><span class="">Fail</span></header><div class="empty">No submitted drawing</div><p>Attempt 1 · 40.66 min · usage $10.31</p><p>— blocks · SJ — / 2× —</p><p>no revision run (budget cap)</p><details><summary>Checks, attempts & provenance</summary><pre>{
+  &quot;result&quot;: {
+    &quot;attempt&quot;: 1,
+    &quot;ident&quot;: &quot;t8_profile_01068fb0&quot;,
+    &quot;key&quot;: &quot;t0_p336d70065d&quot;,
+    &quot;start&quot;: &quot;2026-10-06T21:05:43&quot;,
+    &quot;model&quot;: &quot;claude-fable-5-1&quot;,
+    &quot;wall_min&quot;: 40.66,
+    &quot;stopped&quot;: &quot;finished&quot;,
+    &quot;cost_usd&quot;: 10.30705375,
+    &quot;cost_is_upper_bound&quot;: false,
+    &quot;num_turns&quot;: 8,
+    &quot;end_reason&quot;: &quot;error_max_budget_usd / budget_exhausted&quot;,
+    &quot;revisions&quot;: 0,
+    &quot;void&quot;: [],
+    &quot;counted&quot;: false,
+    &quot;outcome&quot;: &quot;not-counted&quot;,
+    &quot;why&quot;: &quot;no revision run (budget cap)&quot;,
+    &quot;end&quot;: &quot;2026-10-06T21:46:23&quot;
+  },
+  &quot;reread&quot;: {},
+  &quot;attempt_history&quot;: [
+    {
+      &quot;attempt&quot;: 1,
+      &quot;ident&quot;: &quot;t8_profile_01068fb0&quot;,
+      &quot;key&quot;: &quot;t0_p336d70065d&quot;,
+      &quot;start&quot;: &quot;2026-10-06T21:05:43&quot;,
+      &quot;model&quot;: &quot;claude-fable-5-1&quot;,
+      &quot;wall_min&quot;: 40.66,
+      &quot;stopped&quot;: &quot;finished&quot;,
+      &quot;cost_usd&quot;: 10.30705375,
+      &quot;cost_is_upper_bound&quot;: false,
+      &quot;num_turns&quot;: 8,
+      &quot;end_reason&quot;: &quot;error_max_budget_usd / budget_exhausted&quot;,
+      &quot;revisions&quot;: 0,
+      &quot;void&quot;: [],
+      &quot;counted&quot;: false,
+      &quot;outcome&quot;: &quot;not-counted&quot;,
+      &quot;why&quot;: &quot;no revision run (budget cap)&quot;,
+      &quot;end&quot;: &quot;2026-10-06T21:46:23&quot;
+    }
+  ],
+  &quot;evidence&quot;: {
+    &quot;result.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;4dc30bd09cca13c62fa279d67ea9432100575518c3b76b8dc602432c6b3d8a46&quot;
+    },
+    &quot;audit.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;7730c0a3b2eb3b25b12b04c6f557c149ccb2c331ef546aa0d503d0c761464455&quot;
+    },
+    &quot;session.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;fd087ca29a8e720b9ddb76ad96e125d6d48e54be4189ec5cfb43f1048e5ca995&quot;
+    }
+  }
+}</pre></details></article><article><header><b>Astra</b><span class="pass">Pass</span></header><a href="astra-t8_profile_01068fb0.png" target="_blank"><img src="astra-t8_profile_01068fb0.png" alt="Astra layout"></a><p>Attempt 1 · 11.58 min · usage unavailable</p><p>49 blocks · SJ 0.3336 / 2× 0.3319</p><details><summary>Checks, attempts & provenance</summary><pre>{
+  &quot;result&quot;: {
+    &quot;ident&quot;: &quot;t8_profile_01068fb0&quot;,
+    &quot;key&quot;: &quot;t0_p336d70065d&quot;,
+    &quot;attempt&quot;: 1,
+    &quot;model_requested&quot;: &quot;gpt-6-astra&quot;,
+    &quot;model_resolved&quot;: null,
+    &quot;model_resolution_evidence&quot;: &quot;Explicit model-specific subagent dispatch; runtime model identifier unavailable&quot;,
+    &quot;cost_usd&quot;: null,
+    &quot;wall_min&quot;: 11.583333333333334,
+    &quot;start&quot;: &quot;2026-10-07T04:05:40Z&quot;,
+    &quot;end&quot;: &quot;2026-10-07T04:17:15Z&quot;,
+    &quot;revisions&quot;: 1,
+    &quot;reread&quot;: {
+      &quot;key&quot;: &quot;t0_p336d70065d&quot;,
+      &quot;entry&quot;: &quot;ok&quot;,
+      &quot;blocks&quot;: 49,
+      &quot;judge2d&quot;: true,
+      &quot;fails&quot;: [],
+      &quot;min_sine&quot;: 0.3687,
+      &quot;strict&quot;: true,
+      &quot;stable&quot;: true,
+      &quot;min_sj&quot;: 0.333562332020805,
+      &quot;min_sj_2x&quot;: 0.33191883572880154,
+      &quot;stable_numbers&quot;: true,
+      &quot;block_pass&quot;: true,
+      &quot;audit_pass&quot;: true,
+      &quot;counted&quot;: true,
+      &quot;counted_why&quot;: [],
+      &quot;judge&quot;: &quot;PASS&quot;,
+      &quot;judge_failed&quot;: [],
+      &quot;harness&quot;: &quot;Pass&quot;,
+      &quot;harness_failed&quot;: [],
+      &quot;not_run&quot;: null,
+      &quot;edge_ratio&quot;: 11.017929126914806,
+      &quot;harness_rev&quot;: 11,
+      &quot;layered&quot;: true,
+      &quot;occupancy&quot;: true,
+      &quot;mesh_components&quot;: 1,
+      &quot;region_fill&quot;: [
+        [
+          &quot;fill&quot;,
+          0,
+          &quot;drawn&quot;
+        ],
+        [
+          &quot;fill&quot;,
+          2,
+          &quot;drawn&quot;
+        ],
+        [
+          &quot;fill&quot;,
+          3,
+          &quot;drawn&quot;
+        ]
+      ],
+      &quot;guard&quot;: &quot;{\&quot;why\&quot;: \&quot;exit\&quot;, \&quot;rc\&quot;: 0, \&quot;peak_gb\&quot;: 0.039, \&quot;wall_s\&quot;: 3.4}&quot;
+    },
+    &quot;counted&quot;: true,
+    &quot;outcome&quot;: &quot;counted&quot;,
+    &quot;why&quot;: [],
+    &quot;human_grade&quot;: null,
+    &quot;audit&quot;: {
+      &quot;method&quot;: &quot;supervisor read of author-maintained command log and calls.tsv; native Codex tool transcript unavailable&quot;,
+      &quot;pinned_files_verified&quot;: 105,
+      &quot;manual_command_review_completed&quot;: true,
+      &quot;observed_violations&quot;: [],
+      &quot;equivalence_limitation&quot;: &quot;Claude stream audit_a10 was not applicable to Codex tool transport; this does not claim identical transcript-level auditing.&quot;
+    }
+  },
+  &quot;reread&quot;: {
+    &quot;key&quot;: &quot;t0_p336d70065d&quot;,
+    &quot;entry&quot;: &quot;ok&quot;,
+    &quot;blocks&quot;: 49,
+    &quot;judge2d&quot;: true,
+    &quot;fails&quot;: [],
+    &quot;min_sine&quot;: 0.3687,
+    &quot;strict&quot;: true,
+    &quot;stable&quot;: true,
+    &quot;min_sj&quot;: 0.333562332020805,
+    &quot;min_sj_2x&quot;: 0.33191883572880154,
+    &quot;stable_numbers&quot;: true,
+    &quot;block_pass&quot;: true,
+    &quot;audit_pass&quot;: true,
+    &quot;counted&quot;: true,
+    &quot;counted_why&quot;: [],
+    &quot;judge&quot;: &quot;PASS&quot;,
+    &quot;judge_failed&quot;: [],
+    &quot;harness&quot;: &quot;Pass&quot;,
+    &quot;harness_failed&quot;: [],
+    &quot;not_run&quot;: null,
+    &quot;edge_ratio&quot;: 11.017929126914806,
+    &quot;harness_rev&quot;: 11,
+    &quot;layered&quot;: true,
+    &quot;occupancy&quot;: true,
+    &quot;mesh_components&quot;: 1,
+    &quot;region_fill&quot;: [
+      [
+        &quot;fill&quot;,
+        0,
+        &quot;drawn&quot;
+      ],
+      [
+        &quot;fill&quot;,
+        2,
+        &quot;drawn&quot;
+      ],
+      [
+        &quot;fill&quot;,
+        3,
+        &quot;drawn&quot;
+      ]
+    ],
+    &quot;guard&quot;: &quot;{\&quot;why\&quot;: \&quot;exit\&quot;, \&quot;rc\&quot;: 0, \&quot;peak_gb\&quot;: 0.039, \&quot;wall_s\&quot;: 3.4}&quot;
+  },
+  &quot;attempt_history&quot;: [],
+  &quot;evidence&quot;: {
+    &quot;result.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;4a11a16b0a6a2f8195ff4b9ddcacac41a990eacf8447b989998477be2bc319a9&quot;
+    },
+    &quot;reread.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;e357cd5d20ee4f97d5915ad68ec561d119385cd5dffb87accfa757c647b76478&quot;
+    },
+    &quot;audit.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;0f6a58e60def475b0952d44f8dac1e7c1b77a913c4be3667166368fe02b011eb&quot;
+    },
+    &quot;session.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;e6cd5e67ceca1b92d28fcf0622de49a883eb30823e7e152546bc4f6a3ea01de9&quot;
+    },
+    &quot;final_layout.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;747e03552334817925fceaa61b6ec076bd158c4c65220a74472c031e8ccd2b9c&quot;
+    },
+    &quot;drawing&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;a16e5f7be941b5fb864e2bdea254f5298fd335aa9b1ddac88ddc19d094027a02&quot;
+    }
+  }
+}</pre></details></article></div></section><section><h2>t8_profile_0103c4d8</h2><div class="grid"><article><header><b>Sonnet</b><span class="">Fail</span></header><a href="sonnet-t8_profile_0103c4d8.png" target="_blank"><img src="sonnet-t8_profile_0103c4d8.png" alt="Sonnet layout"></a><p>Attempt 1 · 25.37 min · usage $2.88</p><p>41 blocks · SJ 0.4079 / 2× 0.4079</p><p>[&#x27;Element aspect ratio failed&#x27;, &#x27;Geometry capture failed&#x27;]</p><details><summary>Checks, attempts & provenance</summary><pre>{
+  &quot;result&quot;: {
+    &quot;attempt&quot;: 1,
+    &quot;ident&quot;: &quot;t8_profile_0103c4d8&quot;,
+    &quot;key&quot;: &quot;t0_p24cc08f23e&quot;,
+    &quot;start&quot;: &quot;2026-10-06T17:42:14&quot;,
+    &quot;model&quot;: &quot;claude-sonnet-5-5&quot;,
+    &quot;wall_min&quot;: 25.37,
+    &quot;stopped&quot;: &quot;finished&quot;,
+    &quot;cost_usd&quot;: 2.8831746,
+    &quot;cost_is_upper_bound&quot;: false,
+    &quot;num_turns&quot;: 14,
+    &quot;end_reason&quot;: &quot;success / completed&quot;,
+    &quot;revisions&quot;: 1,
+    &quot;void&quot;: [],
+    &quot;final_rev&quot;: 1,
+    &quot;blocks&quot;: 41,
+    &quot;reread_counted&quot;: false,
+    &quot;stable_numbers&quot;: true,
+    &quot;min_sj&quot;: 0.4078681130824857,
+    &quot;min_sj_2x&quot;: 0.4078681130825001,
+    &quot;author_counted&quot;: false,
+    &quot;counted&quot;: false,
+    &quot;outcome&quot;: &quot;not-counted&quot;,
+    &quot;why&quot;: &quot;re-read rev 1: STRICT&quot;,
+    &quot;end&quot;: &quot;2026-10-06T18:07:38&quot;
+  },
+  &quot;reread&quot;: {
+    &quot;key&quot;: &quot;t0_p24cc08f23e&quot;,
+    &quot;entry&quot;: &quot;ok&quot;,
+    &quot;blocks&quot;: 41,
+    &quot;judge2d&quot;: true,
+    &quot;fails&quot;: [],
+    &quot;min_sine&quot;: 0.4079,
+    &quot;strict&quot;: false,
+    &quot;stable&quot;: false,
+    &quot;min_sj&quot;: 0.4078681130824857,
+    &quot;min_sj_2x&quot;: 0.4078681130825001,
+    &quot;stable_numbers&quot;: true,
+    &quot;block_pass&quot;: true,
+    &quot;audit_pass&quot;: false,
+    &quot;counted&quot;: false,
+    &quot;counted_why&quot;: [
+      &quot;STRICT&quot;
+    ],
+    &quot;judge&quot;: &quot;FAIL&quot;,
+    &quot;judge_failed&quot;: [
+      &quot;ar_ok&quot;,
+      &quot;capture_ok&quot;
+    ],
+    &quot;harness&quot;: &quot;Fail&quot;,
+    &quot;harness_failed&quot;: [
+      &quot;D&quot;
+    ],
+    &quot;not_run&quot;: null,
+    &quot;edge_ratio&quot;: 12.104417318649567,
+    &quot;harness_rev&quot;: 11,
+    &quot;layered&quot;: true,
+    &quot;occupancy&quot;: true,
+    &quot;mesh_components&quot;: 1,
+    &quot;region_fill&quot;: [
+      [
+        &quot;fill&quot;,
+        2,
+        &quot;drawn&quot;
+      ],
+      [
+        &quot;fill&quot;,
+        3,
+        &quot;drawn&quot;
+      ],
+      [
+        &quot;fill&quot;,
+        0,
+        &quot;ring, core at lambda 0.5&quot;
+      ]
+    ],
+    &quot;guard&quot;: &quot;{\&quot;why\&quot;: \&quot;exit\&quot;, \&quot;rc\&quot;: 0, \&quot;peak_gb\&quot;: 0.036, \&quot;wall_s\&quot;: 1.5}&quot;
+  },
+  &quot;attempt_history&quot;: [
+    {
+      &quot;attempt&quot;: 1,
+      &quot;ident&quot;: &quot;t8_profile_0103c4d8&quot;,
+      &quot;key&quot;: &quot;t0_p24cc08f23e&quot;,
+      &quot;start&quot;: &quot;2026-10-06T17:42:14&quot;,
+      &quot;model&quot;: &quot;claude-sonnet-5-5&quot;,
+      &quot;wall_min&quot;: 25.37,
+      &quot;stopped&quot;: &quot;finished&quot;,
+      &quot;cost_usd&quot;: 2.8831746,
+      &quot;cost_is_upper_bound&quot;: false,
+      &quot;num_turns&quot;: 14,
+      &quot;end_reason&quot;: &quot;success / completed&quot;,
+      &quot;revisions&quot;: 1,
+      &quot;void&quot;: [],
+      &quot;final_rev&quot;: 1,
+      &quot;blocks&quot;: 41,
+      &quot;reread_counted&quot;: false,
+      &quot;stable_numbers&quot;: true,
+      &quot;min_sj&quot;: 0.4078681130824857,
+      &quot;min_sj_2x&quot;: 0.4078681130825001,
+      &quot;author_counted&quot;: false,
+      &quot;counted&quot;: false,
+      &quot;outcome&quot;: &quot;not-counted&quot;,
+      &quot;why&quot;: &quot;re-read rev 1: STRICT&quot;,
+      &quot;end&quot;: &quot;2026-10-06T18:07:38&quot;
+    }
+  ],
+  &quot;evidence&quot;: {
+    &quot;result.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;d10fa9feb62b39ff0296ec66efffbb5dffda6d198bc21736a8815836a5d94363&quot;
+    },
+    &quot;reread.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;ecb56c8d7a9a25b7b10001b849798b329b6e0c315d5e7b56b62dd61f16a56929&quot;
+    },
+    &quot;audit.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;b4d3cd0c8a8f0575fd7ad03f3c4c8820ce4ea11a028b3ac7c5aadfa2eea3f36f&quot;
+    },
+    &quot;session.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;427873f09922df5d338f2a5ef5ca6c3e7378fd8dae9cfef2a682e3ffffbf6d42&quot;
+    },
+    &quot;final_layout.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;8588b11d062fdc4ffba08c8853be1cfa9ad959d04e090b55225768605a263024&quot;
+    },
+    &quot;drawing&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;a3304dc75ca99e672af3053a011ce1ca940d037859a079bcb69cb87a7f6db96f&quot;
+    }
+  }
+}</pre></details></article><article><header><b>Opus</b><span class="">Fail</span></header><a href="opus-t8_profile_0103c4d8.png" target="_blank"><img src="opus-t8_profile_0103c4d8.png" alt="Opus layout"></a><p>Attempt 2 · 21.48 min · usage $4.11</p><p>39 blocks · SJ 0.5058 / 2× 0.5058</p><p>[&#x27;Element aspect ratio failed&#x27;]</p><details><summary>Checks, attempts & provenance</summary><pre>{
+  &quot;result&quot;: {
+    &quot;attempt&quot;: 2,
+    &quot;ident&quot;: &quot;t8_profile_0103c4d8&quot;,
+    &quot;key&quot;: &quot;t0_p24cc08f23e&quot;,
+    &quot;start&quot;: &quot;2026-10-06T22:02:05&quot;,
+    &quot;model&quot;: &quot;claude-opus-5-5&quot;,
+    &quot;wall_min&quot;: 21.48,
+    &quot;stopped&quot;: &quot;finished&quot;,
+    &quot;cost_usd&quot;: 4.1125028,
+    &quot;cost_is_upper_bound&quot;: false,
+    &quot;num_turns&quot;: 18,
+    &quot;end_reason&quot;: &quot;success / completed&quot;,
+    &quot;revisions&quot;: 1,
+    &quot;void&quot;: [],
+    &quot;final_rev&quot;: 1,
+    &quot;blocks&quot;: 39,
+    &quot;reread_counted&quot;: false,
+    &quot;stable_numbers&quot;: true,
+    &quot;min_sj&quot;: 0.5057674370470067,
+    &quot;min_sj_2x&quot;: 0.5057674370470067,
+    &quot;author_counted&quot;: false,
+    &quot;counted&quot;: false,
+    &quot;outcome&quot;: &quot;not-counted&quot;,
+    &quot;why&quot;: &quot;re-read rev 1: STRICT&quot;,
+    &quot;end&quot;: &quot;2026-10-06T22:23:35&quot;
+  },
+  &quot;reread&quot;: {
+    &quot;key&quot;: &quot;t0_p24cc08f23e&quot;,
+    &quot;entry&quot;: &quot;ok&quot;,
+    &quot;blocks&quot;: 39,
+    &quot;judge2d&quot;: true,
+    &quot;fails&quot;: [],
+    &quot;min_sine&quot;: 0.5058,
+    &quot;strict&quot;: false,
+    &quot;stable&quot;: false,
+    &quot;min_sj&quot;: 0.5057674370470067,
+    &quot;min_sj_2x&quot;: 0.5057674370470067,
+    &quot;stable_numbers&quot;: true,
+    &quot;block_pass&quot;: true,
+    &quot;audit_pass&quot;: false,
+    &quot;counted&quot;: false,
+    &quot;counted_why&quot;: [
+      &quot;STRICT&quot;
+    ],
+    &quot;judge&quot;: &quot;FAIL&quot;,
+    &quot;judge_failed&quot;: [
+      &quot;ar_ok&quot;
+    ],
+    &quot;harness&quot;: &quot;Fail&quot;,
+    &quot;harness_failed&quot;: [
+      &quot;D&quot;
+    ],
+    &quot;not_run&quot;: null,
+    &quot;edge_ratio&quot;: 10.770493948027154,
+    &quot;harness_rev&quot;: 11,
+    &quot;layered&quot;: true,
+    &quot;occupancy&quot;: true,
+    &quot;mesh_components&quot;: 1,
+    &quot;region_fill&quot;: [
+      [
+        &quot;fill&quot;,
+        0,
+        &quot;drawn&quot;
+      ],
+      [
+        &quot;fill&quot;,
+        2,
+        &quot;drawn&quot;
+      ],
+      [
+        &quot;fill&quot;,
+        3,
+        &quot;drawn&quot;
+      ]
+    ],
+    &quot;guard&quot;: &quot;{\&quot;why\&quot;: \&quot;exit\&quot;, \&quot;rc\&quot;: 0, \&quot;peak_gb\&quot;: 0.037, \&quot;wall_s\&quot;: 1.6}&quot;
+  },
+  &quot;attempt_history&quot;: [
+    {
+      &quot;attempt&quot;: 1,
+      &quot;ident&quot;: &quot;t8_profile_0103c4d8&quot;,
+      &quot;key&quot;: &quot;t0_p24cc08f23e&quot;,
+      &quot;start&quot;: &quot;2026-10-06T20:17:50&quot;,
+      &quot;model&quot;: &quot;claude-opus-5-5&quot;,
+      &quot;wall_min&quot;: 19.44,
+      &quot;stopped&quot;: &quot;finished&quot;,
+      &quot;cost_usd&quot;: 3.3835606,
+      &quot;cost_is_upper_bound&quot;: false,
+      &quot;num_turns&quot;: 6,
+      &quot;end_reason&quot;: &quot;error_max_budget_usd / budget_exhausted&quot;,
+      &quot;revisions&quot;: 0,
+      &quot;void&quot;: [],
+      &quot;counted&quot;: false,
+      &quot;outcome&quot;: &quot;not-counted&quot;,
+      &quot;why&quot;: &quot;no revision run (budget cap)&quot;,
+      &quot;end&quot;: &quot;2026-10-06T20:37:16&quot;
+    },
+    {
+      &quot;attempt&quot;: 2,
+      &quot;ident&quot;: &quot;t8_profile_0103c4d8&quot;,
+      &quot;key&quot;: &quot;t0_p24cc08f23e&quot;,
+      &quot;start&quot;: &quot;2026-10-06T22:02:05&quot;,
+      &quot;model&quot;: &quot;claude-opus-5-5&quot;,
+      &quot;wall_min&quot;: 21.48,
+      &quot;stopped&quot;: &quot;finished&quot;,
+      &quot;cost_usd&quot;: 4.1125028,
+      &quot;cost_is_upper_bound&quot;: false,
+      &quot;num_turns&quot;: 18,
+      &quot;end_reason&quot;: &quot;success / completed&quot;,
+      &quot;revisions&quot;: 1,
+      &quot;void&quot;: [],
+      &quot;final_rev&quot;: 1,
+      &quot;blocks&quot;: 39,
+      &quot;reread_counted&quot;: false,
+      &quot;stable_numbers&quot;: true,
+      &quot;min_sj&quot;: 0.5057674370470067,
+      &quot;min_sj_2x&quot;: 0.5057674370470067,
+      &quot;author_counted&quot;: false,
+      &quot;counted&quot;: false,
+      &quot;outcome&quot;: &quot;not-counted&quot;,
+      &quot;why&quot;: &quot;re-read rev 1: STRICT&quot;,
+      &quot;end&quot;: &quot;2026-10-06T22:23:35&quot;
+    }
+  ],
+  &quot;evidence&quot;: {
+    &quot;result.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;912f93feaeddb704897d98ab4bed74ad65719fed89225a322a9c0eb5d65e9a29&quot;
+    },
+    &quot;reread.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;ff869e7a9ff64adfaef325e3e6f0705cda07d1dbaeb4d6ff7196aff9eaf4c9cf&quot;
+    },
+    &quot;audit.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;522f65153f4dc17fd911b83e32e8fa6319b621a60ff96f4098347b226d34dc52&quot;
+    },
+    &quot;session.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;d36ed7eee245f04c436399d69cb30f146779487fbf0a62a203a89a43d6f6ec01&quot;
+    },
+    &quot;final_layout.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;36c94af214c771a0a35f555ad319dd5384c482f6bfeb7211b4b9e47da9d58769&quot;
+    },
+    &quot;drawing&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;6029828fad1bf82c22195af9f2e74ad5030ad70f7f43970a0f1aeaf2c965547b&quot;
+    }
+  }
+}</pre></details></article><article><header><b>Fable</b><span class="">Fail</span></header><div class="empty">No submitted drawing</div><p>Attempt 1 · 40.61 min · usage $10.05</p><p>— blocks · SJ — / 2× —</p><p>no revision run (budget cap)</p><details><summary>Checks, attempts & provenance</summary><pre>{
+  &quot;result&quot;: {
+    &quot;attempt&quot;: 1,
+    &quot;ident&quot;: &quot;t8_profile_0103c4d8&quot;,
+    &quot;key&quot;: &quot;t0_p24cc08f23e&quot;,
+    &quot;start&quot;: &quot;2026-10-06T21:46:23&quot;,
+    &quot;model&quot;: &quot;claude-fable-5-1&quot;,
+    &quot;wall_min&quot;: 40.61,
+    &quot;stopped&quot;: &quot;finished&quot;,
+    &quot;cost_usd&quot;: 10.053890500000001,
+    &quot;cost_is_upper_bound&quot;: false,
+    &quot;num_turns&quot;: 6,
+    &quot;end_reason&quot;: &quot;error_max_budget_usd / budget_exhausted&quot;,
+    &quot;revisions&quot;: 0,
+    &quot;void&quot;: [],
+    &quot;counted&quot;: false,
+    &quot;outcome&quot;: &quot;not-counted&quot;,
+    &quot;why&quot;: &quot;no revision run (budget cap)&quot;,
+    &quot;end&quot;: &quot;2026-10-06T22:26:59&quot;
+  },
+  &quot;reread&quot;: {},
+  &quot;attempt_history&quot;: [
+    {
+      &quot;attempt&quot;: 1,
+      &quot;ident&quot;: &quot;t8_profile_0103c4d8&quot;,
+      &quot;key&quot;: &quot;t0_p24cc08f23e&quot;,
+      &quot;start&quot;: &quot;2026-10-06T21:46:23&quot;,
+      &quot;model&quot;: &quot;claude-fable-5-1&quot;,
+      &quot;wall_min&quot;: 40.61,
+      &quot;stopped&quot;: &quot;finished&quot;,
+      &quot;cost_usd&quot;: 10.053890500000001,
+      &quot;cost_is_upper_bound&quot;: false,
+      &quot;num_turns&quot;: 6,
+      &quot;end_reason&quot;: &quot;error_max_budget_usd / budget_exhausted&quot;,
+      &quot;revisions&quot;: 0,
+      &quot;void&quot;: [],
+      &quot;counted&quot;: false,
+      &quot;outcome&quot;: &quot;not-counted&quot;,
+      &quot;why&quot;: &quot;no revision run (budget cap)&quot;,
+      &quot;end&quot;: &quot;2026-10-06T22:26:59&quot;
+    }
+  ],
+  &quot;evidence&quot;: {
+    &quot;result.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;92080e0250197df2340511c5df27f3eaf2b1e86b44899dfee05b958600eab02f&quot;
+    },
+    &quot;audit.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;df17deb74be6e88bbc17d91f5998ce845bc90701b237fa60b546b9493de60121&quot;
+    },
+    &quot;session.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;391ff86df24266c449eac96d263fbc18b349b411c7f29294fad865dec99af489&quot;
+    }
+  }
+}</pre></details></article><article><header><b>Astra</b><span class="">Fail</span></header><a href="astra-t8_profile_0103c4d8.png" target="_blank"><img src="astra-t8_profile_0103c4d8.png" alt="Astra layout"></a><p>Attempt 1 · 9.3 min · usage unavailable</p><p>39 blocks · SJ 0.4424 / 2× 0.4424</p><p>[&#x27;Element aspect ratio failed&#x27;, &#x27;Geometry capture failed&#x27;]</p><details><summary>Checks, attempts & provenance</summary><pre>{
+  &quot;result&quot;: {
+    &quot;ident&quot;: &quot;t8_profile_0103c4d8&quot;,
+    &quot;key&quot;: &quot;t0_p24cc08f23e&quot;,
+    &quot;attempt&quot;: 1,
+    &quot;model_requested&quot;: &quot;gpt-6-astra&quot;,
+    &quot;model_resolved&quot;: null,
+    &quot;model_resolution_evidence&quot;: &quot;Explicit model-specific subagent dispatch; runtime model identifier unavailable&quot;,
+    &quot;cost_usd&quot;: null,
+    &quot;wall_min&quot;: 9.3,
+    &quot;start&quot;: &quot;2026-10-07T04:05:40Z&quot;,
+    &quot;end&quot;: &quot;2026-10-07T04:14:58Z&quot;,
+    &quot;revisions&quot;: 1,
+    &quot;reread&quot;: {
+      &quot;key&quot;: &quot;t0_p24cc08f23e&quot;,
+      &quot;entry&quot;: &quot;ok&quot;,
+      &quot;blocks&quot;: 39,
+      &quot;judge2d&quot;: true,
+      &quot;fails&quot;: [],
+      &quot;min_sine&quot;: 0.4424,
+      &quot;strict&quot;: false,
+      &quot;stable&quot;: false,
+      &quot;min_sj&quot;: 0.4424141803713233,
+      &quot;min_sj_2x&quot;: 0.44241418037129193,
+      &quot;stable_numbers&quot;: true,
+      &quot;block_pass&quot;: true,
+      &quot;audit_pass&quot;: false,
+      &quot;counted&quot;: false,
+      &quot;counted_why&quot;: [
+        &quot;STRICT&quot;
+      ],
+      &quot;judge&quot;: &quot;FAIL&quot;,
+      &quot;judge_failed&quot;: [
+        &quot;ar_ok&quot;,
+        &quot;capture_ok&quot;
+      ],
+      &quot;harness&quot;: &quot;Fail&quot;,
+      &quot;harness_failed&quot;: [
+        &quot;D&quot;
+      ],
+      &quot;not_run&quot;: null,
+      &quot;edge_ratio&quot;: 25.648533047497803,
+      &quot;harness_rev&quot;: 11,
+      &quot;layered&quot;: true,
+      &quot;occupancy&quot;: true,
+      &quot;mesh_components&quot;: 1,
+      &quot;region_fill&quot;: [
+        [
+          &quot;fill&quot;,
+          0,
+          &quot;drawn&quot;
+        ],
+        [
+          &quot;fill&quot;,
+          2,
+          &quot;drawn&quot;
+        ],
+        [
+          &quot;fill&quot;,
+          3,
+          &quot;drawn&quot;
+        ]
+      ],
+      &quot;guard&quot;: &quot;{\&quot;why\&quot;: \&quot;exit\&quot;, \&quot;rc\&quot;: 0, \&quot;peak_gb\&quot;: 0.04, \&quot;wall_s\&quot;: 1.7}&quot;
+    },
+    &quot;counted&quot;: false,
+    &quot;outcome&quot;: &quot;not-counted&quot;,
+    &quot;why&quot;: [
+      &quot;STRICT&quot;
+    ],
+    &quot;human_grade&quot;: null,
+    &quot;audit&quot;: {
+      &quot;method&quot;: &quot;supervisor read of author-maintained command log and calls.tsv; native Codex tool transcript unavailable&quot;,
+      &quot;pinned_files_verified&quot;: 105,
+      &quot;manual_command_review_completed&quot;: true,
+      &quot;observed_violations&quot;: [],
+      &quot;equivalence_limitation&quot;: &quot;Claude stream audit_a10 was not applicable to Codex tool transport; this does not claim identical transcript-level auditing.&quot;
+    }
+  },
+  &quot;reread&quot;: {
+    &quot;key&quot;: &quot;t0_p24cc08f23e&quot;,
+    &quot;entry&quot;: &quot;ok&quot;,
+    &quot;blocks&quot;: 39,
+    &quot;judge2d&quot;: true,
+    &quot;fails&quot;: [],
+    &quot;min_sine&quot;: 0.4424,
+    &quot;strict&quot;: false,
+    &quot;stable&quot;: false,
+    &quot;min_sj&quot;: 0.4424141803713233,
+    &quot;min_sj_2x&quot;: 0.44241418037129193,
+    &quot;stable_numbers&quot;: true,
+    &quot;block_pass&quot;: true,
+    &quot;audit_pass&quot;: false,
+    &quot;counted&quot;: false,
+    &quot;counted_why&quot;: [
+      &quot;STRICT&quot;
+    ],
+    &quot;judge&quot;: &quot;FAIL&quot;,
+    &quot;judge_failed&quot;: [
+      &quot;ar_ok&quot;,
+      &quot;capture_ok&quot;
+    ],
+    &quot;harness&quot;: &quot;Fail&quot;,
+    &quot;harness_failed&quot;: [
+      &quot;D&quot;
+    ],
+    &quot;not_run&quot;: null,
+    &quot;edge_ratio&quot;: 25.648533047497803,
+    &quot;harness_rev&quot;: 11,
+    &quot;layered&quot;: true,
+    &quot;occupancy&quot;: true,
+    &quot;mesh_components&quot;: 1,
+    &quot;region_fill&quot;: [
+      [
+        &quot;fill&quot;,
+        0,
+        &quot;drawn&quot;
+      ],
+      [
+        &quot;fill&quot;,
+        2,
+        &quot;drawn&quot;
+      ],
+      [
+        &quot;fill&quot;,
+        3,
+        &quot;drawn&quot;
+      ]
+    ],
+    &quot;guard&quot;: &quot;{\&quot;why\&quot;: \&quot;exit\&quot;, \&quot;rc\&quot;: 0, \&quot;peak_gb\&quot;: 0.04, \&quot;wall_s\&quot;: 1.7}&quot;
+  },
+  &quot;attempt_history&quot;: [],
+  &quot;evidence&quot;: {
+    &quot;result.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;725bd9f9d0105d3615bf85cde6e6ad571dce7d1f2f76bb602826e4d665d17eec&quot;
+    },
+    &quot;reread.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;b9d010c58af7b1c1b2b1c814026a53ff0043e3a94eaa9a42eccc7a5d8db41d15&quot;
+    },
+    &quot;audit.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;0f6a58e60def475b0952d44f8dac1e7c1b77a913c4be3667166368fe02b011eb&quot;
+    },
+    &quot;session.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;c21603a640f270382e82d7a7cd87df921a04a4c64ad69de9cc844a71647bd923&quot;
+    },
+    &quot;final_layout.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;3695dc7d428c7f3250dc735b4c76e17e9a7c4c34524f4391e598e4847a532412&quot;
+    },
+    &quot;drawing&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;a00fc18fbf01fbe9f1521e00f0369d04c554240bc73a6bb6de6cb69693c92022&quot;
+    }
+  }
+}</pre></details></article></div></section><section><h2>t8_block_04061e68</h2><div class="grid"><article><header><b>Sonnet</b><span class="">Fail</span></header><a href="sonnet-t8_block_04061e68.png" target="_blank"><img src="sonnet-t8_block_04061e68.png" alt="Sonnet layout"></a><p>Attempt 1 · 5.47 min · usage $0.69</p><p>35 blocks · SJ 0.4214 / 2× 0.4214</p><p>[&#x27;Element aspect ratio failed&#x27;]</p><details><summary>Checks, attempts & provenance</summary><pre>{
+  &quot;result&quot;: {
+    &quot;attempt&quot;: 1,
+    &quot;ident&quot;: &quot;t8_block_04061e68&quot;,
+    &quot;key&quot;: &quot;t0_p8043ae6ae7&quot;,
+    &quot;start&quot;: &quot;2026-10-06T12:33:35&quot;,
+    &quot;model&quot;: &quot;claude-sonnet-5-5&quot;,
+    &quot;wall_min&quot;: 5.47,
+    &quot;stopped&quot;: &quot;finished&quot;,
+    &quot;cost_usd&quot;: 0.6907458000000001,
+    &quot;cost_is_upper_bound&quot;: false,
+    &quot;num_turns&quot;: 12,
+    &quot;end_reason&quot;: &quot;success / completed&quot;,
+    &quot;revisions&quot;: 1,
+    &quot;void&quot;: [],
+    &quot;final_rev&quot;: 1,
+    &quot;blocks&quot;: 35,
+    &quot;reread_counted&quot;: false,
+    &quot;stable_numbers&quot;: true,
+    &quot;min_sj&quot;: 0.4213784538209684,
+    &quot;min_sj_2x&quot;: 0.42137845382096367,
+    &quot;author_counted&quot;: false,
+    &quot;counted&quot;: false,
+    &quot;outcome&quot;: &quot;not-counted&quot;,
+    &quot;why&quot;: &quot;re-read rev 1: STRICT&quot;,
+    &quot;end&quot;: &quot;2026-10-06T12:39:06&quot;
+  },
+  &quot;reread&quot;: {
+    &quot;key&quot;: &quot;t0_p8043ae6ae7&quot;,
+    &quot;entry&quot;: &quot;ok&quot;,
+    &quot;blocks&quot;: 35,
+    &quot;judge2d&quot;: true,
+    &quot;fails&quot;: [],
+    &quot;min_sine&quot;: 0.4214,
+    &quot;strict&quot;: false,
+    &quot;stable&quot;: false,
+    &quot;min_sj&quot;: 0.4213784538209684,
+    &quot;min_sj_2x&quot;: 0.42137845382096367,
+    &quot;stable_numbers&quot;: true,
+    &quot;block_pass&quot;: true,
+    &quot;audit_pass&quot;: false,
+    &quot;counted&quot;: false,
+    &quot;counted_why&quot;: [
+      &quot;STRICT&quot;
+    ],
+    &quot;judge&quot;: &quot;FAIL&quot;,
+    &quot;judge_failed&quot;: [
+      &quot;ar_ok&quot;
+    ],
+    &quot;harness&quot;: &quot;Fail&quot;,
+    &quot;harness_failed&quot;: [
+      &quot;D&quot;
+    ],
+    &quot;not_run&quot;: null,
+    &quot;edge_ratio&quot;: 8.494932031640761,
+    &quot;harness_rev&quot;: 11,
+    &quot;layered&quot;: true,
+    &quot;occupancy&quot;: true,
+    &quot;mesh_components&quot;: 1,
+    &quot;region_fill&quot;: [
+      [
+        &quot;fill&quot;,
+        1,
+        &quot;drawn&quot;
+      ],
+      [
+        &quot;fill&quot;,
+        2,
+        &quot;drawn&quot;
+      ],
+      [
+        &quot;fill&quot;,
+        0,
+        &quot;ring, core at lambda 0.5&quot;
+      ]
+    ],
+    &quot;guard&quot;: &quot;{\&quot;why\&quot;: \&quot;exit\&quot;, \&quot;rc\&quot;: 0, \&quot;peak_gb\&quot;: 0.045, \&quot;wall_s\&quot;: 2.7}&quot;
+  },
+  &quot;attempt_history&quot;: [
+    {
+      &quot;attempt&quot;: 1,
+      &quot;ident&quot;: &quot;t8_block_04061e68&quot;,
+      &quot;key&quot;: &quot;t0_p8043ae6ae7&quot;,
+      &quot;start&quot;: &quot;2026-10-06T12:33:35&quot;,
+      &quot;model&quot;: &quot;claude-sonnet-5-5&quot;,
+      &quot;wall_min&quot;: 5.47,
+      &quot;stopped&quot;: &quot;finished&quot;,
+      &quot;cost_usd&quot;: 0.6907458000000001,
+      &quot;cost_is_upper_bound&quot;: false,
+      &quot;num_turns&quot;: 12,
+      &quot;end_reason&quot;: &quot;success / completed&quot;,
+      &quot;revisions&quot;: 1,
+      &quot;void&quot;: [],
+      &quot;final_rev&quot;: 1,
+      &quot;blocks&quot;: 35,
+      &quot;reread_counted&quot;: false,
+      &quot;stable_numbers&quot;: true,
+      &quot;min_sj&quot;: 0.4213784538209684,
+      &quot;min_sj_2x&quot;: 0.42137845382096367,
+      &quot;author_counted&quot;: false,
+      &quot;counted&quot;: false,
+      &quot;outcome&quot;: &quot;not-counted&quot;,
+      &quot;why&quot;: &quot;re-read rev 1: STRICT&quot;,
+      &quot;end&quot;: &quot;2026-10-06T12:39:06&quot;
+    }
+  ],
+  &quot;evidence&quot;: {
+    &quot;result.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;ee19f6d9350c295d03e6930cc4226b7f1def60193fef21a85f8c333c01f9c665&quot;
+    },
+    &quot;reread.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;a94fd15cc24c5f08888237479eb904ef4ccc4c50af54d9d1441b7ee1e0f4980d&quot;
+    },
+    &quot;audit.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;5aae6b90ac46cd303871b71b6e6706a3deb4eaff34c3e777554d7c487763d79c&quot;
+    },
+    &quot;session.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;d42b85d9db11e3e2664e7baebc9879791a468c095c5775ba25820c351f41975e&quot;
+    },
+    &quot;final_layout.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;5c7441f34627150d473ee274a1c7b6e9e9681f420c810327fa5f6345de7a6e38&quot;
+    },
+    &quot;drawing&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;7ea6df81a99d19e2ee8b7fa26f8b16990b24709a2d6a19547488f54fc7438db9&quot;
+    }
+  }
+}</pre></details></article><article><header><b>Opus</b><span class="">Fail</span></header><a href="opus-t8_block_04061e68.png" target="_blank"><img src="opus-t8_block_04061e68.png" alt="Opus layout"></a><p>Attempt 1 · 3.93 min · usage $0.98</p><p>35 blocks · SJ 0.5002 / 2× 0.5002</p><p>[&#x27;Element aspect ratio failed&#x27;]</p><details><summary>Checks, attempts & provenance</summary><pre>{
+  &quot;result&quot;: {
+    &quot;attempt&quot;: 1,
+    &quot;ident&quot;: &quot;t8_block_04061e68&quot;,
+    &quot;key&quot;: &quot;t0_p8043ae6ae7&quot;,
+    &quot;start&quot;: &quot;2026-10-06T20:37:17&quot;,
+    &quot;model&quot;: &quot;claude-opus-5-5&quot;,
+    &quot;wall_min&quot;: 3.93,
+    &quot;stopped&quot;: &quot;finished&quot;,
+    &quot;cost_usd&quot;: 0.9774286,
+    &quot;cost_is_upper_bound&quot;: false,
+    &quot;num_turns&quot;: 17,
+    &quot;end_reason&quot;: &quot;success / completed&quot;,
+    &quot;revisions&quot;: 1,
+    &quot;void&quot;: [],
+    &quot;final_rev&quot;: 1,
+    &quot;blocks&quot;: 35,
+    &quot;reread_counted&quot;: false,
+    &quot;stable_numbers&quot;: true,
+    &quot;min_sj&quot;: 0.5002172725273182,
+    &quot;min_sj_2x&quot;: 0.5002172725273066,
+    &quot;author_counted&quot;: false,
+    &quot;counted&quot;: false,
+    &quot;outcome&quot;: &quot;not-counted&quot;,
+    &quot;why&quot;: &quot;re-read rev 1: STRICT&quot;,
+    &quot;end&quot;: &quot;2026-10-06T20:41:15&quot;
+  },
+  &quot;reread&quot;: {
+    &quot;key&quot;: &quot;t0_p8043ae6ae7&quot;,
+    &quot;entry&quot;: &quot;ok&quot;,
+    &quot;blocks&quot;: 35,
+    &quot;judge2d&quot;: true,
+    &quot;fails&quot;: [],
+    &quot;min_sine&quot;: 0.5002,
+    &quot;strict&quot;: false,
+    &quot;stable&quot;: false,
+    &quot;min_sj&quot;: 0.5002172725273182,
+    &quot;min_sj_2x&quot;: 0.5002172725273066,
+    &quot;stable_numbers&quot;: true,
+    &quot;block_pass&quot;: true,
+    &quot;audit_pass&quot;: false,
+    &quot;counted&quot;: false,
+    &quot;counted_why&quot;: [
+      &quot;STRICT&quot;
+    ],
+    &quot;judge&quot;: &quot;FAIL&quot;,
+    &quot;judge_failed&quot;: [
+      &quot;ar_ok&quot;
+    ],
+    &quot;harness&quot;: &quot;Fail&quot;,
+    &quot;harness_failed&quot;: [
+      &quot;D&quot;
+    ],
+    &quot;not_run&quot;: null,
+    &quot;edge_ratio&quot;: 9.605637517924126,
+    &quot;harness_rev&quot;: 11,
+    &quot;layered&quot;: true,
+    &quot;occupancy&quot;: true,
+    &quot;mesh_components&quot;: 1,
+    &quot;region_fill&quot;: [
+      [
+        &quot;fill&quot;,
+        0,
+        &quot;drawn&quot;
+      ],
+      [
+        &quot;fill&quot;,
+        1,
+        &quot;drawn&quot;
+      ],
+      [
+        &quot;fill&quot;,
+        2,
+        &quot;drawn&quot;
+      ]
+    ],
+    &quot;guard&quot;: &quot;{\&quot;why\&quot;: \&quot;exit\&quot;, \&quot;rc\&quot;: 0, \&quot;peak_gb\&quot;: 0.047, \&quot;wall_s\&quot;: 2.9}&quot;
+  },
+  &quot;attempt_history&quot;: [
+    {
+      &quot;attempt&quot;: 1,
+      &quot;ident&quot;: &quot;t8_block_04061e68&quot;,
+      &quot;key&quot;: &quot;t0_p8043ae6ae7&quot;,
+      &quot;start&quot;: &quot;2026-10-06T20:37:17&quot;,
+      &quot;model&quot;: &quot;claude-opus-5-5&quot;,
+      &quot;wall_min&quot;: 3.93,
+      &quot;stopped&quot;: &quot;finished&quot;,
+      &quot;cost_usd&quot;: 0.9774286,
+      &quot;cost_is_upper_bound&quot;: false,
+      &quot;num_turns&quot;: 17,
+      &quot;end_reason&quot;: &quot;success / completed&quot;,
+      &quot;revisions&quot;: 1,
+      &quot;void&quot;: [],
+      &quot;final_rev&quot;: 1,
+      &quot;blocks&quot;: 35,
+      &quot;reread_counted&quot;: false,
+      &quot;stable_numbers&quot;: true,
+      &quot;min_sj&quot;: 0.5002172725273182,
+      &quot;min_sj_2x&quot;: 0.5002172725273066,
+      &quot;author_counted&quot;: false,
+      &quot;counted&quot;: false,
+      &quot;outcome&quot;: &quot;not-counted&quot;,
+      &quot;why&quot;: &quot;re-read rev 1: STRICT&quot;,
+      &quot;end&quot;: &quot;2026-10-06T20:41:15&quot;
+    }
+  ],
+  &quot;evidence&quot;: {
+    &quot;result.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;6c6081d2aebfb8dddc5989c749cc655ec6d891532d86f84d8ab3408a10697560&quot;
+    },
+    &quot;reread.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;3da1b360ec539a1fe7022f413f91f6ce5c49a681470b8c4f2035ba0e10f1aa10&quot;
+    },
+    &quot;audit.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;b967ae9c88edd9ce6b3fbfb3f67ff6cbaa094f480694ec276663b807fb7af3d1&quot;
+    },
+    &quot;session.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;a1a08bad1031bc38c938d7d995f8356b739c48a6c477043ff156b1fb51c0a6b3&quot;
+    },
+    &quot;final_layout.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;c19f9f576b7c20f4c81d23e9013e5118187d38ebe2ed43cdfb7c2b9d6ceb2866&quot;
+    },
+    &quot;drawing&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;b1b9839169787ad9946bc7104a95de5ca39cefef037a14fc5a45fdaad1c6b4b0&quot;
+    }
+  }
+}</pre></details></article><article><header><b>Fable</b><span class="">Not requested</span></header><div class="empty">No submitted drawing</div><details><summary>Checks, attempts & provenance</summary><pre>{
+  &quot;result&quot;: null,
+  &quot;reread&quot;: {},
+  &quot;attempt_history&quot;: [],
+  &quot;evidence&quot;: {}
+}</pre></details></article><article><header><b>Astra</b><span class="">Not requested</span></header><div class="empty">No submitted drawing</div><details><summary>Checks, attempts & provenance</summary><pre>{
+  &quot;result&quot;: null,
+  &quot;reread&quot;: {},
+  &quot;attempt_history&quot;: [],
+  &quot;evidence&quot;: {}
+}</pre></details></article></div></section><section><h2>t8_profile_011604b8</h2><div class="grid"><article><header><b>Sonnet</b><span class="">Fail</span></header><a href="sonnet-t8_profile_011604b8.png" target="_blank"><img src="sonnet-t8_profile_011604b8.png" alt="Sonnet layout"></a><p>Attempt 1 · 16.58 min · usage $1.98</p><p>29 blocks · SJ — / 2× —</p><p>re-read rev 1: STRICT</p><details><summary>Checks, attempts & provenance</summary><pre>{
+  &quot;result&quot;: {
+    &quot;attempt&quot;: 1,
+    &quot;ident&quot;: &quot;t8_profile_011604b8&quot;,
+    &quot;key&quot;: &quot;t0_p2aec03cfd1&quot;,
+    &quot;start&quot;: &quot;2026-10-06T15:14:30&quot;,
+    &quot;model&quot;: &quot;claude-sonnet-5-5&quot;,
+    &quot;wall_min&quot;: 16.58,
+    &quot;stopped&quot;: &quot;finished&quot;,
+    &quot;cost_usd&quot;: 1.9790275999999998,
+    &quot;cost_is_upper_bound&quot;: false,
+    &quot;num_turns&quot;: 10,
+    &quot;end_reason&quot;: &quot;success / completed&quot;,
+    &quot;revisions&quot;: 1,
+    &quot;void&quot;: [],
+    &quot;final_rev&quot;: 1,
+    &quot;blocks&quot;: 29,
+    &quot;reread_counted&quot;: false,
+    &quot;stable_numbers&quot;: false,
+    &quot;min_sj&quot;: null,
+    &quot;min_sj_2x&quot;: null,
+    &quot;author_counted&quot;: false,
+    &quot;counted&quot;: false,
+    &quot;outcome&quot;: &quot;not-counted&quot;,
+    &quot;why&quot;: &quot;re-read rev 1: STRICT&quot;,
+    &quot;end&quot;: &quot;2026-10-06T15:31:05&quot;
+  },
+  &quot;reread&quot;: {
+    &quot;key&quot;: &quot;t0_p2aec03cfd1&quot;,
+    &quot;entry&quot;: &quot;ok&quot;,
+    &quot;blocks&quot;: 29,
+    &quot;judge2d&quot;: false,
+    &quot;fails&quot;: [
+      &quot;F3:CORNER-SINE&quot;,
+      &quot;F3:SMOOTH-CORNER&gt;150&quot;,
+      &quot;F3:TFI-SJ&quot;
+    ],
+    &quot;min_sine&quot;: 0.0002,
+    &quot;strict&quot;: null,
+    &quot;stable&quot;: null,
+    &quot;min_sj&quot;: null,
+    &quot;min_sj_2x&quot;: null,
+    &quot;stable_numbers&quot;: false,
+    &quot;block_pass&quot;: null,
+    &quot;audit_pass&quot;: false,
+    &quot;counted&quot;: false,
+    &quot;counted_why&quot;: [
+      &quot;STRICT&quot;
+    ],
+    &quot;judge&quot;: null,
+    &quot;judge_failed&quot;: null,
+    &quot;harness&quot;: null,
+    &quot;harness_failed&quot;: null,
+    &quot;not_run&quot;: &quot;build: the layout fails the 2-D judge: F3:CORNER-SINE,F3:SMOOTH-CORNER&gt;150,F3:TFI-SJ&quot;,
+    &quot;edge_ratio&quot;: null,
+    &quot;harness_rev&quot;: 11,
+    &quot;layered&quot;: true,
+    &quot;occupancy&quot;: null,
+    &quot;mesh_components&quot;: null,
+    &quot;region_fill&quot;: [
+      [
+        &quot;fill&quot;,
+        0,
+        &quot;drawn&quot;
+      ],
+      [
+        &quot;fill&quot;,
+        1,
+        &quot;drawn&quot;
+      ],
+      [
+        &quot;fill&quot;,
+        3,
+        &quot;drawn&quot;
+      ]
+    ],
+    &quot;guard&quot;: &quot;{\&quot;why\&quot;: \&quot;exit\&quot;, \&quot;rc\&quot;: 0, \&quot;peak_gb\&quot;: 0.016, \&quot;wall_s\&quot;: 0.1}&quot;
+  },
+  &quot;attempt_history&quot;: [
+    {
+      &quot;attempt&quot;: 1,
+      &quot;ident&quot;: &quot;t8_profile_011604b8&quot;,
+      &quot;key&quot;: &quot;t0_p2aec03cfd1&quot;,
+      &quot;start&quot;: &quot;2026-10-06T15:14:30&quot;,
+      &quot;model&quot;: &quot;claude-sonnet-5-5&quot;,
+      &quot;wall_min&quot;: 16.58,
+      &quot;stopped&quot;: &quot;finished&quot;,
+      &quot;cost_usd&quot;: 1.9790275999999998,
+      &quot;cost_is_upper_bound&quot;: false,
+      &quot;num_turns&quot;: 10,
+      &quot;end_reason&quot;: &quot;success / completed&quot;,
+      &quot;revisions&quot;: 1,
+      &quot;void&quot;: [],
+      &quot;final_rev&quot;: 1,
+      &quot;blocks&quot;: 29,
+      &quot;reread_counted&quot;: false,
+      &quot;stable_numbers&quot;: false,
+      &quot;min_sj&quot;: null,
+      &quot;min_sj_2x&quot;: null,
+      &quot;author_counted&quot;: false,
+      &quot;counted&quot;: false,
+      &quot;outcome&quot;: &quot;not-counted&quot;,
+      &quot;why&quot;: &quot;re-read rev 1: STRICT&quot;,
+      &quot;end&quot;: &quot;2026-10-06T15:31:05&quot;
+    }
+  ],
+  &quot;evidence&quot;: {
+    &quot;result.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;4ef37f2e8f3f93e40599fd002b77c089df8397f364bc38ef7b5879e0c4987c63&quot;
+    },
+    &quot;reread.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;7442298d5abe27cf1a6a5423d0d7bdeff518bc3bdd1c5028b22e336e95df84fc&quot;
+    },
+    &quot;audit.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;82d672f85970962e4faf4b2c4fadb8b02967e6c50db7f85984f5de812a8e3df2&quot;
+    },
+    &quot;session.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;1efd2e243e15d2d0d562c58e590038690b77095847249cbae49066f47ccc7f08&quot;
+    },
+    &quot;final_layout.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;a8a2fa8de88fe2358165721141592bf89bcbab6f40d0bab768cf0bff1fdba20a&quot;
+    },
+    &quot;drawing&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;650a35bc8765ab6f3806a1816cbeeafad64586bf07136cd2fbdd51547357b88c&quot;
+    }
+  }
+}</pre></details></article><article><header><b>Opus</b><span class="">Fail</span></header><div class="empty">No submitted drawing</div><p>Attempt 1 · 19.04 min · usage $3.55</p><p>— blocks · SJ — / 2× —</p><p>no revision run</p><details><summary>Checks, attempts & provenance</summary><pre>{
+  &quot;result&quot;: {
+    &quot;attempt&quot;: 1,
+    &quot;ident&quot;: &quot;t8_profile_011604b8&quot;,
+    &quot;key&quot;: &quot;t0_p2aec03cfd1&quot;,
+    &quot;start&quot;: &quot;2026-10-06T20:41:16&quot;,
+    &quot;model&quot;: &quot;claude-opus-5-5&quot;,
+    &quot;wall_min&quot;: 19.04,
+    &quot;stopped&quot;: &quot;finished&quot;,
+    &quot;cost_usd&quot;: 3.5506393999999997,
+    &quot;cost_is_upper_bound&quot;: false,
+    &quot;num_turns&quot;: 12,
+    &quot;end_reason&quot;: &quot;success / completed&quot;,
+    &quot;revisions&quot;: 0,
+    &quot;void&quot;: [],
+    &quot;counted&quot;: false,
+    &quot;outcome&quot;: &quot;not-counted&quot;,
+    &quot;why&quot;: &quot;no revision run&quot;,
+    &quot;end&quot;: &quot;2026-10-06T21:00:18&quot;
+  },
+  &quot;reread&quot;: {},
+  &quot;attempt_history&quot;: [
+    {
+      &quot;attempt&quot;: 1,
+      &quot;ident&quot;: &quot;t8_profile_011604b8&quot;,
+      &quot;key&quot;: &quot;t0_p2aec03cfd1&quot;,
+      &quot;start&quot;: &quot;2026-10-06T20:41:16&quot;,
+      &quot;model&quot;: &quot;claude-opus-5-5&quot;,
+      &quot;wall_min&quot;: 19.04,
+      &quot;stopped&quot;: &quot;finished&quot;,
+      &quot;cost_usd&quot;: 3.5506393999999997,
+      &quot;cost_is_upper_bound&quot;: false,
+      &quot;num_turns&quot;: 12,
+      &quot;end_reason&quot;: &quot;success / completed&quot;,
+      &quot;revisions&quot;: 0,
+      &quot;void&quot;: [],
+      &quot;counted&quot;: false,
+      &quot;outcome&quot;: &quot;not-counted&quot;,
+      &quot;why&quot;: &quot;no revision run&quot;,
+      &quot;end&quot;: &quot;2026-10-06T21:00:18&quot;
+    }
+  ],
+  &quot;evidence&quot;: {
+    &quot;result.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;b82cb9c5a9022f504c82ed8d5207be13b83855fac9a106dc4cf0a81bd931f8d1&quot;
+    },
+    &quot;audit.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;c8f33737db8ee02ab0083c86d646d4613cc969309ed12c6a5bf152359d815de9&quot;
+    },
+    &quot;session.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;28f469523ca8868ed7ff6583a54fdce49953e112117585c7c472ae61546a86dd&quot;
+    }
+  }
+}</pre></details></article><article><header><b>Fable</b><span class="">Not requested</span></header><div class="empty">No submitted drawing</div><details><summary>Checks, attempts & provenance</summary><pre>{
+  &quot;result&quot;: null,
+  &quot;reread&quot;: {},
+  &quot;attempt_history&quot;: [],
+  &quot;evidence&quot;: {}
+}</pre></details></article><article><header><b>Astra</b><span class="">Not requested</span></header><div class="empty">No submitted drawing</div><details><summary>Checks, attempts & provenance</summary><pre>{
+  &quot;result&quot;: null,
+  &quot;reread&quot;: {},
+  &quot;attempt_history&quot;: [],
+  &quot;evidence&quot;: {}
+}</pre></details></article></div></section><section><h2>t8_profile_011a42a8</h2><div class="grid"><article><header><b>Sonnet</b><span class="">Fail</span></header><a href="sonnet-t8_profile_011a42a8.png" target="_blank"><img src="sonnet-t8_profile_011a42a8.png" alt="Sonnet layout"></a><p>Attempt 1 · 16.3 min · usage $2.06</p><p>29 blocks · SJ — / 2× —</p><p>re-read rev 1: STRICT</p><details><summary>Checks, attempts & provenance</summary><pre>{
+  &quot;result&quot;: {
+    &quot;attempt&quot;: 1,
+    &quot;ident&quot;: &quot;t8_profile_011a42a8&quot;,
+    &quot;key&quot;: &quot;t0_p2a39e90d99&quot;,
+    &quot;start&quot;: &quot;2026-10-06T18:49:22&quot;,
+    &quot;model&quot;: &quot;claude-sonnet-5-5&quot;,
+    &quot;wall_min&quot;: 16.3,
+    &quot;stopped&quot;: &quot;finished&quot;,
+    &quot;cost_usd&quot;: 2.0552696000000004,
+    &quot;cost_is_upper_bound&quot;: false,
+    &quot;num_turns&quot;: 12,
+    &quot;end_reason&quot;: &quot;success / completed&quot;,
+    &quot;revisions&quot;: 1,
+    &quot;void&quot;: [],
+    &quot;final_rev&quot;: 1,
+    &quot;blocks&quot;: 29,
+    &quot;reread_counted&quot;: false,
+    &quot;stable_numbers&quot;: false,
+    &quot;min_sj&quot;: null,
+    &quot;min_sj_2x&quot;: null,
+    &quot;author_counted&quot;: false,
+    &quot;counted&quot;: false,
+    &quot;outcome&quot;: &quot;not-counted&quot;,
+    &quot;why&quot;: &quot;re-read rev 1: STRICT&quot;,
+    &quot;end&quot;: &quot;2026-10-06T19:05:40&quot;
+  },
+  &quot;reread&quot;: {
+    &quot;key&quot;: &quot;t0_p2a39e90d99&quot;,
+    &quot;entry&quot;: &quot;ok&quot;,
+    &quot;blocks&quot;: 29,
+    &quot;judge2d&quot;: false,
+    &quot;fails&quot;: [
+      &quot;F0:CORNER-SINE&quot;,
+      &quot;F0:TFI-SJ&quot;
+    ],
+    &quot;min_sine&quot;: 0.157,
+    &quot;strict&quot;: null,
+    &quot;stable&quot;: null,
+    &quot;min_sj&quot;: null,
+    &quot;min_sj_2x&quot;: null,
+    &quot;stable_numbers&quot;: false,
+    &quot;block_pass&quot;: null,
+    &quot;audit_pass&quot;: false,
+    &quot;counted&quot;: false,
+    &quot;counted_why&quot;: [
+      &quot;STRICT&quot;
+    ],
+    &quot;judge&quot;: null,
+    &quot;judge_failed&quot;: null,
+    &quot;harness&quot;: null,
+    &quot;harness_failed&quot;: null,
+    &quot;not_run&quot;: &quot;build: the layout fails the 2-D judge: F0:CORNER-SINE,F0:TFI-SJ&quot;,
+    &quot;edge_ratio&quot;: null,
+    &quot;harness_rev&quot;: 11,
+    &quot;layered&quot;: true,
+    &quot;occupancy&quot;: null,
+    &quot;mesh_components&quot;: null,
+    &quot;region_fill&quot;: [
+      [
+        &quot;fill&quot;,
+        0,
+        &quot;drawn&quot;
+      ],
+      [
+        &quot;fill&quot;,
+        1,
+        &quot;drawn&quot;
+      ]
+    ],
+    &quot;guard&quot;: &quot;{\&quot;why\&quot;: \&quot;exit\&quot;, \&quot;rc\&quot;: 0, \&quot;peak_gb\&quot;: 0.015, \&quot;wall_s\&quot;: 0.1}&quot;
+  },
+  &quot;attempt_history&quot;: [
+    {
+      &quot;attempt&quot;: 1,
+      &quot;ident&quot;: &quot;t8_profile_011a42a8&quot;,
+      &quot;key&quot;: &quot;t0_p2a39e90d99&quot;,
+      &quot;start&quot;: &quot;2026-10-06T18:49:22&quot;,
+      &quot;model&quot;: &quot;claude-sonnet-5-5&quot;,
+      &quot;wall_min&quot;: 16.3,
+      &quot;stopped&quot;: &quot;finished&quot;,
+      &quot;cost_usd&quot;: 2.0552696000000004,
+      &quot;cost_is_upper_bound&quot;: false,
+      &quot;num_turns&quot;: 12,
+      &quot;end_reason&quot;: &quot;success / completed&quot;,
+      &quot;revisions&quot;: 1,
+      &quot;void&quot;: [],
+      &quot;final_rev&quot;: 1,
+      &quot;blocks&quot;: 29,
+      &quot;reread_counted&quot;: false,
+      &quot;stable_numbers&quot;: false,
+      &quot;min_sj&quot;: null,
+      &quot;min_sj_2x&quot;: null,
+      &quot;author_counted&quot;: false,
+      &quot;counted&quot;: false,
+      &quot;outcome&quot;: &quot;not-counted&quot;,
+      &quot;why&quot;: &quot;re-read rev 1: STRICT&quot;,
+      &quot;end&quot;: &quot;2026-10-06T19:05:40&quot;
+    }
+  ],
+  &quot;evidence&quot;: {
+    &quot;result.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;715fe8a5f20a19b0a884c4200521c9ddfe7e31c18a34bec6a5496c80a6ca8c17&quot;
+    },
+    &quot;reread.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;ab64c04a4c5492dc1818b71a3153af28ed5dc316dafc3a05d23b4b6d607f51cc&quot;
+    },
+    &quot;audit.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;ab0827f467fd2ca2fd75114612c11e9cc1520912087536b67d2500d5bb855591&quot;
+    },
+    &quot;session.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;cf006945423b0e9c1d61013dc288a7413c794fe11e6577541006c81b807203f3&quot;
+    },
+    &quot;final_layout.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;6bd8804b87212009edb814b368a656dd2f864a5d2829c6c8cf90e56d4a0ed4f1&quot;
+    },
+    &quot;drawing&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;64a0e3bc5e1a29fdeca57dccb94911d4b486df69072e4f654166a4bce78da25c&quot;
+    }
+  }
+}</pre></details></article><article><header><b>Opus</b><span class="">Fail</span></header><a href="opus-t8_profile_011a42a8.png" target="_blank"><img src="opus-t8_profile_011a42a8.png" alt="Opus layout"></a><p>Attempt 1 · 14.95 min · usage $2.85</p><p>20 blocks · SJ — / 2× —</p><p>re-read rev 1: STRICT</p><details><summary>Checks, attempts & provenance</summary><pre>{
+  &quot;result&quot;: {
+    &quot;attempt&quot;: 1,
+    &quot;ident&quot;: &quot;t8_profile_011a42a8&quot;,
+    &quot;key&quot;: &quot;t0_p2a39e90d99&quot;,
+    &quot;start&quot;: &quot;2026-10-06T21:00:19&quot;,
+    &quot;model&quot;: &quot;claude-opus-5-5&quot;,
+    &quot;wall_min&quot;: 14.95,
+    &quot;stopped&quot;: &quot;finished&quot;,
+    &quot;cost_usd&quot;: 2.8537422,
+    &quot;cost_is_upper_bound&quot;: false,
+    &quot;num_turns&quot;: 16,
+    &quot;end_reason&quot;: &quot;success / completed&quot;,
+    &quot;revisions&quot;: 1,
+    &quot;void&quot;: [],
+    &quot;final_rev&quot;: 1,
+    &quot;blocks&quot;: 20,
+    &quot;reread_counted&quot;: false,
+    &quot;stable_numbers&quot;: false,
+    &quot;min_sj&quot;: null,
+    &quot;min_sj_2x&quot;: null,
+    &quot;author_counted&quot;: false,
+    &quot;counted&quot;: false,
+    &quot;outcome&quot;: &quot;not-counted&quot;,
+    &quot;why&quot;: &quot;re-read rev 1: STRICT&quot;,
+    &quot;end&quot;: &quot;2026-10-06T21:15:16&quot;
+  },
+  &quot;reread&quot;: {
+    &quot;key&quot;: &quot;t0_p2a39e90d99&quot;,
+    &quot;entry&quot;: &quot;ok&quot;,
+    &quot;blocks&quot;: 20,
+    &quot;judge2d&quot;: false,
+    &quot;fails&quot;: [
+      &quot;F0:CORNER-SINE&quot;,
+      &quot;F0:TFI-SJ&quot;
+    ],
+    &quot;min_sine&quot;: 0.157,
+    &quot;strict&quot;: null,
+    &quot;stable&quot;: null,
+    &quot;min_sj&quot;: null,
+    &quot;min_sj_2x&quot;: null,
+    &quot;stable_numbers&quot;: false,
+    &quot;block_pass&quot;: null,
+    &quot;audit_pass&quot;: false,
+    &quot;counted&quot;: false,
+    &quot;counted_why&quot;: [
+      &quot;STRICT&quot;
+    ],
+    &quot;judge&quot;: null,
+    &quot;judge_failed&quot;: null,
+    &quot;harness&quot;: null,
+    &quot;harness_failed&quot;: null,
+    &quot;not_run&quot;: &quot;build: the layout fails the 2-D judge: F0:CORNER-SINE,F0:TFI-SJ&quot;,
+    &quot;edge_ratio&quot;: null,
+    &quot;harness_rev&quot;: 11,
+    &quot;layered&quot;: true,
+    &quot;occupancy&quot;: null,
+    &quot;mesh_components&quot;: null,
+    &quot;region_fill&quot;: [
+      [
+        &quot;fill&quot;,
+        0,
+        &quot;drawn&quot;
+      ],
+      [
+        &quot;fill&quot;,
+        1,
+        &quot;drawn&quot;
+      ]
+    ],
+    &quot;guard&quot;: &quot;{\&quot;why\&quot;: \&quot;exit\&quot;, \&quot;rc\&quot;: 0, \&quot;peak_gb\&quot;: 0.015, \&quot;wall_s\&quot;: 0.1}&quot;
+  },
+  &quot;attempt_history&quot;: [
+    {
+      &quot;attempt&quot;: 1,
+      &quot;ident&quot;: &quot;t8_profile_011a42a8&quot;,
+      &quot;key&quot;: &quot;t0_p2a39e90d99&quot;,
+      &quot;start&quot;: &quot;2026-10-06T21:00:19&quot;,
+      &quot;model&quot;: &quot;claude-opus-5-5&quot;,
+      &quot;wall_min&quot;: 14.95,
+      &quot;stopped&quot;: &quot;finished&quot;,
+      &quot;cost_usd&quot;: 2.8537422,
+      &quot;cost_is_upper_bound&quot;: false,
+      &quot;num_turns&quot;: 16,
+      &quot;end_reason&quot;: &quot;success / completed&quot;,
+      &quot;revisions&quot;: 1,
+      &quot;void&quot;: [],
+      &quot;final_rev&quot;: 1,
+      &quot;blocks&quot;: 20,
+      &quot;reread_counted&quot;: false,
+      &quot;stable_numbers&quot;: false,
+      &quot;min_sj&quot;: null,
+      &quot;min_sj_2x&quot;: null,
+      &quot;author_counted&quot;: false,
+      &quot;counted&quot;: false,
+      &quot;outcome&quot;: &quot;not-counted&quot;,
+      &quot;why&quot;: &quot;re-read rev 1: STRICT&quot;,
+      &quot;end&quot;: &quot;2026-10-06T21:15:16&quot;
+    }
+  ],
+  &quot;evidence&quot;: {
+    &quot;result.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;5aaa600b36b28d5d38773cbf14422ac96ddf66f916804741aa37a00ef8038dd8&quot;
+    },
+    &quot;reread.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;b4387d406e5b3876f7f809d191387797444c769d40b8879d299d8f763969dd21&quot;
+    },
+    &quot;audit.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;bc66b421730554897e6e9500de82b77fb8abacf3b2f12738446d97020f19cbc9&quot;
+    },
+    &quot;session.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;edf4fca6ec48564df27627f070119b2b649c5cf16deb95ccd5e4fcb6130baca4&quot;
+    },
+    &quot;final_layout.json&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;516139b93252358638230efb9d1395b15a84f01e72874512de252d2d79ab60e6&quot;
+    },
+    &quot;drawing&quot;: {
+      &quot;path&quot;: &quot;[local path omitted]
+      &quot;sha256&quot;: &quot;a503bd728146b1c5940348aaca6a2d42ef8ba4d15ce1e403538c1a7c9983573e&quot;
+    }
+  }
+}</pre></details></article><article><header><b>Fable</b><span class="">Not requested</span></header><div class="empty">No submitted drawing</div><details><summary>Checks, attempts & provenance</summary><pre>{
+  &quot;result&quot;: null,
+  &quot;reread&quot;: {},
+  &quot;attempt_history&quot;: [],
+  &quot;evidence&quot;: {}
+}</pre></details></article><article><header><b>Astra</b><span class="">Not requested</span></header><div class="empty">No submitted drawing</div><details><summary>Checks, attempts & provenance</summary><pre>{
+  &quot;result&quot;: null,
+  &quot;reread&quot;: {},
+  &quot;attempt_history&quot;: [],
+  &quot;evidence&quot;: {}
+}</pre></details></article></div></section><footer>Selected hard parts; not population-wide model rates.<br>Fresh independent authors; identical pinned geometry/brief/checks.<br>Astra uses a Codex tool adapter and manual command-log audit; Claude models use Claude Code stream audit.<br>Astra usage and runtime-resolved model ID are unavailable.<br>Original $3 Opus attempts and $10 retries are preserved separately.<p>Snapshot: 2026-10-07T05:33:04.452642+00:00</p></footer></main></html>

@@ -1,0 +1,69 @@
+{
+  "ident": "t8_block_040566d0",
+  "model": "Opus 5.5",
+  "state": "complete",
+  "counted": true,
+  "geometry_valid": true,
+  "attempt_failure_reasons": null,
+  "blocks": 47,
+  "full_iterations": 1,
+  "minutes": 10.94,
+  "minimum_sj": 0.5464249070348385,
+  "minimum_sj_2x": 0.5744945412948893,
+  "usage_amount_usd": 2.336406,
+  "usage_basis": "Claude CLI reported usage",
+  "actual_subscription_charge_usd": null,
+  "metrics": {
+    "frame": {
+      "origin": [
+        -0.0,
+        -0.0,
+        1e-07
+      ],
+      "u": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "v": [
+        -0.0,
+        1.0,
+        0.0
+      ]
+    },
+    "nominal": {
+      "elements": 6902,
+      "min_sj": 0.5464249070348385,
+      "mean_sj": 0.9444823368317831,
+      "p05_sj": 0.7071067811865471,
+      "below_floor": 0,
+      "inverted": 0
+    },
+    "doubled": {
+      "elements": 55216,
+      "min_sj": 0.5744945412948893,
+      "mean_sj": 0.9571967223215555,
+      "p05_sj": 0.765298956849334,
+      "below_floor": 0,
+      "inverted": 0
+    },
+    "nominal_sha256": "810d5f1b1922fb372dd90fc806d13e67bde463412b59b107b23b7b120e609d2d",
+    "doubled_sha256": "dc9fe228b9fbf4a16786aee92eb75c1c00d5f00acd3d1afb935f6c535d42032c",
+    "source": "Original nominal VTU matched independent frozen reread; doubled VTU replayed from exact original x2.ron under pinned memory/two shared slot guards. No model calls or acceptance changes."
+  },
+  "usage": null,
+  "audit": {
+    "initial_files_verified": 105,
+    "manual_command_review_completed": true,
+    "actual_native_tool_evidence_archived": true,
+    "image_read_invocation_batches": 3,
+    "visual_review_present": true,
+    "observed_deviations": [
+      "Own teacher-wave parent directory listing and recursive own-batch listing recorded as frozen audit warnings; no void reasons.",
+      "Read point() plus 70 following witness.py lines, extending into read_rev/git_head/released source.",
+      "Frozen audit check-piped warning appears in logged command text, not an additional executed draft check; no void reason."
+    ],
+    "human_grade": null
+  },
+  "human_grade": null
+}

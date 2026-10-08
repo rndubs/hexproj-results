@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-10-08T05:21:31.038065+00:00",
+  "exported_at": "2026-10-08T05:51:27.811199+00:00",
   "reports": [
     "astra-opus-hard-five-20261007",
     "sonnet-hard-successes-20261007",
@@ -10,8 +10,6 @@
   "selection": "Report-linked assets only; original sessions and CAD inputs excluded",
   "sanitization": "Local paths and internal execution metadata removed",
   "human_grades_assigned": false,
-  "ongoing": [
-    "astra-opus-hard-five-20261007"
-  ],
+  "ongoing": [],
   "site": "https://rndubs.github.io/hexproj-results/"
 }

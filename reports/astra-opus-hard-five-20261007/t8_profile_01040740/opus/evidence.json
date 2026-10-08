@@ -1,0 +1,68 @@
+{
+  "ident": "t8_profile_01040740",
+  "model": "Opus 5.5",
+  "state": "complete",
+  "counted": true,
+  "geometry_valid": true,
+  "attempt_failure_reasons": null,
+  "blocks": 36,
+  "full_iterations": 1,
+  "minutes": 25.53,
+  "minimum_sj": 0.41671450486029854,
+  "minimum_sj_2x": 0.4167145048602972,
+  "usage_amount_usd": 5.4476977999999985,
+  "usage_basis": "Claude CLI reported usage",
+  "actual_subscription_charge_usd": null,
+  "metrics": {
+    "frame": {
+      "origin": [
+        -0.0,
+        -0.0,
+        1e-07
+      ],
+      "u": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "v": [
+        -0.0,
+        1.0,
+        0.0
+      ]
+    },
+    "nominal": {
+      "elements": 2152,
+      "min_sj": 0.41671450486029854,
+      "mean_sj": 0.900878189061856,
+      "p05_sj": 0.7071067811865296,
+      "below_floor": 0,
+      "inverted": 0
+    },
+    "doubled": {
+      "elements": 17216,
+      "min_sj": 0.4167145048602972,
+      "mean_sj": 0.9182188419458822,
+      "p05_sj": 0.7219882083561147,
+      "below_floor": 0,
+      "inverted": 0
+    },
+    "nominal_sha256": "f3864abcbc7a2415c8990825bc32319a1cf2def37ad19e0e8e337aa35852453e",
+    "doubled_sha256": "ec567694162ca63e5d023924f1962015162cf22357c53761c78b3d6aae641cc5",
+    "source": "Original nominal VTU matched independent frozen reread; doubled VTU replayed from exact original x2.ron under pinned memory/two shared slot guards. No model calls or acceptance changes."
+  },
+  "usage": null,
+  "audit": {
+    "initial_files_verified": 105,
+    "manual_command_review_completed": true,
+    "actual_native_tool_evidence_archived": true,
+    "image_read_invocation_batches": 5,
+    "visual_review_present": true,
+    "observed_deviations": [
+      "Own teacher-wave parent directory listing and recursive own-batch listing recorded as frozen audit warnings; no void reasons.",
+      "Read witness.py first 5 lines and lines104\u2013153, extending beyond permitted point() into read_rev source."
+    ],
+    "human_grade": null
+  },
+  "human_grade": null
+}

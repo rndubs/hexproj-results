@@ -1,8 +1,8 @@
 {
   "status": "Comparison in progress",
-  "generated_at": "2026-10-08T03:56:33.043184+00:00",
-  "completed_attempts": 6,
-  "geometry_passes": 6,
+  "generated_at": "2026-10-08T04:20:55.331243+00:00",
+  "completed_attempts": 7,
+  "geometry_passes": 7,
   "planned_attempts": 10,
   "parts": [
     {
@@ -272,7 +272,69 @@
     {
       "ident": "t8_profile_011291e8",
       "model": "Opus 5.5",
-      "state": "running"
+      "state": "complete",
+      "counted": true,
+      "blocks": 57,
+      "full_iterations": 1,
+      "minutes": 22.6,
+      "minimum_sj": 0.4754275841254388,
+      "minimum_sj_2x": 0.4754275841254428,
+      "usage_amount_usd": 4.5332122,
+      "usage_basis": "Claude CLI reported usage",
+      "actual_subscription_charge_usd": null,
+      "metrics": {
+        "frame": {
+          "origin": [
+            -0.0,
+            -0.0,
+            1e-07
+          ],
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            -0.0,
+            1.0,
+            0.0
+          ]
+        },
+        "nominal": {
+          "elements": 1698,
+          "min_sj": 0.4754275841254388,
+          "mean_sj": 0.9047981134211486,
+          "p05_sj": 0.7007198885373277,
+          "below_floor": 0,
+          "inverted": 0
+        },
+        "doubled": {
+          "elements": 13584,
+          "min_sj": 0.4754275841254428,
+          "mean_sj": 0.9221894587283439,
+          "p05_sj": 0.7196848968470252,
+          "below_floor": 0,
+          "inverted": 0
+        },
+        "nominal_sha256": "616faee3fff966ff319b84ad697149b5cbfaf1b8dfb901edb524547cb5e36661",
+        "doubled_sha256": "4c3b526c85c37e880518885275bf3eec85895b2fe4431a25f018694c791db931",
+        "source": "Original nominal VTU matched independent frozen reread; doubled VTU replayed from exact original x2.ron under pinned memory/two shared slot guards. No model calls or acceptance changes."
+      },
+      "usage": null,
+      "audit": {
+        "initial_files_verified": 105,
+        "actual_native_tool_evidence_archived": true,
+        "manual_command_review_completed": true,
+        "observed_deviations": [
+          "Read first 80 lines of witness.py outside permitted point() and grep point() with 45 following lines extending into read_rev. No pinned changes or other-model layout reads observed.",
+          "Initial listing included own teacher-wave parent directory; original frozen audit recorded one path warning, no void reasons."
+        ],
+        "image_read_invocation_batches": 4,
+        "visual_review_present": true,
+        "human_grade": null,
+        "geometry_acceptance": "Frozen independently reread counted true, stable true; supervisor deviations do not alter frozen acceptance."
+      },
+      "human_grade": null
     },
     {
       "ident": "t8_block_0403c4d8",
@@ -367,7 +429,7 @@
     {
       "ident": "t8_block_0403c4d8",
       "model": "Opus 5.5",
-      "state": "queued"
+      "state": "running"
     },
     {
       "ident": "t8_profile_01040740",

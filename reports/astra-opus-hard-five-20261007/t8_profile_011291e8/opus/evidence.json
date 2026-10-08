@@ -3,6 +3,8 @@
   "model": "Opus 5.5",
   "state": "complete",
   "counted": true,
+  "geometry_valid": true,
+  "attempt_failure_reasons": null,
   "blocks": 57,
   "full_iterations": 1,
   "minutes": 22.6,
@@ -61,7 +63,10 @@
     "image_read_invocation_batches": 4,
     "visual_review_present": true,
     "human_grade": null,
-    "geometry_acceptance": "Frozen independently reread counted true, stable true; supervisor deviations do not alter frozen acceptance."
+    "geometry_acceptance": "Frozen independently reread counted true, stable true; supervisor deviations do not alter frozen acceptance.",
+    "supervisor_visual_observations": [
+      "Box-aligned rings around slots and pocket are visible. Circle has a compact polygonal ring with larger slanted background transitions; some elongated strips and acute transition corners remain. This is an observation, not an expert grade."
+    ]
   },
   "human_grade": null
 }

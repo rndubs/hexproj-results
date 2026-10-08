@@ -1,8 +1,9 @@
 {
   "status": "Comparison in progress",
-  "generated_at": "2026-10-08T04:20:55.331243+00:00",
-  "completed_attempts": 7,
-  "geometry_passes": 7,
+  "generated_at": "2026-10-08T05:21:30.524784+00:00",
+  "completed_attempts": 8,
+  "geometry_passes": 8,
+  "counted_passes": 7,
   "planned_attempts": 10,
   "parts": [
     {
@@ -10,6 +11,8 @@
       "model": "GPT 6 Astra",
       "state": "complete",
       "counted": true,
+      "geometry_valid": true,
+      "attempt_failure_reasons": [],
       "blocks": 47,
       "full_iterations": 4,
       "minutes": 17.5566,
@@ -100,6 +103,8 @@
       "model": "Opus 5.5",
       "state": "complete",
       "counted": true,
+      "geometry_valid": true,
+      "attempt_failure_reasons": null,
       "blocks": 59,
       "full_iterations": 5,
       "minutes": 52.68,
@@ -184,6 +189,8 @@
       "model": "GPT 6 Astra",
       "state": "complete",
       "counted": true,
+      "geometry_valid": true,
+      "attempt_failure_reasons": [],
       "blocks": 110,
       "full_iterations": 1,
       "minutes": 7.154533333333333,
@@ -274,6 +281,8 @@
       "model": "Opus 5.5",
       "state": "complete",
       "counted": true,
+      "geometry_valid": true,
+      "attempt_failure_reasons": null,
       "blocks": 57,
       "full_iterations": 1,
       "minutes": 22.6,
@@ -332,7 +341,10 @@
         "image_read_invocation_batches": 4,
         "visual_review_present": true,
         "human_grade": null,
-        "geometry_acceptance": "Frozen independently reread counted true, stable true; supervisor deviations do not alter frozen acceptance."
+        "geometry_acceptance": "Frozen independently reread counted true, stable true; supervisor deviations do not alter frozen acceptance.",
+        "supervisor_visual_observations": [
+          "Box-aligned rings around slots and pocket are visible. Circle has a compact polygonal ring with larger slanted background transitions; some elongated strips and acute transition corners remain. This is an observation, not an expert grade."
+        ]
       },
       "human_grade": null
     },
@@ -341,6 +353,8 @@
       "model": "GPT 6 Astra",
       "state": "complete",
       "counted": true,
+      "geometry_valid": true,
+      "attempt_failure_reasons": [],
       "blocks": 65,
       "full_iterations": 1,
       "minutes": 8.019833333333333,
@@ -429,13 +443,85 @@
     {
       "ident": "t8_block_0403c4d8",
       "model": "Opus 5.5",
-      "state": "running"
+      "state": "complete",
+      "counted": false,
+      "geometry_valid": true,
+      "attempt_failure_reasons": [
+        "2 command(s) with checks of different drafts"
+      ],
+      "blocks": 58,
+      "full_iterations": 2,
+      "minutes": 64.97,
+      "minimum_sj": 0.42998793023082593,
+      "minimum_sj_2x": 0.4299879302308103,
+      "usage_amount_usd": 10.1154298,
+      "usage_basis": "Claude CLI reported usage",
+      "actual_subscription_charge_usd": null,
+      "metrics": {
+        "frame": {
+          "origin": [
+            0.0,
+            0.0,
+            1e-07
+          ],
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            1.0,
+            0.0
+          ]
+        },
+        "nominal": {
+          "elements": 13724,
+          "min_sj": 0.42998793023082593,
+          "mean_sj": 0.8980280713077953,
+          "p05_sj": 0.673743314690784,
+          "below_floor": 0,
+          "inverted": 0
+        },
+        "doubled": {
+          "elements": 109792,
+          "min_sj": 0.4299879302308103,
+          "mean_sj": 0.9153810505051383,
+          "p05_sj": 0.708277556715097,
+          "below_floor": 0,
+          "inverted": 0
+        },
+        "nominal_sha256": "fd12085584caa12dafe3bfc1fad9ae90f00c342f38f36657bed21833fc2e2e06",
+        "doubled_sha256": "9bd981919e6ab06505bbc86c594f431fe90d3455a86f2c4fd5994f96ab4bddbf",
+        "source": "Original nominal VTU matched independent frozen reread; doubled VTU replayed from exact original x2.ron under pinned memory/two shared slot guards. No model calls or acceptance changes."
+      },
+      "usage": null,
+      "audit": {
+        "initial_files_verified": 105,
+        "manual_command_review_completed": true,
+        "actual_native_tool_evidence_archived": true,
+        "image_read_invocation_batches": 5,
+        "visual_review_present": true,
+        "human_grade": null,
+        "observed_deviations": [
+          "Frozen audit void: 2 commands with checks of different drafts. Manual inspection finds each command echoes a quoted check command into cmd_times.txt then executes that same draft once; the text regex distinguishes quoted d1/d2 from unquoted names. calls.tsv confirms two single checks about four minutes apart, with full runs between. Apparent false positive retained; frozen audit is not modified.",
+          "Initial own teacher-wave parent directory listing recorded as a path warning."
+        ],
+        "geometry_valid": true,
+        "attempt_counted": false,
+        "supervisor_visual_observations": [
+          "Compact local rings surround holes, with larger irregular background transitions. Thin gaps and skewed transitions remain, consistent with author review. No human grade."
+        ]
+      },
+      "human_grade": null
     },
     {
       "ident": "t8_profile_01040740",
       "model": "GPT 6 Astra",
       "state": "complete",
       "counted": true,
+      "geometry_valid": true,
+      "attempt_failure_reasons": [],
       "blocks": 35,
       "full_iterations": 1,
       "minutes": 10.855433333333334,
@@ -523,13 +609,15 @@
     {
       "ident": "t8_profile_01040740",
       "model": "Opus 5.5",
-      "state": "queued"
+      "state": "running"
     },
     {
       "ident": "t8_block_040566d0",
       "model": "GPT 6 Astra",
       "state": "complete",
       "counted": true,
+      "geometry_valid": true,
+      "attempt_failure_reasons": [],
       "blocks": 57,
       "full_iterations": 3,
       "minutes": 17.961983333333333,

@@ -1,0 +1,75 @@
+{
+  "ident": "t8_block_0403c4d8",
+  "model": "Opus 5.5",
+  "state": "complete",
+  "counted": false,
+  "geometry_valid": true,
+  "attempt_failure_reasons": [
+    "2 command(s) with checks of different drafts"
+  ],
+  "blocks": 58,
+  "full_iterations": 2,
+  "minutes": 64.97,
+  "minimum_sj": 0.42998793023082593,
+  "minimum_sj_2x": 0.4299879302308103,
+  "usage_amount_usd": 10.1154298,
+  "usage_basis": "Claude CLI reported usage",
+  "actual_subscription_charge_usd": null,
+  "metrics": {
+    "frame": {
+      "origin": [
+        0.0,
+        0.0,
+        1e-07
+      ],
+      "u": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "v": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    "nominal": {
+      "elements": 13724,
+      "min_sj": 0.42998793023082593,
+      "mean_sj": 0.8980280713077953,
+      "p05_sj": 0.673743314690784,
+      "below_floor": 0,
+      "inverted": 0
+    },
+    "doubled": {
+      "elements": 109792,
+      "min_sj": 0.4299879302308103,
+      "mean_sj": 0.9153810505051383,
+      "p05_sj": 0.708277556715097,
+      "below_floor": 0,
+      "inverted": 0
+    },
+    "nominal_sha256": "fd12085584caa12dafe3bfc1fad9ae90f00c342f38f36657bed21833fc2e2e06",
+    "doubled_sha256": "9bd981919e6ab06505bbc86c594f431fe90d3455a86f2c4fd5994f96ab4bddbf",
+    "source": "Original nominal VTU matched independent frozen reread; doubled VTU replayed from exact original x2.ron under pinned memory/two shared slot guards. No model calls or acceptance changes."
+  },
+  "usage": null,
+  "audit": {
+    "initial_files_verified": 105,
+    "manual_command_review_completed": true,
+    "actual_native_tool_evidence_archived": true,
+    "image_read_invocation_batches": 5,
+    "visual_review_present": true,
+    "human_grade": null,
+    "observed_deviations": [
+      "Frozen audit void: 2 commands with checks of different drafts. Manual inspection finds each command echoes a quoted check command into cmd_times.txt then executes that same draft once; the text regex distinguishes quoted d1/d2 from unquoted names. calls.tsv confirms two single checks about four minutes apart, with full runs between. Apparent false positive retained; frozen audit is not modified.",
+      "Initial own teacher-wave parent directory listing recorded as a path warning."
+    ],
+    "geometry_valid": true,
+    "attempt_counted": false,
+    "supervisor_visual_observations": [
+      "Compact local rings surround holes, with larger irregular background transitions. Thin gaps and skewed transitions remain, consistent with author review. No human grade."
+    ]
+  },
+  "human_grade": null
+}

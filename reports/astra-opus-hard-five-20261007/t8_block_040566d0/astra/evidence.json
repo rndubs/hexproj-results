@@ -3,6 +3,8 @@
   "model": "GPT 6 Astra",
   "state": "complete",
   "counted": true,
+  "geometry_valid": true,
+  "attempt_failure_reasons": [],
   "blocks": 57,
   "full_iterations": 3,
   "minutes": 17.961983333333333,

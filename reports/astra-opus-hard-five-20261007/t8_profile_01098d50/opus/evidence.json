@@ -3,6 +3,8 @@
   "model": "Opus 5.5",
   "state": "complete",
   "counted": true,
+  "geometry_valid": true,
+  "attempt_failure_reasons": null,
   "blocks": 59,
   "full_iterations": 5,
   "minutes": 52.68,

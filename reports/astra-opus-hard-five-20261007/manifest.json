@@ -1,0 +1,565 @@
+{
+  "status": "Comparison in progress",
+  "generated_at": "2026-10-08T03:56:33.043184+00:00",
+  "completed_attempts": 6,
+  "geometry_passes": 6,
+  "planned_attempts": 10,
+  "parts": [
+    {
+      "ident": "t8_profile_01098d50",
+      "model": "GPT 6 Astra",
+      "state": "complete",
+      "counted": true,
+      "blocks": 47,
+      "full_iterations": 4,
+      "minutes": 17.5566,
+      "minimum_sj": 0.30546863311808253,
+      "minimum_sj_2x": 0.30550220068861594,
+      "usage_amount_usd": 4.657172,
+      "usage_basis": "Standard API equivalent",
+      "actual_subscription_charge_usd": null,
+      "metrics": {
+        "frame": {
+          "origin": [
+            0.0,
+            0.0,
+            1.00001e-07
+          ],
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            1.0,
+            0.0
+          ]
+        },
+        "nominal": {
+          "elements": 5086,
+          "min_sj": 0.30546863311808253,
+          "mean_sj": 0.8095375728345062,
+          "p05_sj": 0.4650612948894153,
+          "below_floor": 0,
+          "inverted": 0
+        },
+        "doubled": {
+          "elements": 40688,
+          "min_sj": 0.30550220068861594,
+          "mean_sj": 0.8352010327782684,
+          "p05_sj": 0.49286240600392733,
+          "below_floor": 0,
+          "inverted": 0
+        },
+        "nominal_sha256": "d44a2da63b4fae00da4e33f169ab9c81558f082ba28bd08caad55352b1b23020",
+        "doubled_sha256": "affb6b5fe312e087dfc2d62ba1355d9585d5bc02525f390b36f332389825810e",
+        "source": "Original nominal VTU matched independent frozen reread; doubled VTU retained by replaying exact original x2.ron under pinned memory/slot guards. No model calls or acceptance changes."
+      },
+      "usage": {
+        "token_usage": {
+          "input_tokens": 2556880,
+          "cached_input_tokens": 2452992,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 23306,
+          "reasoning_output_tokens": 6312,
+          "total_tokens": 2580186
+        },
+        "model_configured": "gpt-6-astra",
+        "model_resolved": null,
+        "effort_observed": [
+          "medium"
+        ],
+        "max_request_input_tokens": 121354,
+        "standard_api_equivalent_usd": 4.657172,
+        "fast_api_equivalent_usd": 9.314344,
+        "actual_subscription_charge_usd": null,
+        "pricing_source": "https://developers.openai.com/api/docs/models/gpt-6-astra",
+        "standard_rates_usd_per_million": {
+          "input": 10,
+          "cached_input": 1,
+          "output": 50
+        },
+        "method": "Final cumulative native usage, subtract cached input, output already includes reasoning. Actual service tier and provider snapshot unavailable. No accounting rerun."
+      },
+      "audit": {
+        "initial_files_verified": 105,
+        "actual_native_tool_evidence_archived": true,
+        "manual_command_review_completed": true,
+        "observed_deviations": [],
+        "human_grade": null,
+        "adapter_limitation": "Codex tool transport and reasoning effort differ from Claude Code; native requested model and local usage verified, provider snapshot/invoice unavailable.",
+        "image_read_invocation_batches": 12,
+        "visual_review_present": true,
+        "supervisor_visual_observation": "Five-hole profile: 47-block layout with local level rings at lower/central/right holes; near-wall left hole fans to boundary; broad skewed transitions remain."
+      },
+      "human_grade": null
+    },
+    {
+      "ident": "t8_profile_01098d50",
+      "model": "Opus 5.5",
+      "state": "complete",
+      "counted": true,
+      "blocks": 59,
+      "full_iterations": 5,
+      "minutes": 52.68,
+      "minimum_sj": 0.566065678152422,
+      "minimum_sj_2x": 0.5660656781524361,
+      "usage_amount_usd": 9.535913000000003,
+      "usage_basis": "Claude CLI reported usage",
+      "actual_subscription_charge_usd": null,
+      "metrics": {
+        "frame": {
+          "origin": [
+            0.0,
+            0.0,
+            1.00001e-07
+          ],
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            1.0,
+            0.0
+          ]
+        },
+        "nominal": {
+          "elements": 4484,
+          "min_sj": 0.566065678152422,
+          "mean_sj": 0.9079001891202046,
+          "p05_sj": 0.7073497101254058,
+          "below_floor": 0,
+          "inverted": 0
+        },
+        "doubled": {
+          "elements": 35872,
+          "min_sj": 0.5660656781524361,
+          "mean_sj": 0.9266355917941849,
+          "p05_sj": 0.7486373287660508,
+          "below_floor": 0,
+          "inverted": 0
+        },
+        "nominal_sha256": "dde46cdb59821d0b5963b90fbf49c85ea42758da1209eff2f0f4ee48b1f7e083",
+        "doubled_sha256": "05eea7c3b3fe0dea3c7e0f2b35b130b141f934d3730e917f542223cc14a3f92f",
+        "source": "Original nominal VTU matched independent frozen reread; doubled VTU replayed from exact original x2.ron under pinned memory/two shared slot guards. No model calls or acceptance changes."
+      },
+      "usage": null,
+      "audit": {
+        "tool_calls": 52,
+        "tools": {
+          "Read": 11,
+          "Bash": 36,
+          "Write": 5
+        },
+        "path_hits": 2,
+        "hit_list": [
+          [
+            "a path outside the author's own",
+            "Bash",
+            "[local execution metadata omitted]"
+          ],
+          [
+            "a search of the file tree",
+            "Bash",
+            "[local execution metadata omitted]"
+          ]
+        ],
+        "checks_in_one_command": 0,
+        "check_beside_a_loop": 0,
+        "check_piped_into_a_filter": 0,
+        "script_hits": [],
+        "fast_checks_of_different_drafts": 0,
+        "void_reasons": [],
+        "supervisor_observed_deviations": [
+          "Initial Read of witness.py first40lines and point() grep span exceeded point-only allowance. Frozen audit recorded path/listing warnings but void_reasons empty; no pinned/scorer change claimed."
+        ]
+      },
+      "human_grade": null
+    },
+    {
+      "ident": "t8_profile_011291e8",
+      "model": "GPT 6 Astra",
+      "state": "complete",
+      "counted": true,
+      "blocks": 110,
+      "full_iterations": 1,
+      "minutes": 7.154533333333333,
+      "minimum_sj": 0.4835406021956979,
+      "minimum_sj_2x": 0.4835406021956939,
+      "usage_amount_usd": 1.972924,
+      "usage_basis": "Standard API equivalent",
+      "actual_subscription_charge_usd": null,
+      "metrics": {
+        "frame": {
+          "origin": [
+            -0.0,
+            -0.0,
+            1e-07
+          ],
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            -0.0,
+            1.0,
+            0.0
+          ]
+        },
+        "nominal": {
+          "elements": 2332,
+          "min_sj": 0.4835406021956979,
+          "mean_sj": 0.9042187400792694,
+          "p05_sj": 0.6801293187014773,
+          "below_floor": 0,
+          "inverted": 0
+        },
+        "doubled": {
+          "elements": 18656,
+          "min_sj": 0.4835406021956939,
+          "mean_sj": 0.9205136511478914,
+          "p05_sj": 0.705883087818915,
+          "below_floor": 0,
+          "inverted": 0
+        },
+        "nominal_sha256": "6357642f28ad2ad7c79ac94ad661aa4d90166923d31776c4d049d790c2e9ef58",
+        "doubled_sha256": "ee15d3aba8b8e3ad43b5a67bad4210e81062737fab13909f4b5fb34b2d831d32",
+        "source": "Original nominal VTU matched independent frozen reread; doubled VTU retained by replaying exact original x2.ron under pinned memory/slot guards. No model calls or acceptance changes."
+      },
+      "usage": {
+        "token_usage": {
+          "input_tokens": 1003141,
+          "cached_input_tokens": 952704,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 10317,
+          "reasoning_output_tokens": 3681,
+          "total_tokens": 1013458
+        },
+        "model_configured": "gpt-6-astra",
+        "model_resolved": null,
+        "effort_observed": [
+          "medium"
+        ],
+        "max_request_input_tokens": 78433,
+        "standard_api_equivalent_usd": 1.972924,
+        "fast_api_equivalent_usd": 3.945848,
+        "actual_subscription_charge_usd": null,
+        "pricing_source": "https://developers.openai.com/api/docs/models/gpt-6-astra",
+        "standard_rates_usd_per_million": {
+          "input": 10,
+          "cached_input": 1,
+          "output": 50
+        },
+        "method": "Final cumulative native usage, subtract cached input, output already includes reasoning. Actual service tier and provider snapshot unavailable. No accounting rerun."
+      },
+      "audit": {
+        "initial_files_verified": 105,
+        "actual_native_tool_evidence_archived": true,
+        "manual_command_review_completed": true,
+        "observed_deviations": [],
+        "human_grade": null,
+        "adapter_limitation": "Codex tool transport and reasoning effort differ from Claude Code; native requested model and local usage verified, provider snapshot/invoice unavailable.",
+        "image_read_invocation_batches": 4,
+        "visual_review_present": true,
+        "supervisor_visual_observation": "Four-loop rectilinear profile: 110-block layout; hole rings present, substantial cross-part subdivisions and diagonal fans by lower/right features."
+      },
+      "human_grade": null
+    },
+    {
+      "ident": "t8_profile_011291e8",
+      "model": "Opus 5.5",
+      "state": "running"
+    },
+    {
+      "ident": "t8_block_0403c4d8",
+      "model": "GPT 6 Astra",
+      "state": "complete",
+      "counted": true,
+      "blocks": 65,
+      "full_iterations": 1,
+      "minutes": 8.019833333333333,
+      "minimum_sj": 0.3538920639486866,
+      "minimum_sj_2x": 0.3538920639485729,
+      "usage_amount_usd": 2.038754,
+      "usage_basis": "Standard API equivalent",
+      "actual_subscription_charge_usd": null,
+      "metrics": {
+        "frame": {
+          "origin": [
+            0.0,
+            0.0,
+            1e-07
+          ],
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            0.0,
+            1.0,
+            0.0
+          ]
+        },
+        "nominal": {
+          "elements": 11068,
+          "min_sj": 0.3538920639486866,
+          "mean_sj": 0.8525126680687699,
+          "p05_sj": 0.536875452491431,
+          "below_floor": 0,
+          "inverted": 0
+        },
+        "doubled": {
+          "elements": 88544,
+          "min_sj": 0.3538920639485729,
+          "mean_sj": 0.874492336338383,
+          "p05_sj": 0.559424435170859,
+          "below_floor": 0,
+          "inverted": 0
+        },
+        "nominal_sha256": "dd0e8aca2fbfb45ef60f4d99a4c62f7abf02bb661acaca24894904af4052cec8",
+        "doubled_sha256": "b5ae5aac082e56b826b1d645f969d639a297d843af0ab710e4d13c11a82a9c8e",
+        "source": "Original nominal VTU matched independent frozen reread; doubled VTU retained by replaying exact original x2.ron under pinned memory/slot guards. No model calls or acceptance changes."
+      },
+      "usage": {
+        "token_usage": {
+          "input_tokens": 950631,
+          "cached_input_tokens": 899584,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 12574,
+          "reasoning_output_tokens": 4177,
+          "total_tokens": 963205
+        },
+        "model_configured": "gpt-6-astra",
+        "model_resolved": null,
+        "effort_observed": [
+          "medium"
+        ],
+        "max_request_input_tokens": 79578,
+        "standard_api_equivalent_usd": 2.038754,
+        "fast_api_equivalent_usd": 4.077508,
+        "actual_subscription_charge_usd": null,
+        "pricing_source": "https://developers.openai.com/api/docs/models/gpt-6-astra",
+        "standard_rates_usd_per_million": {
+          "input": 10,
+          "cached_input": 1,
+          "output": 50
+        },
+        "method": "Final cumulative native usage, subtract cached input, output already includes reasoning. Actual service tier and provider snapshot unavailable. No accounting rerun."
+      },
+      "audit": {
+        "initial_files_verified": 105,
+        "actual_native_tool_evidence_archived": true,
+        "manual_command_review_completed": true,
+        "observed_deviations": [],
+        "human_grade": null,
+        "adapter_limitation": "Codex tool transport and reasoning effort differ from Claude Code; native requested model and local usage verified, provider snapshot/invoice unavailable.",
+        "image_read_invocation_batches": 5,
+        "visual_review_present": true,
+        "supervisor_visual_observation": "Stepped block: 65-block layout; sharp height-band splits retained; near-right hole has compact dense local transitions."
+      },
+      "human_grade": null
+    },
+    {
+      "ident": "t8_block_0403c4d8",
+      "model": "Opus 5.5",
+      "state": "queued"
+    },
+    {
+      "ident": "t8_profile_01040740",
+      "model": "GPT 6 Astra",
+      "state": "complete",
+      "counted": true,
+      "blocks": 35,
+      "full_iterations": 1,
+      "minutes": 10.855433333333334,
+      "minimum_sj": 0.35565185718119247,
+      "minimum_sj_2x": 0.3556518571811412,
+      "usage_amount_usd": 2.591314,
+      "usage_basis": "Standard API equivalent",
+      "actual_subscription_charge_usd": null,
+      "metrics": {
+        "frame": {
+          "origin": [
+            -0.0,
+            -0.0,
+            1e-07
+          ],
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            -0.0,
+            1.0,
+            0.0
+          ]
+        },
+        "nominal": {
+          "elements": 2244,
+          "min_sj": 0.35565185718119247,
+          "mean_sj": 0.861704562641498,
+          "p05_sj": 0.5387173683331066,
+          "below_floor": 0,
+          "inverted": 0
+        },
+        "doubled": {
+          "elements": 17952,
+          "min_sj": 0.3556518571811412,
+          "mean_sj": 0.8825383346929545,
+          "p05_sj": 0.5859845627021046,
+          "below_floor": 0,
+          "inverted": 0
+        },
+        "nominal_sha256": "1012c1e88e461d82ea5d36d0f615873f24f46a28331d381e5c511e9ab0916c6b",
+        "doubled_sha256": "7ba21b622601c516d962027f4dac993036884683ec8f9a4cbf4104471c42b132",
+        "source": "Original nominal VTU matched independent frozen reread; doubled VTU replayed from exact original x2.ron under pinned memory/two shared slot guards. No model calls or acceptance changes."
+      },
+      "usage": {
+        "token_usage": {
+          "input_tokens": 1206857,
+          "cached_input_tokens": 1136384,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 15004,
+          "reasoning_output_tokens": 6221,
+          "total_tokens": 1221861
+        },
+        "model_configured": "gpt-6-astra",
+        "model_resolved": null,
+        "effort_observed": [
+          "medium"
+        ],
+        "max_request_input_tokens": 88250,
+        "standard_api_equivalent_usd": 2.591314,
+        "fast_api_equivalent_usd": 5.182628,
+        "actual_subscription_charge_usd": null,
+        "pricing_source": "https://developers.openai.com/api/docs/models/gpt-6-astra",
+        "standard_rates_usd_per_million": {
+          "input": 10,
+          "cached_input": 1,
+          "output": 50
+        },
+        "method": "Final cumulative native usage, subtract cached input, output already includes reasoning. Actual service tier and provider snapshot unavailable. No accounting rerun."
+      },
+      "audit": {
+        "initial_files_verified": 105,
+        "actual_native_tool_evidence_archived": true,
+        "manual_command_review_completed": true,
+        "observed_deviations": [],
+        "human_grade": null,
+        "adapter_limitation": "Codex tool transport and reasoning effort differ from Claude Code; native requested model and local usage verified, provider snapshot/invoice unavailable.",
+        "image_read_invocation_batches": 7,
+        "visual_review_present": true
+      },
+      "human_grade": null
+    },
+    {
+      "ident": "t8_profile_01040740",
+      "model": "Opus 5.5",
+      "state": "queued"
+    },
+    {
+      "ident": "t8_block_040566d0",
+      "model": "GPT 6 Astra",
+      "state": "complete",
+      "counted": true,
+      "blocks": 57,
+      "full_iterations": 3,
+      "minutes": 17.961983333333333,
+      "minimum_sj": 0.4292839429252336,
+      "minimum_sj_2x": 0.42928394292522176,
+      "usage_amount_usd": 3.807926,
+      "usage_basis": "Standard API equivalent",
+      "actual_subscription_charge_usd": null,
+      "metrics": {
+        "frame": {
+          "origin": [
+            -0.0,
+            -0.0,
+            1e-07
+          ],
+          "u": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "v": [
+            -0.0,
+            1.0,
+            0.0
+          ]
+        },
+        "nominal": {
+          "elements": 7874,
+          "min_sj": 0.4292839429252336,
+          "mean_sj": 0.9254616999499415,
+          "p05_sj": 0.6346934229304251,
+          "below_floor": 0,
+          "inverted": 0
+        },
+        "doubled": {
+          "elements": 62992,
+          "min_sj": 0.42928394292522176,
+          "mean_sj": 0.9421312173477282,
+          "p05_sj": 0.7064585477950832,
+          "below_floor": 0,
+          "inverted": 0
+        },
+        "nominal_sha256": "05e352444e731bcfa56dbf079e268655d28da616900d97fdb646d78ced7deff7",
+        "doubled_sha256": "ed7a8f8442f3228ccdc6f1aa0a234431a06c5cd38de1e2e0ab6e00f957ab6cc8",
+        "source": "Original nominal VTU matched independent frozen reread; doubled VTU replayed from exact original x2.ron under pinned memory/two shared slot guards. No model calls or acceptance changes."
+      },
+      "usage": {
+        "token_usage": {
+          "input_tokens": 2126198,
+          "cached_input_tokens": 2051456,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 20181,
+          "reasoning_output_tokens": 8948,
+          "total_tokens": 2146379
+        },
+        "model_configured": "gpt-6-astra",
+        "model_resolved": null,
+        "effort_observed": [
+          "medium"
+        ],
+        "max_request_input_tokens": 106478,
+        "standard_api_equivalent_usd": 3.807926,
+        "fast_api_equivalent_usd": 7.615852,
+        "actual_subscription_charge_usd": null,
+        "pricing_source": "https://developers.openai.com/api/docs/models/gpt-6-astra",
+        "standard_rates_usd_per_million": {
+          "input": 10,
+          "cached_input": 1,
+          "output": 50
+        },
+        "method": "Final cumulative native usage, subtract cached input, output already includes reasoning. Actual service tier and provider snapshot unavailable. No accounting rerun."
+      },
+      "audit": {
+        "initial_files_verified": 105,
+        "actual_native_tool_evidence_archived": true,
+        "manual_command_review_completed": true,
+        "observed_deviations": [],
+        "human_grade": null,
+        "adapter_limitation": "Codex tool transport and reasoning effort differ from Claude Code; native requested model and local usage verified, provider snapshot/invoice unavailable.",
+        "image_read_invocation_batches": 9,
+        "visual_review_present": true
+      },
+      "human_grade": null
+    },
+    {
+      "ident": "t8_block_040566d0",
+      "model": "Opus 5.5",
+      "state": "queued"
+    }
+  ],
+  "human_grades_assigned": false,
+  "selection": "Five diverse difficult parts with verified Sonnet meshes, selected by many loops, height bands and blocks. No Sonnet layouts supplied to authors; a demonstrable feasible showcase sample, not an unbiased benchmark.",
+  "session_time_cap_min": null,
+  "session_spend_cap_usd": null
+}

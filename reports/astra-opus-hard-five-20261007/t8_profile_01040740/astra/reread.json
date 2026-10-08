@@ -1,0 +1,40 @@
+{
+  "key": "t0_p36f0273496",
+  "entry": "ok",
+  "blocks": 35,
+  "judge2d": true,
+  "fails": [],
+  "min_sine": 0.3557,
+  "strict": true,
+  "stable": true,
+  "min_sj": 0.35565185718119247,
+  "min_sj_2x": 0.3556518571811412,
+  "stable_numbers": true,
+  "block_pass": true,
+  "audit_pass": true,
+  "counted": true,
+  "counted_why": [],
+  "judge": "PASS",
+  "judge_failed": [],
+  "harness": "Pass",
+  "harness_failed": [],
+  "not_run": null,
+  "edge_ratio": 9.33875029907813,
+  "harness_rev": 11,
+  "layered": true,
+  "occupancy": true,
+  "mesh_components": 1,
+  "region_fill": [
+    [
+      "fill",
+      0,
+      "drawn"
+    ],
+    [
+      "fill",
+      2,
+      "drawn"
+    ]
+  ],
+  "guard": "{\"why\": \"exit\", \"rc\": 0, \"peak_gb\": 0.039, \"wall_s\": 2.6}"
+}

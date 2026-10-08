@@ -1,0 +1,84 @@
+{
+  "ident": "t8_profile_01098d50",
+  "model": "Opus 5.5",
+  "state": "complete",
+  "counted": true,
+  "blocks": 59,
+  "full_iterations": 5,
+  "minutes": 52.68,
+  "minimum_sj": 0.566065678152422,
+  "minimum_sj_2x": 0.5660656781524361,
+  "usage_amount_usd": 9.535913000000003,
+  "usage_basis": "Claude CLI reported usage",
+  "actual_subscription_charge_usd": null,
+  "metrics": {
+    "frame": {
+      "origin": [
+        0.0,
+        0.0,
+        1.00001e-07
+      ],
+      "u": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "v": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    "nominal": {
+      "elements": 4484,
+      "min_sj": 0.566065678152422,
+      "mean_sj": 0.9079001891202046,
+      "p05_sj": 0.7073497101254058,
+      "below_floor": 0,
+      "inverted": 0
+    },
+    "doubled": {
+      "elements": 35872,
+      "min_sj": 0.5660656781524361,
+      "mean_sj": 0.9266355917941849,
+      "p05_sj": 0.7486373287660508,
+      "below_floor": 0,
+      "inverted": 0
+    },
+    "nominal_sha256": "dde46cdb59821d0b5963b90fbf49c85ea42758da1209eff2f0f4ee48b1f7e083",
+    "doubled_sha256": "05eea7c3b3fe0dea3c7e0f2b35b130b141f934d3730e917f542223cc14a3f92f",
+    "source": "Original nominal VTU matched independent frozen reread; doubled VTU replayed from exact original x2.ron under pinned memory/two shared slot guards. No model calls or acceptance changes."
+  },
+  "usage": null,
+  "audit": {
+    "tool_calls": 52,
+    "tools": {
+      "Read": 11,
+      "Bash": 36,
+      "Write": 5
+    },
+    "path_hits": 2,
+    "hit_list": [
+      [
+        "a path outside the author's own",
+        "Bash",
+        "[local execution metadata omitted]"
+      ],
+      [
+        "a search of the file tree",
+        "Bash",
+        "[local execution metadata omitted]"
+      ]
+    ],
+    "checks_in_one_command": 0,
+    "check_beside_a_loop": 0,
+    "check_piped_into_a_filter": 0,
+    "script_hits": [],
+    "fast_checks_of_different_drafts": 0,
+    "void_reasons": [],
+    "supervisor_observed_deviations": [
+      "Initial Read of witness.py first40lines and point() grep span exceeded point-only allowance. Frozen audit recorded path/listing warnings but void_reasons empty; no pinned/scorer change claimed."
+    ]
+  },
+  "human_grade": null
+}

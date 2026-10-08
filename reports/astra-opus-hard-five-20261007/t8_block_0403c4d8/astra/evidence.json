@@ -1,0 +1,90 @@
+{
+  "ident": "t8_block_0403c4d8",
+  "model": "GPT 6 Astra",
+  "state": "complete",
+  "counted": true,
+  "blocks": 65,
+  "full_iterations": 1,
+  "minutes": 8.019833333333333,
+  "minimum_sj": 0.3538920639486866,
+  "minimum_sj_2x": 0.3538920639485729,
+  "usage_amount_usd": 2.038754,
+  "usage_basis": "Standard API equivalent",
+  "actual_subscription_charge_usd": null,
+  "metrics": {
+    "frame": {
+      "origin": [
+        0.0,
+        0.0,
+        1e-07
+      ],
+      "u": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "v": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    "nominal": {
+      "elements": 11068,
+      "min_sj": 0.3538920639486866,
+      "mean_sj": 0.8525126680687699,
+      "p05_sj": 0.536875452491431,
+      "below_floor": 0,
+      "inverted": 0
+    },
+    "doubled": {
+      "elements": 88544,
+      "min_sj": 0.3538920639485729,
+      "mean_sj": 0.874492336338383,
+      "p05_sj": 0.559424435170859,
+      "below_floor": 0,
+      "inverted": 0
+    },
+    "nominal_sha256": "dd0e8aca2fbfb45ef60f4d99a4c62f7abf02bb661acaca24894904af4052cec8",
+    "doubled_sha256": "b5ae5aac082e56b826b1d645f969d639a297d843af0ab710e4d13c11a82a9c8e",
+    "source": "Original nominal VTU matched independent frozen reread; doubled VTU retained by replaying exact original x2.ron under pinned memory/slot guards. No model calls or acceptance changes."
+  },
+  "usage": {
+    "token_usage": {
+      "input_tokens": 950631,
+      "cached_input_tokens": 899584,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 12574,
+      "reasoning_output_tokens": 4177,
+      "total_tokens": 963205
+    },
+    "model_configured": "gpt-6-astra",
+    "model_resolved": null,
+    "effort_observed": [
+      "medium"
+    ],
+    "max_request_input_tokens": 79578,
+    "standard_api_equivalent_usd": 2.038754,
+    "fast_api_equivalent_usd": 4.077508,
+    "actual_subscription_charge_usd": null,
+    "pricing_source": "https://developers.openai.com/api/docs/models/gpt-6-astra",
+    "standard_rates_usd_per_million": {
+      "input": 10,
+      "cached_input": 1,
+      "output": 50
+    },
+    "method": "Final cumulative native usage, subtract cached input, output already includes reasoning. Actual service tier and provider snapshot unavailable. No accounting rerun."
+  },
+  "audit": {
+    "initial_files_verified": 105,
+    "actual_native_tool_evidence_archived": true,
+    "manual_command_review_completed": true,
+    "observed_deviations": [],
+    "human_grade": null,
+    "adapter_limitation": "Codex tool transport and reasoning effort differ from Claude Code; native requested model and local usage verified, provider snapshot/invoice unavailable.",
+    "image_read_invocation_batches": 5,
+    "visual_review_present": true,
+    "supervisor_visual_observation": "Stepped block: 65-block layout; sharp height-band splits retained; near-right hole has compact dense local transitions."
+  },
+  "human_grade": null
+}

@@ -1,0 +1,72 @@
+{
+  "ident": "t8_profile_01068fb0",
+  "key": "t0_p336d70065d",
+  "attempt": 1,
+  "comparison_attempt_label": "GPT5.6Sol guided retry",
+  "model_requested": "gpt-5.6-sol",
+  "model_resolved": null,
+  "start": "2026-10-08T03:34:39.924Z",
+  "end": "2026-10-08T03:42:50.400Z",
+  "wall_min": 8.1746,
+  "revisions": 0,
+  "final_rev": null,
+  "counted": false,
+  "geometry_counted": false,
+  "outcome": "not-counted",
+  "why": [
+    "BLOCK-INVERTED",
+    "CORNER-SINE",
+    "SMOOTH-CORNER>150",
+    "OUTSIDE-PROFILE",
+    "OVERLAP",
+    "TFI-SJ"
+  ],
+  "best_draft": "candidate3",
+  "draft_blocks": 50,
+  "drawn_blocks": 40,
+  "fixed_fill_blocks": 10,
+  "reread": {
+    "status": "not_run",
+    "reason": "No draft passed the 2D check; no full revision or mesh exists."
+  },
+  "cost_usd": null,
+  "api_equivalent_usd": 1.9013624,
+  "human_grade": null,
+  "prompt_change": "Generic process guidance to write/check concrete candidates and reconsider the overall decomposition when local repairs stall; no prior layout, successful result or part-specific solution supplied.",
+  "audit": {
+    "initial_files_verified": 105,
+    "actual_native_tool_evidence_archived": true,
+    "manual_command_review_completed": true,
+    "image_read_invocation_batches": 4,
+    "observed_deviations": [
+      "Read witness.py lines104\u2013190, exceeding permitted point() lines104\u2013146 into read_rev, git_head and released source. No pinned file was modified; no other-model layout read observed."
+    ],
+    "visual_review_present": true
+  },
+  "usage": {
+    "model_configured": "gpt-5.6-sol",
+    "model_resolved": null,
+    "effort_observed": [
+      "low"
+    ],
+    "token_usage": {
+      "input_tokens": 2629912,
+      "cached_input_tokens": 2554496,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 28895,
+      "reasoning_output_tokens": 13135,
+      "total_tokens": 2658807
+    },
+    "max_request_input_tokens": 93956,
+    "standard_api_equivalent_usd": 1.9013624,
+    "fast_api_equivalent_usd": 3.8027248,
+    "actual_subscription_charge_usd": null,
+    "pricing_source": "https://developers.openai.com/api/docs/models/gpt-5.6-sol",
+    "standard_rates_usd_per_million": {
+      "input": 4,
+      "cached_input": 0.4,
+      "output": 20
+    },
+    "method": "Final cumulative native telemetry, cached input subtracted; output already includes reasoning, actual service tier unavailable."
+  }
+}

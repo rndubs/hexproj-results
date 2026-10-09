@@ -1,0 +1,467 @@
+{
+  "title": "Astra, Opus and the revolved mesher \u00b7 three profiles",
+  "generated_at": "2026-10-09T03:02:33.017969+00:00",
+  "synthetic": true,
+  "holes": false,
+  "color_range": [
+    0.2,
+    1
+  ],
+  "parts": [
+    {
+      "ident": "revshow_shoulder_chamfer",
+      "title": "Stepped shaft with chamfered nose",
+      "model": "GPT 6 Astra",
+      "model_key": "astra",
+      "state": "geometry pass",
+      "geometry_accepted": true,
+      "full_iterations": 1,
+      "minutes": 2.21875,
+      "usage_usd": 1.00766,
+      "usage_basis": "Standard API equivalent",
+      "actual_subscription_charge_usd": null,
+      "human_grade": null,
+      "densities": {
+        "nominal": {
+          "elements": 2898,
+          "parts": 9,
+          "min_sj": 0.6916585840460069,
+          "max_ar": 2.5714285714285823,
+          "inversions": 0,
+          "geometry_accepted": true
+        },
+        "doubled": {
+          "elements": 23184,
+          "parts": 9,
+          "min_sj": 0.6967083503602893,
+          "max_ar": 2.8293891181809108,
+          "inversions": 0,
+          "geometry_accepted": true
+        }
+      },
+      "manual_audit": "Completed: only own sandbox inputs, generated RON helpers, one sequential native check and image renders; no previous/control layouts or runtime edits observed.",
+      "image_review": {
+        "actual_image_read_batches": 2,
+        "cad_meridian_read": true,
+        "cad_iso_read": true,
+        "mesh_images_read": true,
+        "deviations": []
+      },
+      "feature_note": null,
+      "feature_checks": {
+        "nominal": {
+          "captured_edges": 5,
+          "eligible_edges": 5,
+          "unrepresented_faces": []
+        },
+        "doubled": {
+          "captured_edges": 5,
+          "eligible_edges": 5,
+          "unrepresented_faces": []
+        }
+      }
+    },
+    {
+      "ident": "revshow_shoulder_chamfer",
+      "title": "Stepped shaft with chamfered nose",
+      "model": "Opus 5.5",
+      "model_key": "opus",
+      "state": "geometry pass",
+      "geometry_accepted": true,
+      "full_iterations": 1,
+      "minutes": 3.0239233295122783,
+      "usage_usd": 0.7312878,
+      "usage_basis": "Claude CLI usage",
+      "actual_subscription_charge_usd": null,
+      "human_grade": null,
+      "densities": {
+        "nominal": {
+          "elements": 2464,
+          "parts": 5,
+          "min_sj": 0.6945926747363482,
+          "max_ar": 2.5904731112695827,
+          "inversions": 0,
+          "geometry_accepted": true
+        },
+        "doubled": {
+          "elements": 19712,
+          "parts": 5,
+          "min_sj": 0.6996147205920745,
+          "max_ar": 2.92427071995113,
+          "inversions": 0,
+          "geometry_accepted": true
+        }
+      },
+      "manual_audit": "Reviewed actual native commands and image reads: own sandbox inputs/generator, one sequential frozen check, own views and author records only. Bundle STOP and Python runtime are permitted exceptions. No baseline/other-model layout, scorer/CAD/runtime modification or solver search observed.",
+      "image_review": {
+        "actual_png_reads": [
+          "cad-meridian.png",
+          "cad-iso.png",
+          "mesh-meridian.png",
+          "mesh-iso.png"
+        ],
+        "required_views_observed": true,
+        "human_grade": null
+      },
+      "feature_note": null,
+      "feature_checks": {
+        "nominal": {
+          "captured_edges": 5,
+          "eligible_edges": 5,
+          "unrepresented_faces": []
+        },
+        "doubled": {
+          "captured_edges": 5,
+          "eligible_edges": 5,
+          "unrepresented_faces": []
+        }
+      }
+    },
+    {
+      "ident": "revshow_shoulder_chamfer",
+      "title": "Stepped shaft with chamfered nose",
+      "model": "Deterministic revolved mesher",
+      "model_key": "revolved",
+      "state": "geometry pass",
+      "geometry_accepted": true,
+      "full_iterations": 1,
+      "minutes": 0.00040254592895507815,
+      "usage_usd": null,
+      "usage_basis": "local deterministic computation",
+      "actual_subscription_charge_usd": null,
+      "human_grade": null,
+      "densities": {
+        "nominal": {
+          "elements": 8064,
+          "parts": 5,
+          "min_sj": 0.6924108915255135,
+          "max_ar": 4.761904761903772,
+          "inversions": 0,
+          "geometry_accepted": true
+        },
+        "doubled": {
+          "elements": 64512,
+          "parts": 5,
+          "min_sj": 0.6935074838462916,
+          "max_ar": 4.7619047619038115,
+          "inversions": 0,
+          "geometry_accepted": true
+        }
+      },
+      "manual_audit": null,
+      "image_review": null,
+      "feature_note": null,
+      "feature_checks": {
+        "nominal": {
+          "captured_edges": 5,
+          "eligible_edges": 5,
+          "unrepresented_faces": []
+        },
+        "doubled": {
+          "captured_edges": 5,
+          "eligible_edges": 5,
+          "unrepresented_faces": []
+        }
+      }
+    },
+    {
+      "ident": "revshow_multistep_chamfer",
+      "title": "Multi-step shaft with chamfered tip",
+      "model": "GPT 6 Astra",
+      "model_key": "astra",
+      "state": "geometry pass",
+      "geometry_accepted": true,
+      "full_iterations": 1,
+      "minutes": 2.2765333333333335,
+      "usage_usd": 1.024234,
+      "usage_basis": "Standard API equivalent",
+      "actual_subscription_charge_usd": null,
+      "human_grade": null,
+      "densities": {
+        "nominal": {
+          "elements": 4500,
+          "parts": 17,
+          "min_sj": 0.6963557931537565,
+          "max_ar": 3.750000000000021,
+          "inversions": 0,
+          "geometry_accepted": true
+        },
+        "doubled": {
+          "elements": 36000,
+          "parts": 17,
+          "min_sj": 0.7006414350523905,
+          "max_ar": 3.750000000000047,
+          "inversions": 0,
+          "geometry_accepted": true
+        }
+      },
+      "manual_audit": "Completed: only own sandbox inputs, generated RON helpers, one sequential native check and image renders; no previous/control layouts or runtime edits observed.",
+      "image_review": {
+        "actual_image_read_batches": 2,
+        "cad_meridian_read": true,
+        "cad_iso_read": true,
+        "mesh_images_read": true,
+        "deviations": []
+      },
+      "feature_note": null,
+      "feature_checks": {
+        "nominal": {
+          "captured_edges": 9,
+          "eligible_edges": 9,
+          "unrepresented_faces": []
+        },
+        "doubled": {
+          "captured_edges": 9,
+          "eligible_edges": 9,
+          "unrepresented_faces": []
+        }
+      }
+    },
+    {
+      "ident": "revshow_multistep_chamfer",
+      "title": "Multi-step shaft with chamfered tip",
+      "model": "Opus 5.5",
+      "model_key": "opus",
+      "state": "geometry pass",
+      "geometry_accepted": true,
+      "full_iterations": 1,
+      "minutes": 4.030899512767792,
+      "usage_usd": 0.9281415999999999,
+      "usage_basis": "Claude CLI usage",
+      "actual_subscription_charge_usd": null,
+      "human_grade": null,
+      "densities": {
+        "nominal": {
+          "elements": 3584,
+          "parts": 1,
+          "min_sj": 0.6945926747379675,
+          "max_ar": 3.4471991175007783,
+          "inversions": 0,
+          "geometry_accepted": true
+        },
+        "doubled": {
+          "elements": 28672,
+          "parts": 1,
+          "min_sj": 0.6996147205950335,
+          "max_ar": 3.4880063336322813,
+          "inversions": 0,
+          "geometry_accepted": true
+        }
+      },
+      "manual_audit": "Reviewed actual native commands and image reads: own sandbox inputs/generator, one sequential frozen check, own views and author records only. Bundle STOP and Python runtime are permitted exceptions. No baseline/other-model layout, scorer/CAD/runtime modification or solver search observed.",
+      "image_review": {
+        "actual_png_reads": [
+          "cad-meridian.png",
+          "cad-iso.png",
+          "mesh-meridian.png",
+          "mesh-iso.png"
+        ],
+        "required_views_observed": true,
+        "human_grade": null
+      },
+      "feature_note": null,
+      "feature_checks": {
+        "nominal": {
+          "captured_edges": 9,
+          "eligible_edges": 9,
+          "unrepresented_faces": []
+        },
+        "doubled": {
+          "captured_edges": 9,
+          "eligible_edges": 9,
+          "unrepresented_faces": []
+        }
+      }
+    },
+    {
+      "ident": "revshow_multistep_chamfer",
+      "title": "Multi-step shaft with chamfered tip",
+      "model": "Deterministic revolved mesher",
+      "model_key": "revolved",
+      "state": "geometry pass",
+      "geometry_accepted": true,
+      "full_iterations": 1,
+      "minutes": 0.0007104039192199707,
+      "usage_usd": null,
+      "usage_basis": "local deterministic computation",
+      "actual_subscription_charge_usd": null,
+      "human_grade": null,
+      "densities": {
+        "nominal": {
+          "elements": 6180,
+          "parts": 5,
+          "min_sj": 0.6855479222624967,
+          "max_ar": 4.68750058593593,
+          "inversions": 0,
+          "geometry_accepted": true
+        },
+        "doubled": {
+          "elements": 49440,
+          "parts": 5,
+          "min_sj": 0.6860407993860346,
+          "max_ar": 4.687500585935937,
+          "inversions": 0,
+          "geometry_accepted": true
+        }
+      },
+      "manual_audit": null,
+      "image_review": null,
+      "feature_note": null,
+      "feature_checks": {
+        "nominal": {
+          "captured_edges": 9,
+          "eligible_edges": 9,
+          "unrepresented_faces": []
+        },
+        "doubled": {
+          "captured_edges": 9,
+          "eligible_edges": 9,
+          "unrepresented_faces": []
+        }
+      }
+    },
+    {
+      "ident": "revshow_fillet_domed_pin",
+      "title": "Filleted tapered body with rounded ends",
+      "model": "GPT 6 Astra",
+      "model_key": "astra",
+      "state": "geometry pass",
+      "geometry_accepted": true,
+      "full_iterations": 1,
+      "minutes": 2.2171000000000003,
+      "usage_usd": 0.92778,
+      "usage_basis": "Standard API equivalent",
+      "actual_subscription_charge_usd": null,
+      "human_grade": null,
+      "densities": {
+        "nominal": {
+          "elements": 1824,
+          "parts": 27,
+          "min_sj": 0.5773502691896112,
+          "max_ar": 15.668206746771089,
+          "inversions": 0,
+          "geometry_accepted": true
+        },
+        "doubled": {
+          "elements": 14592,
+          "parts": 27,
+          "min_sj": 0.5773502691896092,
+          "max_ar": 15.998727768364319,
+          "inversions": 0,
+          "geometry_accepted": true
+        }
+      },
+      "manual_audit": "Completed: only own sandbox inputs, generated RON helpers, one sequential native check and image renders; no previous/control layouts or runtime edits observed.",
+      "image_review": {
+        "actual_image_read_batches": 2,
+        "cad_meridian_read": true,
+        "cad_iso_read": true,
+        "mesh_images_read": true,
+        "deviations": []
+      },
+      "feature_note": null,
+      "feature_checks": {
+        "nominal": {
+          "captured_edges": 0,
+          "eligible_edges": 0,
+          "unrepresented_faces": []
+        },
+        "doubled": {
+          "captured_edges": 0,
+          "eligible_edges": 0,
+          "unrepresented_faces": []
+        }
+      }
+    },
+    {
+      "ident": "revshow_fillet_domed_pin",
+      "title": "Filleted tapered body with rounded ends",
+      "model": "Opus 5.5",
+      "model_key": "opus",
+      "state": "geometry pass",
+      "geometry_accepted": true,
+      "full_iterations": 1,
+      "minutes": 6.549175163110097,
+      "usage_usd": 1.3372673999999998,
+      "usage_basis": "Claude CLI usage",
+      "actual_subscription_charge_usd": null,
+      "human_grade": null,
+      "densities": {
+        "nominal": {
+          "elements": 1740,
+          "parts": 1,
+          "min_sj": 0.6427876096865374,
+          "max_ar": 2.620913967926922,
+          "inversions": 0,
+          "geometry_accepted": true
+        },
+        "doubled": {
+          "elements": 13920,
+          "parts": 1,
+          "min_sj": 0.6427876096865391,
+          "max_ar": 2.682020183390142,
+          "inversions": 0,
+          "geometry_accepted": true
+        }
+      },
+      "manual_audit": "Reviewed actual native commands and image reads: own sandbox inputs/generator, one sequential frozen check, own views and author records only. Bundle STOP and Python runtime are permitted exceptions. No baseline/other-model layout, scorer/CAD/runtime modification or solver search observed.",
+      "image_review": {
+        "actual_png_reads": [
+          "cad-meridian.png",
+          "cad-iso.png",
+          "mesh-meridian.png",
+          "mesh-iso.png"
+        ],
+        "required_views_observed": true,
+        "human_grade": null
+      },
+      "feature_note": "Both densities pass native checks, but the tiny torus fillet face has zero attributed boundary quads. Neighboring cells span it. Astra attributes 48/192 quads to the fillet. Capture is 0/0 eligible sharp edges for both authors.",
+      "feature_checks": {
+        "nominal": {
+          "captured_edges": 0,
+          "eligible_edges": 0,
+          "unrepresented_faces": [
+            3
+          ]
+        },
+        "doubled": {
+          "captured_edges": 0,
+          "eligible_edges": 0,
+          "unrepresented_faces": [
+            3
+          ]
+        }
+      }
+    },
+    {
+      "ident": "revshow_fillet_domed_pin",
+      "title": "Filleted tapered body with rounded ends",
+      "model": "Deterministic revolved mesher",
+      "model_key": "revolved",
+      "state": "refused",
+      "geometry_accepted": false,
+      "full_iterations": 0,
+      "minutes": 2.62300173441569e-05,
+      "usage_usd": null,
+      "usage_basis": "local deterministic computation",
+      "actual_subscription_charge_usd": null,
+      "human_grade": null,
+      "densities": {},
+      "manual_audit": null,
+      "image_review": null,
+      "feature_note": null,
+      "feature_checks": {},
+      "refusal": "pole-revolve also declined: pole-revolve: shallow-junction-13.1deg (two-surface ring inheritance converges at rate cos^2 of the junction angle under a 50-iteration cap, so at 13.1\u00b0 it does not converge; a tangent or shallow junction needs every ring node pinned, which this construction has no mechanism for)] "
+    }
+  ],
+  "author_attempts_planned": 6,
+  "author_attempts_verified": 6,
+  "control_geometries": 3,
+  "infrastructure_launch_error": {
+    "count": 1,
+    "tokens": 0,
+    "cost_usd": 0,
+    "reason": "Inherited API credential precedence corrected before authoring"
+  },
+  "adapter_note": "Fresh native RON/Spark experiment, separate from prior extrusion teacher harness. Shared original CAD and native binary hashes within this comparison; all native geometry checks and both densities retained. Astra medium, Opus high. No human grades or billed subscription amounts inferred."
+}

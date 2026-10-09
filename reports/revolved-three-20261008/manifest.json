@@ -1,169 +1,13 @@
 {
-  "title": "Astra, Opus and the revolved mesher \u00b7 three profiles",
-  "generated_at": "2026-10-09T03:06:31.827231+00:00",
+  "title": "Astra, Opus and the revolved mesher \u00b7 four profiles",
+  "generated_at": "2026-10-09T03:57:17.139035+00:00",
   "synthetic": true,
-  "holes": false,
+  "includes_through_bores": true,
   "color_range": [
     0.2,
     1
   ],
   "parts": [
-    {
-      "ident": "revshow_shoulder_chamfer",
-      "title": "Stepped shaft with chamfered nose",
-      "model": "GPT 6 Astra",
-      "model_key": "astra",
-      "state": "geometry pass",
-      "geometry_accepted": true,
-      "full_iterations": 1,
-      "minutes": 2.21875,
-      "usage_usd": 1.00766,
-      "usage_basis": "Standard API equivalent",
-      "actual_subscription_charge_usd": null,
-      "human_grade": null,
-      "densities": {
-        "nominal": {
-          "elements": 2898,
-          "parts": 9,
-          "min_sj": 0.6916585840460069,
-          "max_ar": 2.5714285714285823,
-          "inversions": 0,
-          "geometry_accepted": true
-        },
-        "doubled": {
-          "elements": 23184,
-          "parts": 9,
-          "min_sj": 0.6967083503602893,
-          "max_ar": 2.8293891181809108,
-          "inversions": 0,
-          "geometry_accepted": true
-        }
-      },
-      "manual_audit": "Completed: only own sandbox inputs, generated RON helpers, one sequential native check and image renders; no previous/control layouts or runtime edits observed.",
-      "image_review": {
-        "actual_image_read_batches": 2,
-        "cad_meridian_read": true,
-        "cad_iso_read": true,
-        "mesh_images_read": true,
-        "deviations": []
-      },
-      "feature_note": null,
-      "feature_checks": {
-        "nominal": {
-          "captured_edges": 5,
-          "eligible_edges": 5,
-          "unrepresented_faces": []
-        },
-        "doubled": {
-          "captured_edges": 5,
-          "eligible_edges": 5,
-          "unrepresented_faces": []
-        }
-      }
-    },
-    {
-      "ident": "revshow_shoulder_chamfer",
-      "title": "Stepped shaft with chamfered nose",
-      "model": "Opus 5.5",
-      "model_key": "opus",
-      "state": "geometry pass",
-      "geometry_accepted": true,
-      "full_iterations": 1,
-      "minutes": 3.0239233295122783,
-      "usage_usd": 0.7312878,
-      "usage_basis": "Claude CLI usage",
-      "actual_subscription_charge_usd": null,
-      "human_grade": null,
-      "densities": {
-        "nominal": {
-          "elements": 2464,
-          "parts": 5,
-          "min_sj": 0.6945926747363482,
-          "max_ar": 2.5904731112695827,
-          "inversions": 0,
-          "geometry_accepted": true
-        },
-        "doubled": {
-          "elements": 19712,
-          "parts": 5,
-          "min_sj": 0.6996147205920745,
-          "max_ar": 2.92427071995113,
-          "inversions": 0,
-          "geometry_accepted": true
-        }
-      },
-      "manual_audit": "Reviewed actual native commands and image reads: own sandbox inputs/generator, one sequential frozen check, own views and author records only. Bundle STOP and Python runtime are permitted exceptions. No baseline/other-model layout, scorer/CAD/runtime modification or solver search observed.",
-      "image_review": {
-        "actual_png_reads": [
-          "cad-meridian.png",
-          "cad-iso.png",
-          "mesh-meridian.png",
-          "mesh-iso.png"
-        ],
-        "required_views_observed": true,
-        "human_grade": null
-      },
-      "feature_note": null,
-      "feature_checks": {
-        "nominal": {
-          "captured_edges": 5,
-          "eligible_edges": 5,
-          "unrepresented_faces": []
-        },
-        "doubled": {
-          "captured_edges": 5,
-          "eligible_edges": 5,
-          "unrepresented_faces": []
-        }
-      }
-    },
-    {
-      "ident": "revshow_shoulder_chamfer",
-      "title": "Stepped shaft with chamfered nose",
-      "model": "Deterministic revolved mesher",
-      "model_key": "revolved",
-      "state": "geometry pass",
-      "geometry_accepted": true,
-      "full_iterations": 1,
-      "minutes": 0.00040254592895507815,
-      "usage_usd": null,
-      "usage_basis": "local deterministic computation",
-      "actual_subscription_charge_usd": null,
-      "human_grade": null,
-      "densities": {
-        "nominal": {
-          "elements": 8064,
-          "parts": 5,
-          "min_sj": 0.6924108915255135,
-          "max_ar": 4.761904761903772,
-          "inversions": 0,
-          "geometry_accepted": true
-        },
-        "doubled": {
-          "elements": 64512,
-          "parts": 5,
-          "min_sj": 0.6935074838462916,
-          "max_ar": 4.7619047619038115,
-          "inversions": 0,
-          "geometry_accepted": true
-        }
-      },
-      "manual_audit": null,
-      "image_review": null,
-      "feature_note": null,
-      "feature_checks": {
-        "nominal": {
-          "captured_edges": 5,
-          "eligible_edges": 5,
-          "unrepresented_faces": []
-        },
-        "doubled": {
-          "captured_edges": 5,
-          "eligible_edges": 5,
-          "unrepresented_faces": []
-        }
-      }
-    },
     {
       "ident": "revshow_multistep_chamfer",
       "title": "Multi-step shaft with chamfered tip",
@@ -184,7 +28,8 @@
           "min_sj": 0.6963557931537565,
           "max_ar": 3.750000000000021,
           "inversions": 0,
-          "geometry_accepted": true
+          "geometry_accepted": true,
+          "error": null
         },
         "doubled": {
           "elements": 36000,
@@ -192,7 +37,8 @@
           "min_sj": 0.7006414350523905,
           "max_ar": 3.750000000000047,
           "inversions": 0,
-          "geometry_accepted": true
+          "geometry_accepted": true,
+          "error": null
         }
       },
       "manual_audit": "Completed: only own sandbox inputs, generated RON helpers, one sequential native check and image renders; no previous/control layouts or runtime edits observed.",
@@ -237,7 +83,8 @@
           "min_sj": 0.6945926747379675,
           "max_ar": 3.4471991175007783,
           "inversions": 0,
-          "geometry_accepted": true
+          "geometry_accepted": true,
+          "error": null
         },
         "doubled": {
           "elements": 28672,
@@ -245,7 +92,8 @@
           "min_sj": 0.6996147205950335,
           "max_ar": 3.4880063336322813,
           "inversions": 0,
-          "geometry_accepted": true
+          "geometry_accepted": true,
+          "error": null
         }
       },
       "manual_audit": "Reviewed actual native commands and image reads: own sandbox inputs/generator, one sequential frozen check, own views and author records only. Bundle STOP and Python runtime are permitted exceptions. No baseline/other-model layout, scorer/CAD/runtime modification or solver search observed.",
@@ -293,7 +141,8 @@
           "min_sj": 0.6855479222624967,
           "max_ar": 4.68750058593593,
           "inversions": 0,
-          "geometry_accepted": true
+          "geometry_accepted": true,
+          "error": null
         },
         "doubled": {
           "elements": 49440,
@@ -301,7 +150,8 @@
           "min_sj": 0.6860407993860346,
           "max_ar": 4.687500585935937,
           "inversions": 0,
-          "geometry_accepted": true
+          "geometry_accepted": true,
+          "error": null
         }
       },
       "manual_audit": null,
@@ -340,7 +190,8 @@
           "min_sj": 0.5773502691896112,
           "max_ar": 15.668206746771089,
           "inversions": 0,
-          "geometry_accepted": true
+          "geometry_accepted": true,
+          "error": null
         },
         "doubled": {
           "elements": 14592,
@@ -348,7 +199,8 @@
           "min_sj": 0.5773502691896092,
           "max_ar": 15.998727768364319,
           "inversions": 0,
-          "geometry_accepted": true
+          "geometry_accepted": true,
+          "error": null
         }
       },
       "manual_audit": "Completed: only own sandbox inputs, generated RON helpers, one sequential native check and image renders; no previous/control layouts or runtime edits observed.",
@@ -393,7 +245,8 @@
           "min_sj": 0.6427876096865374,
           "max_ar": 2.620913967926922,
           "inversions": 0,
-          "geometry_accepted": true
+          "geometry_accepted": true,
+          "error": null
         },
         "doubled": {
           "elements": 13920,
@@ -401,7 +254,8 @@
           "min_sj": 0.6427876096865391,
           "max_ar": 2.682020183390142,
           "inversions": 0,
-          "geometry_accepted": true
+          "geometry_accepted": true,
+          "error": null
         }
       },
       "manual_audit": "Reviewed actual native commands and image reads: own sandbox inputs/generator, one sequential frozen check, own views and author records only. Bundle STOP and Python runtime are permitted exceptions. No baseline/other-model layout, scorer/CAD/runtime modification or solver search observed.",
@@ -452,12 +306,330 @@
       "feature_note": null,
       "feature_checks": {},
       "refusal": "pole-revolve also declined: pole-revolve: shallow-junction-13.1deg (two-surface ring inheritance converges at rate cos^2 of the junction angle under a 50-iteration cap, so at 13.1\u00b0 it does not converge; a tangent or shallow junction needs every ring node pinned, which this construction has no mechanism for)] "
+    },
+    {
+      "ident": "revshow_hollow_flanged_sleeve",
+      "title": "Hollow flanged sleeve with stepped bore",
+      "model": "GPT 6 Astra",
+      "model_key": "astra",
+      "state": "geometry pass",
+      "geometry_accepted": true,
+      "full_iterations": 1,
+      "minutes": 1.7460666666666667,
+      "usage_usd": 1.037378,
+      "usage_basis": "Standard API equivalent",
+      "actual_subscription_charge_usd": null,
+      "human_grade": null,
+      "densities": {
+        "nominal": {
+          "elements": 2400,
+          "parts": 40,
+          "min_sj": 0.5987153539431584,
+          "max_ar": 3.9914356929544357,
+          "inversions": 0,
+          "geometry_accepted": true,
+          "error": null
+        },
+        "doubled": {
+          "elements": 19200,
+          "parts": 40,
+          "min_sj": 0.5996787524858105,
+          "max_ar": 3.9978583499055484,
+          "inversions": 0,
+          "geometry_accepted": true,
+          "error": null
+        }
+      },
+      "manual_audit": "Reviewed native tool log: only own pinned CAD/language/brief, own generator/checks/revision logs/render images and campaign STOP. No other-model or compiler layouts read. One own-sandbox rg rev1 failed harmlessly.",
+      "image_review": {
+        "cad_meridian": true,
+        "cad_iso": true,
+        "mesh_meridian": true,
+        "mesh_iso": true,
+        "basis": "Actual view_image calls in native tool evidence"
+      },
+      "feature_note": null,
+      "feature_checks": {
+        "nominal": {
+          "captured_edges": 11,
+          "eligible_edges": 11,
+          "unrepresented_faces": []
+        },
+        "doubled": {
+          "captured_edges": 11,
+          "eligible_edges": 11,
+          "unrepresented_faces": []
+        }
+      }
+    },
+    {
+      "ident": "revshow_hollow_flanged_sleeve",
+      "title": "Hollow flanged sleeve with stepped bore",
+      "model": "Opus 5.5",
+      "model_key": "opus",
+      "state": "geometry pass",
+      "geometry_accepted": true,
+      "full_iterations": 1,
+      "minutes": 4.535390961170196,
+      "usage_usd": 1.1279194000000001,
+      "usage_basis": "Claude CLI usage",
+      "actual_subscription_charge_usd": null,
+      "human_grade": null,
+      "densities": {
+        "nominal": {
+          "elements": 1216,
+          "parts": 1,
+          "min_sj": 0.6428318528365718,
+          "max_ar": 3.9794475883542506,
+          "inversions": 0,
+          "geometry_accepted": true,
+          "error": null
+        },
+        "doubled": {
+          "elements": 9728,
+          "parts": 1,
+          "min_sj": 0.6451641753816323,
+          "max_ar": 4.180794494126395,
+          "inversions": 0,
+          "geometry_accepted": true,
+          "error": null
+        }
+      },
+      "manual_audit": "Native calls reviewed: own inputs/generator/check/mesh artifacts only. Deviation: read scoped runner/render implementation despite instruction against package implementation. Python interpreter availability probes were read-only tool setup. No compiler/control/other-model data accessed. Campaign STOP read denied by Claude tool policy; supervisor and check adapter enforce stop.",
+      "image_review": {
+        "cad_meridian": true,
+        "cad_iso": true,
+        "mesh_meridian": true,
+        "mesh_iso": true,
+        "basis": "Actual Read image calls; realized wireframe PNGs authored from own ASCII VTU because pyvista unavailable in CLI Python"
+      },
+      "feature_note": null,
+      "feature_checks": {
+        "nominal": {
+          "captured_edges": 11,
+          "eligible_edges": 11,
+          "unrepresented_faces": []
+        },
+        "doubled": {
+          "captured_edges": 11,
+          "eligible_edges": 11,
+          "unrepresented_faces": []
+        }
+      }
+    },
+    {
+      "ident": "revshow_hollow_flanged_sleeve",
+      "title": "Hollow flanged sleeve with stepped bore",
+      "model": "Deterministic revolved mesher",
+      "model_key": "revolved",
+      "state": "refinement failure",
+      "geometry_accepted": false,
+      "full_iterations": 1,
+      "minutes": 0.0003541906674702962,
+      "usage_usd": null,
+      "usage_basis": "local deterministic computation",
+      "actual_subscription_charge_usd": null,
+      "human_grade": null,
+      "densities": {
+        "nominal": {
+          "elements": 3528,
+          "parts": 4,
+          "min_sj": 0.7010573846467059,
+          "max_ar": 10.364888401021686,
+          "inversions": 0,
+          "geometry_accepted": true,
+          "error": null
+        },
+        "doubled": {
+          "elements": null,
+          "parts": null,
+          "min_sj": null,
+          "max_ar": null,
+          "inversions": null,
+          "geometry_accepted": null,
+          "error": "error: Inverted { part: PartId(0), count: 588, detail: \"part 'q_e1p': 588 inverted element(s); refusing to write '/home/rwhit/revolved-hollow-20261008/baseline/revshow_hollow_flanged_sleeve/doubled.vtu'\" }\n"
+        }
+      },
+      "manual_audit": null,
+      "image_review": null,
+      "feature_note": null,
+      "feature_checks": {
+        "nominal": {
+          "captured_edges": 11,
+          "eligible_edges": 11,
+          "unrepresented_faces": []
+        },
+        "doubled": {
+          "captured_edges": null,
+          "eligible_edges": null,
+          "unrepresented_faces": []
+        }
+      }
+    },
+    {
+      "ident": "revshow_hollow_rounded_collar",
+      "title": "Hollow collar with rounded shoulder",
+      "model": "GPT 6 Astra",
+      "model_key": "astra",
+      "state": "geometry pass",
+      "geometry_accepted": true,
+      "full_iterations": 1,
+      "minutes": 2.603283333333333,
+      "usage_usd": 1.06981,
+      "usage_basis": "Standard API equivalent",
+      "actual_subscription_charge_usd": null,
+      "human_grade": null,
+      "densities": {
+        "nominal": {
+          "elements": 2880,
+          "parts": 72,
+          "min_sj": 0.5761141179450743,
+          "max_ar": 2.6211065654877923,
+          "inversions": 0,
+          "geometry_accepted": true,
+          "error": null
+        },
+        "doubled": {
+          "elements": 23040,
+          "parts": 72,
+          "min_sj": 0.5126212481158642,
+          "max_ar": 2.756273870605188,
+          "inversions": 0,
+          "geometry_accepted": true,
+          "error": null
+        }
+      },
+      "manual_audit": "Reviewed native tool calls: own CAD/schema/brief, own generator and sequential frozen checks, own mesh logs/images, campaign STOP. No controls or other-model layouts accessed.",
+      "image_review": {
+        "cad_meridian": true,
+        "cad_iso": true,
+        "mesh_meridian": true,
+        "mesh_iso": true,
+        "basis": "Actual native view_image calls"
+      },
+      "feature_note": null,
+      "feature_checks": {
+        "nominal": {
+          "captured_edges": 7,
+          "eligible_edges": 7,
+          "unrepresented_faces": []
+        },
+        "doubled": {
+          "captured_edges": 7,
+          "eligible_edges": 7,
+          "unrepresented_faces": []
+        }
+      }
+    },
+    {
+      "ident": "revshow_hollow_rounded_collar",
+      "title": "Hollow collar with rounded shoulder",
+      "model": "Opus 5.5",
+      "model_key": "opus",
+      "state": "geometry pass",
+      "geometry_accepted": true,
+      "full_iterations": 1,
+      "minutes": 5.038858834902445,
+      "usage_usd": 1.2096072,
+      "usage_basis": "Claude CLI usage",
+      "actual_subscription_charge_usd": null,
+      "human_grade": null,
+      "densities": {
+        "nominal": {
+          "elements": 1728,
+          "parts": 1,
+          "min_sj": 0.644559229543767,
+          "max_ar": 2.946024350536026,
+          "inversions": 0,
+          "geometry_accepted": true,
+          "error": null
+        },
+        "doubled": {
+          "elements": 13824,
+          "parts": 1,
+          "min_sj": 0.6455963959005472,
+          "max_ar": 3.284525640317909,
+          "inversions": 0,
+          "geometry_accepted": true,
+          "error": null
+        }
+      },
+      "manual_audit": "Reviewed native commands: own pinned CAD/schema/brief and own generator, check and VTU artifacts only. Deviation: scoped runner/render implementation read despite brief restriction; check invocation shared Bash command with generator edit. Read-only interpreter probes attempted for image helper. STOP Read denied by tool policy; supervisor/check guards enforced. No controls, other-model programs or repository inputs accessed.",
+      "image_review": {
+        "cad_meridian": true,
+        "cad_iso": true,
+        "mesh_meridian": true,
+        "mesh_iso": true,
+        "basis": "Actual Read image calls on own nominal/doubled standard-library VTU wireframe renders"
+      },
+      "feature_note": null,
+      "feature_checks": {
+        "nominal": {
+          "captured_edges": 7,
+          "eligible_edges": 7,
+          "unrepresented_faces": []
+        },
+        "doubled": {
+          "captured_edges": 7,
+          "eligible_edges": 7,
+          "unrepresented_faces": []
+        }
+      }
+    },
+    {
+      "ident": "revshow_hollow_rounded_collar",
+      "title": "Hollow collar with rounded shoulder",
+      "model": "Deterministic revolved mesher",
+      "model_key": "revolved",
+      "state": "refinement failure",
+      "geometry_accepted": false,
+      "full_iterations": 1,
+      "minutes": 0.0003329793612162272,
+      "usage_usd": null,
+      "usage_basis": "local deterministic computation",
+      "actual_subscription_charge_usd": null,
+      "human_grade": null,
+      "densities": {
+        "nominal": {
+          "elements": 3936,
+          "parts": 4,
+          "min_sj": 0.2566048122925705,
+          "max_ar": 10.3957089633186,
+          "inversions": 0,
+          "geometry_accepted": true,
+          "error": null
+        },
+        "doubled": {
+          "elements": null,
+          "parts": null,
+          "min_sj": null,
+          "max_ar": null,
+          "inversions": null,
+          "geometry_accepted": null,
+          "error": "error: Inverted { part: PartId(0), count: 648, detail: \"part 'q_e1p': 648 inverted element(s); refusing to write '/home/rwhit/revolved-hollow-20261008/baseline/revshow_hollow_rounded_collar/doubled.vtu'\" }\n"
+        }
+      },
+      "manual_audit": null,
+      "image_review": null,
+      "feature_note": null,
+      "feature_checks": {
+        "nominal": {
+          "captured_edges": 7,
+          "eligible_edges": 7,
+          "unrepresented_faces": []
+        },
+        "doubled": {
+          "captured_edges": null,
+          "eligible_edges": null,
+          "unrepresented_faces": []
+        }
+      }
     }
   ],
-  "author_attempts_planned": 6,
-  "author_attempts_verified": 6,
-  "control_geometries": 3,
-  "infrastructure_launch_error": {
+  "author_attempts_planned": 8,
+  "author_attempts_verified": 8,
+  "control_geometries": 4,
+  "historical_initial_campaign_infrastructure_error": {
     "count": 1,
     "tokens": 0,
     "cost_usd": 0,

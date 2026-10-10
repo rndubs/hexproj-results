@@ -329,5 +329,9 @@
   "reports/sonnet-hard-successes-20261007/t8_profile_01040740/layout.png": "4f247f494cb1a59e47bbabf8e1ee659ce32862aeae85a250fc75d6c3a54a4c8b",
   "reports/sonnet-hard-successes-20261007/t8_profile_01040740/doubled-mesh.vtu": "6df0173083dc56d7ac6ccf374ac5f5c83410a50687b82cfd58c18cada2f35492",
   "reports/sonnet-hard-successes-20261007/t8_profile_01040740/layout.json": "5deda80ef1f55a918d3dd39666635552658413f7266cd61121c160115587e86c",
-  "reports/sonnet-hard-successes-20261007/t8_profile_01040740/mesh.html": "4e299ab8b7fe4a61e799077d9e0c213e92bdb5179701129420d008f502d0682d"
+  "reports/sonnet-hard-successes-20261007/t8_profile_01040740/mesh.html": "4e299ab8b7fe4a61e799077d9e0c213e92bdb5179701129420d008f502d0682d",
+  ".gitattributes": "a44b2294f037e4ecbb1eb7f4704bf0d09a18106702d72cdbbce64dc4e8650738",
+  "videos/agent-session-20261010/agent_session.mp4": "35b7aa95371059611afed6863260a760248c5ecf809d14fa9fd1af0976b7e8ff",
+  "videos/agent-session-20261010/README.md": "f9a5ef92d80008b9305fb4a6a1af4693e2c47a41aa7a223a141b2ae8584a567d",
+  "videos/agent-session-20261010/SHA256SUMS": "9eef2686df2598470d25c4337d7738dff36a474256fbbd24b87587fab2d60c80"
 }
